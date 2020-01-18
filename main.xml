@@ -1,0 +1,80 @@
+<xml>
+
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] M[/COLOR][COLORsnow]ovies [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/movies.xml</link>
+  </dir>
+
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] TV [/COLOR][COLORsnow]Shows[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/tv.xml</link>
+  </dir>  
+
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] N[/COLOR][COLORsnow]etworks [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/networks.xml</link>
+  </dir>  
+  
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] B[/COLOR][COLORsnow]oxsets [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://bit.ly/2rBpHik</link>
+  </dir>
+  
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] K[/COLOR][COLORsnow]ids [/COLOR][COLORdeepskyblue] B[/COLOR][COLORsnow]oxsets[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/kids_boxset.xml</link>
+  </dir>  
+  
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] D[/COLOR][COLORsnow]ark [/COLOR][COLORdeepskyblue]S[/COLOR][COLORsnow]ide [/COLOR][COLORred]Closed [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/WTFsport.xml</link>
+	<fanart>https://i.ibb.co/zPvnx1r/darkside.jpg</fanart>
+  </dir>    
+  
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] W[/COLOR][COLORsnow]hatEver[/COLOR][COLORlightslategray]![/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <link>https://bit.ly/2Qv6tn4</link>
+  </dir>    
+   
+<plugin>
+    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] I[/COLOR][COLORlightslategray]PTV[/COLOR][COLOR]deepskyblue] P[/COLOR][COLORlightslategray]lAyGrOuNd[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
+	<link>plugin://plugin.video.live.streamspro/?mode=1&url=http://bit.do/shark-55</link>
+  </plugin>
+  
+<plugin>
+   <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]TSDOWNLOADER-M3U [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/list/master/TSDOWNLOADER.xml</link>
+ </plugin>
+ 
+ <plugin>
+    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue]([/COLOR][COLORsnow]InHouse[/COLOR][COLORdeepskyblue])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
+    <link>plugin://plugin.video.jen/?action=search</link>
+    <thumbnail></thumbnail>
+</plugin>
+ 
+ <dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue] T[/COLOR][COLORsnow]rakt [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <trakt>search</trakt>
+  </dir>
+
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue] T[/COLOR][COLORsnow]MDB [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <tmdb>search</tmdb>
+  </dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] T[/COLOR][COLORsnow]ools [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>      				
+	<link>https://raw.githubusercontent.com/Shark5588/wtf/master/settings_menu.xml</link>
+</dir>
+
+<plugin>
+    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]ettings[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
+    <link>plugin://plugin.video.wtf/?action=openSettings</link>
+  </plugin>
+
+<plugin>
+    <name>Testings</name>
+    <link>plugin://plugin.video.wtv/?action=developer</link>
+    <summary>Testings</summary>
+  </plugin>
+</xml>  

@@ -1,0 +1,624 @@
+
+
+
+
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] TV Calendar[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+    <tvmaze>calendar</tvmaze>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Schedule[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tvmaze>schedule</tvmaze>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] All Networks[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tvmaze>country/all</tvmaze>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Shows[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tvmaze>shows</tvmaze>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Web Channels[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tvmaze>web_channel/1</tvmaze>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Disney+[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tvmaze>web_channel/all</tvmaze>
+</dir>
+
+
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]A&E[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/129</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]ABC - Australia[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/18</tmdb>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]ABC - US[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/2</tmdb>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]ABC Family[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/75</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Adult Swim[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/80</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Amazon[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/1024</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]AMC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/174</tmdb>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Animal Planet[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/91</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Animax[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/171</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]BET[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/24</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]BBC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/7</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]BBC America[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/493</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]BBC One[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/4</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]BBC Three[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/3</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]BBC Four[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/100</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Biography[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/423</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Bravo[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/74</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Cartoon Network[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/56</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]CBC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/23</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]CBS[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/16</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Channel 4[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/26</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Channel 5[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/99</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Cinemax[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/359</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]City TV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/92</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]CMT[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/85</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]CNBC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/175</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]CNN[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/59</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Comedy Central[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/47</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]CTV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/110</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]The CW[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/71</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]DIY Network[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/625</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Destination America[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/530</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Discovery[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/64</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Discovery Health[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/10</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Discovery Kids[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/22</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Disney Channel[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/54</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Disney XD[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/44</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]E![/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/76</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]E4[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/136</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Food Network[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/143</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Fox[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/19</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Fuji TV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/1</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Funimation[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/728</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]FX[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/88</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]FYI[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/1080</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Hallmark[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/384</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]HBO[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/49</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]HGTV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/210</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]History[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/65</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Hulu[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/453</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Investigation Discovery[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/244</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]ITV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/9</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]The Lifestyle Channel[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/683</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Lifetime[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/34</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]The Movie Network[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/245</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]MSNBC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/37</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]MTV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/33</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Nat Geo Wild[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/1043</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]National Geographic Channel[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/43</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]NBC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/6</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Netflix[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/213</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Network Ten[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/38</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Nickelodeon[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/13</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Nick Jr[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/35</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]NickToons[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/224</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Oxygen[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/132</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]PBS[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/14</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Showcase[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/105</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Showtime[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/67</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Space[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/170</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Spike[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/55</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Starz[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/318</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]SyFy[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/77</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]TBS[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/68</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Teletoon[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/83</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]TLC[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/84</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]TNT[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/41</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Travel Channel[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/209</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]TV Land[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/397</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]UPN[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/40</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]USA[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/30</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]VH1[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/158</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]Velocity[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/435</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]The WB[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/21</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>
+
+<dir>
+	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]YTV[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<tmdb>network/shows/46</tmdb>
+	<thumbnail/>
+	<fantart/>
+</dir>

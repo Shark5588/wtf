@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+<xml>
+<dir>
+	<title>[B][COLORyellow]•••[/COLOR][COLORred]•••[/COLOR][COLORyellow]  IPTV Links Can go down [/COLOR][COLORred]•••[/COLOR][COLORyellow]•••[/COLOR][/B]</title>
+	<link>http://Ignoreme</link>
+	<thumbnail>http://img.over-blog-kiwi.com/1/18/59/20/20160411/ob_de3e23_sport-tv.png</thumbnail>
+	<info> </info>
+</dir>
+
+<dir>
+	<title>[B][COLORyellow]•••[/COLOR][COLORred]•••[/COLOR][COLORyellow] This List can change at AnyTime [/COLOR][COLORred]•••[/COLOR][COLORyellow]•••[/COLOR][/B]</title>
+	<link>http://Ignoreme</link>
+	<thumbnail>http://img.over-blog-kiwi.com/1/18/59/20/20160411/ob_de3e23_sport-tv.png</thumbnail>
+	<info> </info>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua] SPORTS CLASSIC TV [COLOR white][B][I]30 PickUp [COLOR red]•[/COLOR][COLORaqua]•[/COLOR][/I][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/SportsStreamNet.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua] SPORTS CLASSIC TV [COLOR white][B][I] 51 PickUp [COLOR red]•[/COLOR][COLORaqua]•[/COLOR][/I][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/livesportsstreamnet.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua] SPORTS CLASSIC TV [COLOR snow] Sports [/COLOR][COLORyellow](IPTV) [/COLOR][COLORred]•[/COLOR][COLORaqua]•[/COLOR][/B] </title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/caussp.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORgold]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] 24/7[/COLOR][COLORgold]•[/COLOR][COLORaqua]•[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/twentyfourseven.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORgold]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] CANADA[/COLOR][COLORgold]•[/COLOR][COLORaqua]•[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/ca.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua] SPORTS CLASSIC TV [COLOR white] FRANCE[/COLOR][COLORred] •[/COLOR][COLORaqua]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/list/master/fr.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua] SPORTS CLASSIC TV [COLOR white] U.S.A[/COLOR][COLORred] •[/COLOR][COLORaqua]•[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/us.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua] SPORTS CLASSIC TV [COLOR white] UK[/COLOR][COLORred]•[/COLOR][COLORaqua]•[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/uk.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>		
+
+ <plugin>
+	 <name>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 1[/COLOR][/B]</name>
+	 <link>plugin://plugin.video.live.streamspro/?mode=1&url=file://lists/WTFlist1.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</plugin>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white] PlAyLiSt 2[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/list2.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 3[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list3.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 4[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list4.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 5[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list5.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+ </dir>
+     
+<dir>
+     <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 6[/COLOR][/B]</title>     	
+     <link>https://raw.githubusercontent.com/Shark5588/list/master/list6.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+    <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 7[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/list/master/list7.xml</link>
+    <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+ 
+<dir>
+ 	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 8[/COLOR][/B]</title>
+ 	<link>https://raw.githubusercontent.com/Shark5588/list/master/list8.xml</link>
+ 	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+ 
+<dir>
+ 	 <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 9[/COLOR][/B]</title>
+ 	 <link>https://raw.githubusercontent.com/Shark5588/list/master/list9.xml</link>
+ 	 <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+ </dir>
+ 
+ <dir>
+    <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 10[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/list/master/list10.xml</link>
+    <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 11[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/list11.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+	</dir>
+
+<dir>
+    <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 12[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/list/master/list12.xml</link>
+    <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 13[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/masterlist13.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+	</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 14[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list14.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+  <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 15[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/list/master/list15.xml</link>
+  <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+  <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 16[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/list/master/list16.xml</link>
+  <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 17[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list17.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 18[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list18.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 19[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list19.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B] PlAyLiSt 20[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/list20.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<plugin>
+  <name>[B]#[COLORaqua]SPORTS CLASSIC TV[COLOR red][B][I]TesTinG ZoNE[/COLOR] 1[/I][/B]</name>
+  <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/list/master/toopastebin.xml</link>
+  <thumbnail>http://pdhed.com/wp-content/uploads/2014/09/TheTestingZone_TitlePage-300x169.jpg</thumbnail>
+</plugin>
+
+<plugin>
+  <name>[B]#[COLORaqua]SPORTS CLASSIC TV[COLOR red][B][I]TesTinG ZoNE[/COLOR] 2[/I][/B]</name>
+  <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/list/master/TSDOWNLOADER.xml</link>
+  <thumbnail>http://pdhed.com/wp-content/uploads/2014/09/TheTestingZone_TitlePage-300x169.jpg</thumbnail>
+</plugin>
+
+  dir>
+  <title>[B]#[COLORaqua]SPORTS CLASSIC TV[COLOR red][B][I]TesTinG ZoNE[/COLOR] 3[/I][/B]</title>
+  <link></link>
+  <thumbnail>http://pdhed.com/wp-content/uploads/2014/09/TheTestingZone_TitlePage-300x169.jpg</thumbnail>
+</dir>
+
+  dir>
+    <title>[B]#[COLORaqua]SPORTS CLASSIC TV[COLOR red][B][I]TesTinG ZoNE[/COLOR] 4[/I][/B]</title>
+    <link></link>
+	<thumbnail>http://pdhed.com/wp-content/uploads/2014/09/TheTestingZone_TitlePage-300x169.jpg</thumbnail>
+ </dir>
+
+  dir>
+    <title>[B]#[COLORaqua]SPORTS CLASSIC TV[COLOR red][B][I]TesTinG ZoNE[/COLOR] 5[/I][/B]</title>
+    <link></link>
+	<thumbnail>http://pdhed.com/wp-content/uploads/2014/09/TheTestingZone_TitlePage-300x169.jpg</thumbnail>
+</dir>
+
+  dir>
+    <title>[B]#[COLORaqua]SPORTS CLASSIC TV[COLOR red][B][I]TesTinG ZoNE[/COLOR] 6[/I][/B]</title>
+    <link></link>
+	<thumbnail>http://pdhed.com/wp-content/uploads/2014/09/TheTestingZone_TitlePage-300x169.jpg</thumbnail>
+</dir>
+
+<dir>
+   <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR purple][B][I]ADULT ONLY[/COLOR][/I][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/list/master/ppp.xml</link>
+   <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+
+<dir>
+  <title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR purple][B][I]ADULT ONLY[/COLOR][/I][/B]</title>
+  <link>https://pastebin.com/raw/52fLJVdg</link>
+  <thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+<dir>
+	<title>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR purple][B][I]Naked and Funny[/COLOR][/I][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/list/master/AdultFunny.xml</link>
+	<thumbnail>https://i.ibb.co/m66k7dp/55.png</thumbnail>
+</dir>
+
+</xml>

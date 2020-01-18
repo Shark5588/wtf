@@ -1,0 +1,71 @@
+<xml>
+
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/movies/trending</trakt>
+</dir>
+
+<dir>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Years[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/movie-years.xml</link>
+</dir>
+
+<dir>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Genres[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/genre_movies.xml</link>
+</dir>
+  
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/movies/popular</trakt>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Watchlist[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/sync/watchlist/movies</trakt>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Collection[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/sync/collection/movies</trakt>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Popular[/COLOR][/B]</title>
+  <tmdb>movies/popular</tmdb>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Now Playing[/COLOR][/B]</title>
+  <tmdb>movies/now_playing</tmdb>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Top Rated[/COLOR][/B]</title>
+  <tmdb>movies/top_rated</tmdb>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Action Movies[/COLOR][/B]</title>
+  <tmdb>genre/movies/28</tmdb>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Star Wars Collection[/COLOR][/B]</title>
+  <tmdb>collection/10</tmdb>
+</dir>
+
+dir>
+<title>IMDB Top 250</title>
+<trakt></trakt>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] THE MAG[/COLOR][COLORred]Come Back Another Day[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/wtf/master/MagMoviesYears.xml</link>
+  <fanart>https://www.studioef.cz/wp-content/uploads/2017/10/the-mag.png</fanart>
+  <thumbnail>http://pluspng.com/img-png/mag-png-mag-png-550.png</thumbnail>
+</dir>
+
+</xml>

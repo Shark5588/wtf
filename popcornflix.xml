@@ -1,0 +1,13 @@
+<xml>
+
+<item>
+<title>NHL Test</title>
+<link>$doregex[getIlive]</link>
+<regex>
+<name>getIlive</name>
+<expres>$pyFunction:vipracing.decrypt_vipracing('https://www.streamlive.to/view/678007',False,False)</expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+</item>
+</xml>
