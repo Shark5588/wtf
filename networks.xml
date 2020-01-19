@@ -17,7 +17,7 @@
 	<tvmaze>country/all</tvmaze>
 </dir>
 
-<dir>
+dir>
 	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Shows[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
 	<tvmaze>shows</tvmaze>
 </dir>
@@ -27,7 +27,7 @@
 	<tvmaze>web_channel/1</tvmaze>
 </dir>
 
-<dir>
+dir>
 	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Disney+[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
 	<tvmaze>web_channel/all</tvmaze>
 </dir>
