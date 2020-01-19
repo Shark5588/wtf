@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <layouttype>-=&amp;output=mpegts$$TSDOWNLOADER$$=-</layouttype>
-<layouttype>-=InHouse 55=-</layouttype>
+<layouttype>-=InGith55=-</layouttype>
 
 <xml>
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 1[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://pastebin.com/raw/Lvp9fzjC&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
