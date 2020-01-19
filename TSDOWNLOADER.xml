@@ -12,7 +12,7 @@
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 2[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://dailyiptvlist.com/dl/ca-m3uplaylist-2020-01-16-6.m3u&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
