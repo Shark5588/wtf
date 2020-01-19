@@ -48,7 +48,7 @@
  
  <plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue]([/COLOR][COLORsnow]InHouse[/COLOR][COLORdeepskyblue])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
-    <link>plugin://plugin.video.jen/?action=search</link>
+    <link>plugin://plugin.video.jaws/?action=search</link>
     <thumbnail></thumbnail>
 </plugin>
  
@@ -69,12 +69,12 @@
 
 <plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]ettings[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
-    <link>plugin://plugin.video.wtf/?action=openSettings</link>
+    <link>plugin://plugin.video.jaws/?action=openSettings</link>
   </plugin>
 
 <plugin>
     <name>Testings</name>
-    <link>plugin://plugin.video.wtv/?action=developer</link>
+    <link>plugin://plugin.video.jaws/?action=developer</link>
     <summary>Testings</summary>
   </plugin>
 </xml>  
