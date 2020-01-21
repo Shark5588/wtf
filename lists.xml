@@ -1,30 +1,30 @@
 <dir>
-  <title>My lists</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] My lists[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/users/me/lists/</trakt>
 </dir>
 
 <dir>
-  <title>My Liked Lists</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] My Liked Lists[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/users/likes/lists</trakt>
 </dir>
 
 <dir>
-  <title>Reddit Top 250 (2017 Edition)</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Reddit Top 250 (2017 Edition)[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/users/philrivers/lists/reddit-top-250-2017-edition/items</trakt>
 </dir>
 
 <dir>
-  <title>Rotten Tomatoes: Best of 2017</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Rotten Tomatoes: Best of 2017[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2017/items</trakt>
 </dir>
 
 <dir>
-  <title>TMDB List: Animal Kingdom</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB List: Animal Kingdom[/COLOR][/B]</title>
   <tmdb>list/13488</tmdb>
 </dir>
 
 <dir>
-  <title>Shan Animated</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Shan Animated[/COLOR][/B]</title>
   <tmdb>list/32947</tmdb>
 </dir>
 
