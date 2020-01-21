@@ -56,6 +56,11 @@
   <tmdb>collection/10</tmdb>
 </dir>
 
+<dir>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie List/Track/Tmdb[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
+</dir>
+
 dir>
 <title>IMDB Top 250</title>
 <trakt></trakt>
