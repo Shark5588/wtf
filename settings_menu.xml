@@ -1,7 +1,7 @@
 <jentemplate>
     <mysettings>
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Customization [/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Customization [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the Customization tab</summary>
             </meta>
@@ -9,7 +9,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Cache [/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Cache [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the General tab</summary>
             </meta>
@@ -17,7 +17,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Scraper Setup [/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Scraper Setup [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the General tab</summary>
             </meta>
@@ -25,7 +25,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Resolver Setup [/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Resolver Setup [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the Resolvers tab</summary>
             </meta>
@@ -33,7 +33,7 @@
         </plugin>
         
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: API Settings [/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: API Settings [/COLOR][/B]</title>
             <meta>
                 <summary>Open the API Settings if you wish to add your own API Keys to Arrakis</summary>
             </meta>
@@ -41,7 +41,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]REAL-DEBRID: Re-Authorize (ResolveURL) [/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]REAL-DEBRID: Re-Authorize (ResolveURL) [/COLOR][/B]</title>
             <meta>
                 <summary>(Re)Authorize Real-Debrid in the Resolve URL Addon</summary>
             </meta>
@@ -49,7 +49,7 @@
         </plugin>
 
         <item>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]PAIRING: Pair My Connection[/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]PAIRING: Pair My Connection[/COLOR][/B]</title>
             <meta>
                 <summary>Pair with a selection of sites that require pairing for non-premium access</summary>
             </meta>
@@ -57,7 +57,7 @@
         </item>
 
         <item>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]YOUTUBE: Live and CAMS Fix[/COLOR][B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]YOUTUBE: Live and CAMS Fix[/COLOR][/B]</title>
             <meta>
                 <summary>Apply fix for YouTube Live playback issues and if you have problems with CAMS</summary>
             </meta>
