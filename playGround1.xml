@@ -431,7 +431,7 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] 1[/COLOR][COLORlime] ACE[/COLOR][COLORred] TV [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (1x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -452,7 +452,7 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] 2[/COLOR][COLORlime] ACE[/COLOR][COLORred] TV [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (2x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -473,7 +473,7 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] 3[/COLOR][COLORlime] ACE[/COLOR][COLORred] TV [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (3x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -494,7 +494,7 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] 4[/COLOR][COLORlime] ACE[/COLOR][COLORred] TV [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (4x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
