@@ -364,7 +364,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://iptvhit.com/freeiptv?17/01/2020</page>
+<page>http://iptvhit.com/freeiptv?23/01/2020</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
