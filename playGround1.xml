@@ -546,7 +546,7 @@
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
-<page>https://www.dailyiptvlist.com/search?max-results=40</page>
+<page>https://www.dailym3uiptv.com/search?max-results=5</page>
 </regex>
 
 
@@ -554,7 +554,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
  <title>[COLOR skyblue][makelist.param1][/COLOR]</title>
- <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]RSIPTV[/COLOR] [makelist.param1]  </link>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]IPTV[/COLOR] [makelist.param1]  </link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart></fanart>
  ]]></listrepeat>
