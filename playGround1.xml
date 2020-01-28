@@ -209,10 +209,9 @@
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
- <title> [makelist2.param2]</title>
+ <title>[COLORlime] [makelist2.param2] [/COLOR]</title>
  <link>$doregex[makelist]</link>
  <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
- <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
 <page>http://www.iptv4free.com/search?max-results=40</page>
@@ -220,7 +219,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
- <title>[makelist.param1]</title>
+ <title>[COLORlightslategray] [makelist.param1] [/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&streamtype=TSDOWNLOADER&maxbitrate=-1&proxy=None&name=Shark55 [makelist.param1]  </link>
  <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
  ]]></listrepeat>
@@ -229,6 +228,7 @@
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 <item>
