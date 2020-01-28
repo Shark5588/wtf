@@ -223,7 +223,7 @@
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&streamtype=TSDOWNLOADER&maxbitrate=-1&proxy=None&name=Shark55 [makelist.param1]  </link>
  <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[EXTINF:.+?,{0,5},(.*?)<[\w\W\s]{0,6}>\n(http.*?ts)<]]></expres>
+<expres><![CDATA[EXTINF[\w\W\s]{0,5},(.*?)<[\w\W\s]{0,6}>\n(http.*?ts)<]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
