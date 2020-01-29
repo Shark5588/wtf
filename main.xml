@@ -50,7 +50,7 @@
    <link>https://raw.githubusercontent.com/Shark5588/list/master/TSDOWNLOADER.xml</link>
  </dir>
  
- <plugin>
+ plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue]([/COLOR][COLORsnow]InHouse[/COLOR][COLORdeepskyblue])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
     <link>plugin://plugin.video.jaws/?action=search</link>
     <thumbnail></thumbnail>
