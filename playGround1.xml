@@ -424,7 +424,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.oneplaylist.space/database/exportsimpletv</page>
+<page>http://iptvhit.com/playlist?</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
