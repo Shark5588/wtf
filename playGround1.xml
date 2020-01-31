@@ -424,7 +424,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://iptvhit.com/playlist?</page>
+<page>http://iptvhit.com/freeiptv?30/01/2020</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -443,7 +443,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyfreeiptvlist.com/category/america/canada/</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
