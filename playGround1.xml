@@ -366,7 +366,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://iptvhit.com/freeiptv?31/01/2020</page>
+<page>http://iptvhit.com/freeiptv</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -386,7 +386,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/D6wT3hef</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -405,7 +405,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/DfT0nz72</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -424,7 +424,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://iptvhit.com/playlist?</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
