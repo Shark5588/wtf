@@ -365,7 +365,7 @@
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)</expres>
 <page>http://iptvhit.com/freeiptv?31/01/2020</page>
 <referer></referer>
 <cookieJar></cookieJar>
