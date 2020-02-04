@@ -48,13 +48,11 @@
             <link>plugin://script.module.resolveurl/?mode=auth_rd</link>
         </plugin>
 		
-		        <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]Authorize Trakt [/COLOR][/B]</title>
-            <meta>
-                <summary>Authorize Trakt Own API</summary>
-            </meta>
-            <mysettings>5/0</mysettings>
-        </plugin>
+		        <dir>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]Authenticate Trakt [/COLOR][/B]</title>
+            <link>https://trakt.tv/activate</link>
+            <summary>Authorize Trakt Own API</summary>
+        </dir>
 
         <item>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]PAIRING: Pair My Connection[/COLOR][/B]</title>
