@@ -21,7 +21,7 @@
             <meta>
                 <summary>Open the Settings for the addon on the General tab</summary>
             </meta>
-            <link>plugin://plugin.video.jaws/?mode=ScraperSettings</link>
+            <link>plugin://plugin.video.jaws/?mode=ResolverSettings</link>
         </plugin>
 
         <plugin>
