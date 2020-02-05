@@ -43,9 +43,9 @@
          <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate Trakt[/COLOR][/B]</title>
             <meta>
-                <summary>(Re)Authorize Real-Debrid in the Resolve URL Addon</summary>
+                <summary>Authorize Trakt</summary>
             </meta>
-            <link>plugin://plugin.video.jaws/authenticate_trakt</link>
+            <link>plugin://plugin.video.jaws/?action=authTrakt</link>
         </plugin>       
         
         
