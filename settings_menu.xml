@@ -1,7 +1,7 @@
 <jentemplate>
     <mysettings>
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Customization [/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]Customization [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the Customization tab</summary>
             </meta>
@@ -9,7 +9,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Cache [/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]Cache [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the General tab</summary>
             </meta>
@@ -17,7 +17,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Scraper Setup [/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]Scraper Setup [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the General tab</summary>
             </meta>
@@ -25,7 +25,7 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: Resolver Setup [/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]ResolveURL Setup [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the Resolvers tab</summary>
             </meta>
@@ -33,7 +33,7 @@
         </plugin>
         
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]JEN: API Settings [/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]API Settings [/COLOR][/B]</title>
             <meta>
                 <summary>Open the API Settings if you wish to add your own API Keys to Arrakis</summary>
             </meta>
@@ -47,12 +47,6 @@
             </meta>
             <link>plugin://script.module.resolveurl/?mode=auth_rd</link>
         </plugin>
-		
-		        <dir>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]Authenticate Trakt [/COLOR][/B]</title>
-            <link>https://trakt.tv/activate</link>
-            <summary>Authorize Trakt Own API</summary>
-        </dir>
 
         <item>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray]PAIRING: Pair My Connection[/COLOR][/B]</title>
