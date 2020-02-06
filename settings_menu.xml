@@ -53,7 +53,7 @@
             <meta>
                 <summary>Authorize Trakt</summary>
             </meta>
-            <link>plugin://script.module.trakt/?path = users/settings ,return,return</link>
+            <link>plugin://script.module.trakt/?action=openSettings ,return,return</link>
         </plugin>       
         
         <plugin>
