@@ -39,6 +39,14 @@
             </meta>
             <link>plugin://script.module.resolveurl/?mode=auth_rd</link>
         </plugin>
+        
+        <plugin>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Premiumizer:Authorize (ResolveURL) [/COLOR][/B]</title>
+            <meta>
+                <summary>(Re)Authorize Real-Debrid in the Resolve URL Addon</summary>
+            </meta>
+            <link>plugin://script.module.resolveurl/?mode=auth_pm ,return,return</link>
+        </plugin>
        
          <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate Trakt[/COLOR][/B]</title>
@@ -47,8 +55,6 @@
             </meta>
             <link>plugin://plugin.video.jaws/?action=authTrakt</link>
         </plugin>       
-        
-        
         
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] API Settings [/COLOR][/B]</title>
