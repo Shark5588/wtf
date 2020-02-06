@@ -48,7 +48,7 @@
             <link>plugin://script.module.resolveurl/?mode=auth_pm ,return,return</link>
         </plugin>
        
-         <plugin>
+        <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate Trakt[/COLOR][/B]</title>
             <meta>
                 <summary>Authorize Trakt</summary>
@@ -71,7 +71,13 @@
             </meta>
             <pairwith>pairlist</pairwith>
         </item>
-
+        
+        <plugin>
+            <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]ettings[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+            <meta>
+            <link>plugin://plugin.video.jaws/?action=openSettings</link>
+        </plugin>
+        
         <item>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] YOUTUBE: Live and CAMS Fix[/COLOR][/B]</title>
             <meta>
