@@ -290,7 +290,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/pH5f8rpz</page>
+<page>http://www.iptvurls.com/iptv-playlist-urls/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
