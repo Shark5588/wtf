@@ -271,7 +271,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/R2eQss6s</page>
+<page>http://Ignoreme</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -309,7 +309,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/0uZMKgYG</page>
+<page>http://Ignoreme</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -328,7 +328,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.iptvurls.com/iptv-m3u-playlist-18-jan-2020/</page>
+<page>http://www.iptvurls.com/iptv-m3u-playlist-06-feb-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -347,7 +347,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-24-01-2020/</page>
+<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-07-02-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -405,8 +405,8 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
-<referer></referer>
+<page>https://fr.m3uiptv.com/iptv-sport-liste-m3u-download/</page>
+<referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -425,7 +425,7 @@
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-bein-sport-m3u-download/</page>
-<referer></referer>
+<referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
