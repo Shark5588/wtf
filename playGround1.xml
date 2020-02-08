@@ -309,7 +309,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://Ignoreme</page>
+<page>https://pastebin.com/E62arX4W</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
