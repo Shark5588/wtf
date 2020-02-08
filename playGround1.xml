@@ -347,8 +347,8 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-07-02-2020/</page>
-<referer></referer>
+<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-09-02-2020/</page>
+<referer>https://iptvgratuit.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
