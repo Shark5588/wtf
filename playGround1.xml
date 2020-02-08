@@ -424,7 +424,7 @@
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://fr.m3uiptv.com/iptv-bein-sport-m3u-download/</page>
+<page>https://fr.m3uiptv.com/iptv-links-m3u-playlist-download-04-02-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
