@@ -50,7 +50,7 @@
        
         <dir>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate [/COLOR][COLORlime]([/COLOR][COLORred] Trakt[/COLOR][COLORlime])[/COLOR][/B]</title>
-            <link>https://api.trakt.tv/users/me/lists/</link>
+            <tratk>https://api.trakt.tv/users/me/lists/</tratk>
         </dir>       
         
         <plugin>
