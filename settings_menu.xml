@@ -50,7 +50,7 @@
        
         <dir>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate [/COLOR][COLORlime]([/COLOR][COLORred] Trakt[/COLOR][COLORlime])[/COLOR][/B]</title>
-            <trakt>https://api.trakt.tv/users/me/lists/</trakt>
+            <trakt>https://api.trakt.tv/oauth/device/code</trakt>
             <summary>Authenticate Trakt</summary>
         </dir>       
         
