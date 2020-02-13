@@ -48,13 +48,13 @@
             <link>plugin://script.module.resolveurl/?mode=auth_pm ,return,return</link>
         </plugin>
        
-        <plugin>
+        <dir>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate Trakt[/COLOR][/B]</title>
             <meta>
                 <summary>Authorize Trakt</summary>
             </meta>
-            <link>plugin://script.module.trakt/?action=openSettings ,return,return</link>
-        </plugin>       
+            <link>https://api.trakt.tv/users/me/lists/</link>
+        </dir>       
         
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] API Settings [/COLOR][/B]</title>
