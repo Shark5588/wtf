@@ -50,9 +50,6 @@
        
         <dir>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate Trakt[/COLOR][/B]</title>
-            <meta>
-                <summary>Authorize Trakt</summary>
-            </meta>
             <link>https://api.trakt.tv/users/me/lists/</link>
         </dir>       
         
