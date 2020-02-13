@@ -49,7 +49,7 @@
         </plugin>
        
         <dir>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate Trakt[/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate [/COLOR][COLORlime]([/COLOR][COLORred] Trakt[/COLOR][COLORlime])[/COLOR][/B]</title>
             <link>https://api.trakt.tv/users/me/lists/</link>
         </dir>       
         
