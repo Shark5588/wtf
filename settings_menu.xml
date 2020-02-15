@@ -48,11 +48,11 @@
             <link>plugin://script.module.resolveurl/?mode=auth_pm ,return,return</link>
         </plugin>
        
-        <dir>
+        <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate [/COLOR][COLORlime]([/COLOR][COLORred] Trakt[/COLOR][COLORlime])[/COLOR][/B]</title>
-            <trakt>https://api.trakt.tv/oauth/device/</trakt>
+            <link>plugin://plugin.video.jaws/authenticate_trakt</link>
             <summary>Authenticate Trakt</summary>
-        </dir>       
+        </plugin>       
         
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] API Settings [/COLOR][/B]</title>
