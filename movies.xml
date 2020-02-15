@@ -2,7 +2,7 @@
 
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Trending Movies[/COLOR][COLORlime]([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/movies/trending</trakt>
 </dir>
 
