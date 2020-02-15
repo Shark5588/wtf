@@ -10,12 +10,12 @@
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Reddit Top 250 (2019 Edition)[/COLOR][/B]</title>
-  <trakt>https://api.trakt.tv/users/jay-greene/lists/reddit-top-250-2019-edition-no-recency-bias?sort=rank,asc</trakt>
+  <trakt>https://api.trakt.tv/users/jay-greene/lists/reddit-top-250-2019-edition-no-recency-bias?sort=rank,asc/items</trakt>
 </dir>
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] 2020 - Academy Awards[COLORred]([/COLOR][COLORlightslategray]Track[/COLOR][COLORred])[/COLOR][/B]</title>
-  <trakt>lists/10747986</trakt>
+  <trakt>https://api.trakt.tv/users/andreofgyn/lists/2020-oscar-nominees-winners/items</trakt>
 </dir>
 
 <dir>
