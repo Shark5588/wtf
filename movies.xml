@@ -1,11 +1,5 @@
 <xml>
 
-
-<dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
-  <trakt>https://api.trakt.tv/movies/trending</trakt>
-</dir>
-
 <dir>
     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Years[/COLOR][/B]</title>
     <link>https://raw.githubusercontent.com/Shark5588/wtf/master/movie-years.xml</link>
@@ -14,6 +8,11 @@
 <dir>
     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Genres[/COLOR][/B]</title>
     <link>https://raw.githubusercontent.com/Shark5588/wtf/master/genre_movies.xml</link>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/movies/trending</trakt>
 </dir>
   
 <dir>
