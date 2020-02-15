@@ -1,12 +1,13 @@
+  
+<dir>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Tv Genres [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/genre_tv.xml</link>
+</dir>
+
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/shows/trending</trakt>
 </dir>
-
-<dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Tv Genres [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
-    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/genre_tv.xml</link>
-</dir>  
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
