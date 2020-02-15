@@ -1,5 +1,5 @@
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Trending Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/shows/trending</trakt>
 </dir>
 
@@ -9,41 +9,41 @@
 </dir>  
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Popular Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/shows/popular</trakt>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TV Watchlist [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] TV Watchlist [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/sync/watchlist/shows</trakt>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TV Collection [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] TV Collection [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/sync/collection/shows</trakt>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Popular [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <tmdb>tv/popular</tmdb>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Top Rated [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Top Rated [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <tmdb>tv/top_rated</tmdb>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Airing Today [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Airing Today [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <tmdb>tv/today</tmdb>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Animation Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Animation Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <tmdb>genre/shows/16</tmdb>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB Reality Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Reality Shows [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <tmdb>genre/shows/10764</tmdb>
 </dir>
