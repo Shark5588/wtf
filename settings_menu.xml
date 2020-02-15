@@ -9,14 +9,6 @@
         </plugin>
 
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Cache [/COLOR][COLORlime]([/COLOR][COLORred] ResolveURL [/COLOR][COLORlime])[/COLOR][/B]</title>
-            <meta>
-                <summary>Open the Settings for the addon on the General tab</summary>
-            </meta>
-            <link>plugin://script.module.resolveurl/?mode=reset_cache</link>
-        </plugin>
-
-        <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Scraper Setup [/COLOR][/B]</title>
             <meta>
                 <summary>Open the Settings for the addon on the General tab</summary>
@@ -47,12 +39,28 @@
             </meta>
             <link>plugin://script.module.resolveurl/?mode=auth_pm ,return,return</link>
         </plugin>
+        
+        <plugin>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Clear Cache [/COLOR][COLORlime]([/COLOR][COLORred] ResolveURL [/COLOR][COLORlime])[/COLOR][/B]</title>
+            <meta>
+                <summary>Open the Settings for the addon on the General tab</summary>
+            </meta>
+            <link>plugin://script.module.resolveurl/?mode=reset_cache</link>
+        </plugin>
        
         <dir>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate [/COLOR][COLORlime]([/COLOR][COLORred] Trakt[/COLOR][COLORlime])[/COLOR][/B]</title>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Authenticate [/COLOR][COLORlime]([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][/B]</title>
             <trakt>https://api.trakt.tv/users/me/lists/</trakt>
             <summary>Authenticate Trakt</summary>
-        </dir>       
+        </dir> 
+
+        <plugin>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Clear Cache [/COLOR][COLORlime]([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][/B]</title>
+            <meta>
+                <summary>Open the Settings for the addon on the General tab</summary>
+            </meta>
+            <link>plugin://plugin.video.jaws/?mode=clearCache</link>
+        </plugin>        
         
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] API Settings [/COLOR][/B]</title>
