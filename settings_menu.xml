@@ -41,14 +41,6 @@
         </plugin>
         
         <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] REAL-DEBRID:Reset My Authorization [/COLOR][COLORlime]([/COLOR][COLORred] ResolveURL [/COLOR][COLORlime])[/COLOR][/B]</title>
-            <meta>
-                <summary>(Re)Authorize Real-Debrid in the Resolve URL Addon</summary>
-            </meta>
-            <link>plugin://script.module.resolveurl/?mode=reset_ad</link>
-        </plugin>
-        
-        <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Premiumizer:(Re)Authorize My Account [/COLOR][COLORlime]([/COLOR][COLORred] ResolveURL [/COLOR][COLORlime])[/COLOR][/B]</title>
             <meta>
                 <summary>Authorize Premiumize in the Resolve URL Addon</summary>
