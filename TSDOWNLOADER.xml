@@ -36,31 +36,49 @@
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 6[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24432&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 7[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24433&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 8[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24434&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 9[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24435&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 10[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24436&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</plugin>
+
+<plugin>
+   <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 11[/COLOR][/B]</name>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24437&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</plugin>
+
+<plugin>
+   <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 12[/COLOR][/B]</name>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24438&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</plugin>
+
+<plugin>
+   <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 13[/COLOR][/B]</name>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://m3u-iptv.com/dl/24439&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
       
