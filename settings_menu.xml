@@ -1,12 +1,5 @@
 <jentemplate>
     <mysettings>
-        <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Customization [/COLOR][/B]</title>
-            <meta>
-                <summary>Open the Settings for the addon on the Customization tab</summary>
-            </meta>
-            <mysettings>0/0</mysettings>
-        </plugin>
 
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Scraper Setup [/COLOR][/B]</title>
@@ -99,6 +92,14 @@
             <meta>
             <link>plugin://plugin.video.jaws/?action=openSettings</link>
         </plugin>
+        
+        <plugin>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Customization [/COLOR][/B]</title>
+            <meta>
+                <summary>Open the Settings for the addon on the Customization tab</summary>
+            </meta>
+            <mysettings>0/0</mysettings>
+        </plugin>        
         
         <item>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] YOUTUBE: Live and CAMS Fix[/COLOR][/B]</title>
