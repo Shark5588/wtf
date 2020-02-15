@@ -34,16 +34,6 @@
     <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] W[/COLOR][COLORsnow]hatEver[/COLOR][COLORlightslategray]![/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
     <link>https://bit.ly/2Qv6tn4</link>
   </dir>    
-   
-<plugin>
-    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] I[/COLOR][COLORlightslategray]PTV[/COLOR][COLORdeepskyblue] P[/COLOR][COLORlightslategray]lAyGrOuNd [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
-	<link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/wtf/master/playGround1.xml</link>
-  </plugin>
-  
-<dir>
-   <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] I[/COLOR][COLORlightslategray]PTV[/COLOR][COLORdeepskyblue] P[/COLOR][COLORlightslategray]lAyGrOuNd [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
-   <link>https://raw.githubusercontent.com/Shark5588/wtf/master/TSDOWNLOADER.xml</link>
- </dir>
  
  plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue]([/COLOR][COLORsnow]InHouse[/COLOR][COLORdeepskyblue])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
@@ -60,6 +50,16 @@
     <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue] T[/COLOR][COLORsnow]MDB [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
     <tmdb>search</tmdb>
   </dir>
+  
+<plugin>
+    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] I[/COLOR][COLORlightslategray]PTV[/COLOR][COLORdeepskyblue] P[/COLOR][COLORlightslategray]lAyGrOuNd [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
+	<link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/wtf/master/playGround1.xml</link>
+  </plugin>
+  
+<dir>
+   <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] I[/COLOR][COLORlightslategray]PTV[/COLOR][COLORdeepskyblue] P[/COLOR][COLORlightslategray]lAyGrOuNd [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+   <link>https://raw.githubusercontent.com/Shark5588/wtf/master/TSDOWNLOADER.xml</link>
+ </dir>  
 
 <dir>
 	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] T[/COLOR][COLORsnow]ools [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>      				
