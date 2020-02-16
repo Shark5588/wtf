@@ -451,6 +451,8 @@
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
+
+
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (1x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -527,6 +529,27 @@
 ]]></listrepeat>
 <expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
 <page>http://91.92.66.82/trash/ttv-list/as.all.player.xspf</page>
+<referer></referer>
+ 
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<info>acestream,acelive</info>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE Generator[/COLOR][COLORred] (5x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lime]  Torrent [/COLOR] [makelist.param2]   </title>
+<link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
+<page>https://pastebin.com/raw/QW9UgAZa</page>
 <referer></referer>
  
 </regex>
