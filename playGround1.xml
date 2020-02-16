@@ -549,7 +549,7 @@
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>https://pastebin.com/raw/QW9UgAZa</page>
+<page>https://pastebin.com/QW9UgAZa</page>
 <referer></referer>
  
 </regex>
