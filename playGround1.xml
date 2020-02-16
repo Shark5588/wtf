@@ -548,7 +548,7 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>https://pastebin.com/raw/QW9UgAZa</page>
 <referer></referer>
  
