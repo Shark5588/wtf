@@ -266,7 +266,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -285,12 +285,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-15-02-2020/</page>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-17-02-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -304,7 +304,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -323,12 +323,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.iptvurls.com/iptv-m3u-playlist-15-feb-2020/</page>
+<page>http://www.iptvurls.com/iptv-m3u-playlist-17-feb-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -342,12 +342,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-15-02-2020/</page>
+<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-17-02-2020/</page>
 <referer>https://iptvgratuit.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -361,7 +361,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -381,13 +381,13 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://fr.m3uiptv.com/iptv-usa-m3u-liste-updated/</page>
-<referer></referer>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-17-02-2020/</page>
+<referer>https://m3u-iptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -400,12 +400,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-15-02-2020/</page>
+<page>https://fr.m3uiptv.com/iptv-usa-m3u-liste-updated/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -419,12 +419,12 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://fr.m3uiptv.com/iptv-links-m3u-playlist-download-25-01-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -438,7 +438,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV SHARK[/COLOR]    ( [makelist.param1] )  </title>
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
