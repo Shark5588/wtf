@@ -451,6 +451,25 @@
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](11x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://vlchistory.eu5.net/</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
 
 
 <item>
