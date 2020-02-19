@@ -173,8 +173,7 @@
 <listrepeat><![CDATA[
   <title>[COLOR lime][makelist.param1][/COLOR]</title>
   <link>$doregex[makelist2]</link>
-  <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
+  <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail> 
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 import re,time
