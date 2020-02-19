@@ -174,7 +174,7 @@
     <regex>
       <name>channels</name>
       <listrepeat><![CDATA[
-        <title>[COLOR gold][channels.param3][/COLOR]</title>
+        <title>[COLOR red]•[/COLOR][COLOR lime][channels.param3][/COLOR]</title>
         <link>$doregex[url]|User-Agent=iPad</link>
         <thumbnail>https://daddylive.live[channels.param2]</thumbnail>
       ]]></listrepeat>
