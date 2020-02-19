@@ -50,7 +50,7 @@
   <tmdb>movies/top_rated</tmdb>
 </dir>
 
-<dir>
+dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Action Movies[/COLOR][/B]</title>
   <tmdb>genre/movies/28</tmdb>
 </dir>
@@ -61,8 +61,8 @@
 </dir>
 
 <dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie List/ Track/ Tmdb[/COLOR][/B]</title>
-    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] List[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
 </dir>
 
 <dir>
