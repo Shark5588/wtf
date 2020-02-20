@@ -328,7 +328,7 @@
 
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORsnow] •[/COLOR][COLORblue] USTVGO [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORsnow] •[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
@@ -337,8 +337,8 @@
 <listrepeat><![CDATA[
 <title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
 <link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustvgo.tv$doregex[getIframe]</link>
-<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</thumbnail>
-<fanart>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</fanart>
+<thumbnail>https://dl1.cbsistatic.com/i/2019/12/24/9d97ffc9-fa5a-4b58-b164-a9e5ca50e418/0ad453c514e6ebe5ee129d76e3d5dc29/imgingest-378481898297301903.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
 <page>$doregex[createSessionHome]</page>
