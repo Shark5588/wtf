@@ -325,6 +325,53 @@
 
 </item>id="myInput1".+?value="([^"]+)
 
+
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue] USTVGO [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
+<link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustvgo.tv$doregex[getIframe]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</fanart>
+]]></listrepeat>
+<expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
+<page>$doregex[createSessionHome]</page>
+</regex>
+<regex>
+<name>createSessionHome</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('http://ustvgo.tv/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getStream</name>
+<expres>file:\s*'([^']+)</expres>
+<page>$doregex[createSessionCookie]</page>
+</regex>
+<regex>
+<name>createSessionCookie</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('http://ustvgo.tv$doregex[getIframe]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getIframe</name>
+<expres>iframe\s*src=['"]([^'"]+)</expres>
+<page>$doregex[createSession]</page>
+</regex>
+<regex>
+<name>createSession</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+</item>
+
+
+
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](1x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
