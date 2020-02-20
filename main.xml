@@ -24,11 +24,11 @@
     <link>https://raw.githubusercontent.com/Shark5588/wtf/master/kids_boxset.xml</link>
   </dir>  
   
-<dir>
-    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] D[/COLOR][COLORsnow]ark [/COLOR][COLORdeepskyblue]S[/COLOR][COLORsnow]ide [/COLOR][COLORred]Closed [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
-    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/WTFsport.xml</link>
+<plugin>
+    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] D[/COLOR][COLORsnow]ark [/COLOR][COLORdeepskyblue]S[/COLOR][COLORsnow]ide [/COLOR][COLORred]Closed [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
+    <link>plugin://plugin.video.sports55classic/&quot;,return</link>
 	<fanart>https://i.ibb.co/zPvnx1r/darkside.jpg</fanart>
-  </dir>    
+  </plugin>    
   
 <dir>
     <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] W[/COLOR][COLORsnow]hatEver[/COLOR][COLORlightslategray]![/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
