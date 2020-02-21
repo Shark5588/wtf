@@ -402,7 +402,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher
   source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream/live?v=[makelist.param3]'}).content
   return re.findall('atob.[\'"]([^\'"]+)',source)[0].decode('base64')+'|user-agent=ipad&referer='+url
 ]]></expres>
-<page>http://yoursports.stream/live?v=[makelist.param3]</page>
+<page>http://yoursports.stream/hockey?v=[makelist.param3]</page>
 <referer>http://yoursports.stream</referer>
 </regex>
 </item>
