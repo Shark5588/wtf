@@ -221,14 +221,14 @@
     <listrepeat><![CDATA[
     <title>[COLOR gold][lists.param2][/COLOR]</title>
     <link>ignoreme</link>
-    <externallink>[lists.param1]$$TSDOWNLOADER$$</externallink>
+    <externallink>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR gold][B][COLOR white]IPTV[/COLOR][/B] [makelist2.param1]</externallink>
     <thumbnail>[genre.param3]</thumbnail>
     ]]></listrepeat>
     <expres><![CDATA[<a\s*href="([^"]+m3u)">([^<]+)</a><(?:br|/p)]]></expres>
     <page>[genre.param1]</page>
     <referer>http://www.dailyiptvlist.com/</referer>
   </regex>
-</item>
+</item>#[lists.param1]$$TSDOWNLOADER$$
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
