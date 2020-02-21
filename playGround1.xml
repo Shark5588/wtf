@@ -399,7 +399,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 import re,requests
 def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher
   url='http://yoursports.stream'+re.findall('id=playframe.+?src="([^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream/live?v=[makelist.param3]'}).content
+  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream/hockey?v=[makelist.param3]'}).content
   return re.findall('atob.[\'"]([^\'"]+)',source)[0].decode('base64')+'|user-agent=ipad&referer='+url
 ]]></expres>
 <page>http://yoursports.stream/hockey?v=[makelist.param3]</page>
