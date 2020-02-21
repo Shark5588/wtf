@@ -221,7 +221,7 @@
     <listrepeat><![CDATA[
     <title>[COLOR gold][lists.param2][/COLOR]</title>
     <link>ignoreme</link>
-    <externallink>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR gold][B][COLOR white]IPTV[/COLOR][/B] [makelist2.param1]</externallink>
+    <externallink>plugin://plugin.video.f4mTester/?url=[lists.param1]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR gold][B][COLOR white]IPTV[/COLOR][/B] [makelist2.param1]</externallink>
     <thumbnail>[genre.param3]</thumbnail>
     ]]></listrepeat>
     <expres><![CDATA[<a\s*href="([^"]+m3u)">([^<]+)</a><(?:br|/p)]]></expres>
