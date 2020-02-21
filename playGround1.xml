@@ -382,7 +382,7 @@
 <listrepeat><![CDATA[
   <title>[COLOR lime][makelist.param2] [COLOR dodgerblue][makelist.param1][/COLOR]</title>
   <link>$doregex[getUrl]</link>
-  <thumbnail></thumbnail>
+  <thumbnail>https://i.ibb.co/k5kMwsx/Sport-iptv.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 import re,requests
