@@ -876,14 +876,14 @@ item>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-    <title>[COLOR red][B]test[/B][/COLOR][COLOR green][B]test[/B][/COLOR]  [makelist2.param1]</title>
+    <title>[COLOR red][B]test[/B][/COLOR][COLOR green][B]test[/B][/COLOR]  [makelist.param2]</title>
 	<thumbnail></thumbnail>
 <fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
     <thumbnail></thumbnail>
         <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>#EXTINF:-1,(.*?)\n(.*)
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
