@@ -609,7 +609,8 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <name>makelist</name>
 <listrepeat><![CDATA[
      <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
-    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>#[makelist.param1][DE]$$TSDOWNLOADER$$
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
@@ -853,18 +854,17 @@ item>
 </item>
 
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV f4mTester[/COLOR]    ( [makelist.param1] )  </title>
-    <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+     <title>      [COLOR blue]IPTV TESTING[/COLOR]    ( [makelist.param1] )  </title>
+    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/xmUgbLXw</page>
+<page>https://www.tvonlinestreams.com/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
