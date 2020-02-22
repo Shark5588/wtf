@@ -863,7 +863,7 @@ item>
      <title>      [COLOR blue]IPTV TESTING[/COLOR]    ( [makelist.param1] )  </title>
     <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>https://www.tvonlinestreams.com/</page>
 <referer></referer>
 <cookieJar></cookieJar>
