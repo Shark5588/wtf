@@ -864,7 +864,7 @@ item>
     <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>https://www.tvonlinestreams.com/</page>
+<page>https://www.tvonlinestreams.com/usa-ca-31/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
