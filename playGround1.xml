@@ -879,12 +879,12 @@ item>
     <title>[COLOR red][B]test[/B][/COLOR][COLOR green][B]test[/B][/COLOR]  [makelist2.param1]</title>
 	<thumbnail></thumbnail>
 <fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param2][/COLOR]</title></link>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
     <thumbnail></thumbnail>
         <fanart></fanart>
 ]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
-<page>[makelist.param1]</page>
+<expres>#EXTINF:.*?,(.*?)\n(.*)</expres>
+<page>[list.param1]</page>[makelist.param1]
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail></thumbnail>
