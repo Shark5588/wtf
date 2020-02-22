@@ -763,7 +763,7 @@ _______________________________________________
 <info>acestream,acelive</info>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE Generator[/COLOR][COLORred] (5x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -854,22 +854,41 @@ item>
 </item>
 
 
+
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist0]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
 <regex>
-<name>makelist0</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV TESTING[/COLOR]    ( [makelist0.param2] )  </title>
-    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist0.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+<title>[COLOR cyan]Server:[/COLOR] [makelist.param2]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>EXTINF:-1,(.*?)\n(.*)</expres>
+<expres>(http://(.*)/.*)</expres>
 <page>https://www.tvonlinestreams.com/usa-ca-31/</page>
-<referer></referer>
-<cookieJar></cookieJar>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+ 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]  [makelist2.param1]</title>
+	<thumbnail></thumbnail>
+<fanart></fanart>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
+    <thumbnail></thumbnail>
+        <fanart></fanart>
+]]></listrepeat>
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<page>[makelist.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
 
 
