@@ -669,7 +669,7 @@ _______________________________________________
 </regex>
 <regex>
 <name>getUrl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
+<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013')</expres>#VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1
 <page></page>
 <cookieJar></cookieJar>
 </regex>
@@ -866,25 +866,6 @@ item>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/xmUgbLXw</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]5[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV f4mTester[/COLOR]    ( [makelist.param1] )  </title>
-    <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
-]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://91.92.66.82/trash/ttv-list/AceLiveDecode.php?file=as_cid_a74dc3.acelive</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
