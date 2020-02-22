@@ -460,7 +460,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-21-02-2020/</page>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-22-02-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -479,7 +479,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.iptvurls.com/iptv-m3u-playlist-21-feb-2020/</page>
+<page>http://www.iptvurls.com/iptv-m3u-playlist-22-feb-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -498,7 +498,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-21-02-2020/</page>
+<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-22-02-2020/</page>
 <referer>https://iptvgratuit.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -537,7 +537,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-21-02-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-22-02-2020/</page>
 <referer>https://m3u-iptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
