@@ -863,10 +863,10 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR cyan]Server:[/COLOR] [makelist.param2]</title>
+<title>[COLOR cyan]Server:[/COLOR] [makelist.param1]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist1]</link>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/RdmF8GdK</page>
