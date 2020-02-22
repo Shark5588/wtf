@@ -609,8 +609,8 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <name>makelist</name>
 <listrepeat><![CDATA[
      <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
-    <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <link>NA</link>#[makelist.param1][DE]$$TSDOWNLOADER$$
+    <externallink>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;maxbitrate=0&amp;Buffer=20971520</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
@@ -641,11 +641,11 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 </item>
 
 _______________________________________________
-◄◄◄◄= REGEX FOR CAPTURE IPTV LIST =►►►► 
+◄◄◄◄= REGEX FOR CAPTURE IPTV LIST-Needs to be fix =►►►► 
 ===============================================
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](13x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](13x) Needs to be fix [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -655,7 +655,7 @@ _______________________________________________
    <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page></page>
+<page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
 </regex>
 <regex>
 <name>makelist2</name>
