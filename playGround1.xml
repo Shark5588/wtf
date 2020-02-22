@@ -655,7 +655,7 @@ _______________________________________________
    <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page>https://fr.m3uiptv.com/iptv-sport-liste-m3u-download/</page>
+<page>https://www.oneplaylist.space/</page>
 </regex>
 <regex>
 <name>makelist2</name>
