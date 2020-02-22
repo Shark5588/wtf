@@ -858,10 +858,10 @@ item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
-<name>makelist</name>
+<name>makelist0</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV TESTING[/COLOR]    ( [makelist.param1] )  </title>
-    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+     <title>      [COLOR blue]IPTV TESTING[/COLOR]    ( [makelist0.param2] )  </title>
+    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist0.param2]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>https://www.tvonlinestreams.com/usa-ca-31/</page>
