@@ -869,17 +869,17 @@ item>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
+<page>https://pastebin.com/RdmF8GdK</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-    <title>[COLOR red][B]test[/B][/COLOR][COLOR green][B]test[/B][/COLOR]  [makelist.param2]</title>
+    <title>[COLOR red][B]test[/B][/COLOR][COLOR green][B]test[/B][/COLOR]  [makelist2.param1]</title>
 	<thumbnail></thumbnail>
 <fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
     <thumbnail></thumbnail>
         <fanart></fanart>
 ]]></listrepeat>
