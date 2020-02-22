@@ -863,7 +863,7 @@ item>
      <title>      [COLOR blue]IPTV TESTING[/COLOR]    ( [makelist0.param2] )  </title>
     <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist0.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
-<expres><![CDATA[href="([^"]+)">(.*?)</br]]></expres>
+<expres>EXTINF:-1,(.*?)\n(.*)</expres>
 <page>https://www.tvonlinestreams.com/usa-ca-31/</page>
 <referer></referer>
 <cookieJar></cookieJar>
