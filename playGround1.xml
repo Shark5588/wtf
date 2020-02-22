@@ -868,7 +868,7 @@ item>
 <fanart></fanart>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>>(http://(.*)/.*)?get.php.*?)&lt;</expres>
+<expres>(http://(.*)/.*)</expres>
 <page>https://www.tvonlinestreams.com/usa-ca-31/</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -883,7 +883,7 @@ item>
     <thumbnail></thumbnail>
         <fanart></fanart>
 ]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>#EXTINF:-1,(.*?)\n(.*)
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
