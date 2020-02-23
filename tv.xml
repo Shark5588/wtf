@@ -15,12 +15,12 @@
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] TV Watchlist [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Tv Watchlist [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/sync/watchlist/shows</trakt>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] TV Collection [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Tv Collection [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/sync/collection/shows</trakt>
 </dir>
 
