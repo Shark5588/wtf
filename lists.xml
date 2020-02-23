@@ -9,6 +9,16 @@
 </dir>
 
 <dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] My Collections Lists [COLORred]([/COLOR][COLORlightslategray]Track[/COLOR][COLORred])[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/sync/collection/shows</trakt>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] My Watchlist Lists [COLORred]([/COLOR][COLORlightslategray]Track[/COLOR][COLORred])[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/sync/watchlist/shows</trakt>
+</dir>
+
+<dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Reddit Top 250 (2019 Edition)[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/users/jay-greene/lists/reddit-top-250-2019-edition/items</trakt>
 </dir>
