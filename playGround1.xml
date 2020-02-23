@@ -876,10 +876,10 @@ item>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-    <title>#[COLOR red][B]Channel[/B][/COLOR]  [makelist2.param1]</title>
+    <title>[COLOR red][B]Channel[/B][/COLOR]  [makelist2.param1]</title>
 	<thumbnail></thumbnail>
 <fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</link>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR gold][B][COLOR white]TV[/COLOR][/B] [makelist2.param1]</link>
     <thumbnail></thumbnail>
         <fanart></fanart>
 ]]></listrepeat>
