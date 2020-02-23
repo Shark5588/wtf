@@ -629,7 +629,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <listrepeat><![CDATA[
      <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>plugin://plugin.video.f4mTester/?url=&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR gold][B][COLOR white]TV[/COLOR][/B] [makelist2.param1]</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/RdmF8GdK</page>
