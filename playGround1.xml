@@ -879,7 +879,7 @@ item>
     <title>[COLOR red][B]Channel[/B][/COLOR]  [makelist2.param1]</title>
 	<thumbnail></thumbnail>
 <fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</link>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</link>
     <thumbnail></thumbnail>
         <fanart></fanart>
 ]]></listrepeat>
