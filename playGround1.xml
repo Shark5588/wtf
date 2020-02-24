@@ -422,7 +422,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/Tkyf0geA</page>https://pastebin.com/njb9FnSJ
+<page>https://pastebin.com/fTSTBUqn</page>https://pastebin.com/njb9FnSJ
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
