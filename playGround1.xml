@@ -422,7 +422,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/fTSTBUqn</page>https://pastebin.com/njb9FnSJ
+<page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -613,8 +613,8 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
-<referer></referer>
+<page>https://pastebin.com/njb9FnSJ</page>
+<referer>https://pastebin.com/fTSTBUqn</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
