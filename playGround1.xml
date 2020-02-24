@@ -498,7 +498,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-23-02-2020/</page>
+<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-24-02-2020/</page>
 <referer>https://iptvgratuit.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
