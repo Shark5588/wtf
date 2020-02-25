@@ -570,7 +570,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
+     <title>[COLOR lime][B]Server [/B][/COLOR][COLOR magenta][B]list[/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -589,7 +589,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>      [COLOR blue]IPTV JawS[/COLOR]    ( [makelist.param1] )  </title>
+     <title>[COLOR lime][B]Server [/B][/COLOR][COLOR magenta][B]list[/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -613,7 +613,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/fTSTBUqn</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
