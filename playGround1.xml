@@ -420,7 +420,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
@@ -440,7 +440,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/E62arX4W</page>
@@ -460,7 +460,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-25-02-2020/</page>
@@ -480,7 +480,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>http://www.iptvurls.com/iptv-m3u-playlist-25-feb-2020/</page>
@@ -500,7 +500,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-25-02-2020/</page>
@@ -520,7 +520,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-25-02-2020/</page>
@@ -541,7 +541,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/m3u-playlist-url-free-download-2020/</page>
@@ -561,7 +561,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-usa-m3u-liste-updated/</page>
@@ -581,7 +581,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-links-m3u-playlist-download-25-01-2020/</page>
@@ -601,7 +601,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/</page>
@@ -621,7 +621,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
-    <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://fr.m3uiptv.com/free-iptv-m3u-playlist-download-12-02-2020/</page>
@@ -641,11 +641,11 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
     <link>NA</link>
-    <externallink>[makelist.param1][DE]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/86KTnfRQ</page>
-<referer></referer>
+<referer></referer>&amp;type=m3u
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
