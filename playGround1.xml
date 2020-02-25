@@ -641,9 +641,9 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
     <link>NA</link>
-    <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
+    <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=(.*?)&amp;type=m3u$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/86KTnfRQ</page>
 <referer></referer>
 <cookieJar></cookieJar>
