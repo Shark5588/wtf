@@ -590,6 +590,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <name>makelist</name>
 <listrepeat><![CDATA[
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
@@ -609,6 +610,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
 <name>makelist</name>
 <listrepeat><![CDATA[
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
     <link>NA</link>
     <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
