@@ -316,7 +316,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
    <title>[COLOR gold][makelist.param2][/COLOR]</title>
-   <link>[makelist.param3]|user-agent=ipad</link>
+   <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
    <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[tvg-logo="(.*?)"\s*group-title="UK",(.*)\n(.*)]]></expres>
