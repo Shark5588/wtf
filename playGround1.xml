@@ -402,7 +402,7 @@
 <regex>
 <name>iptvLink</name>
 <expres>id="myInput1".+?value="([^"]+)</expres>
-<page>https://fluxuscinema.blogspot.com/p/m3u-remote-playlists.html</page>
+<page>http://fluxuscinema.blogspot.com/p/cinema-english.html</page>
 </regex>
 </item>
 
