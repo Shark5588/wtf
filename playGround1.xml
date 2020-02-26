@@ -162,7 +162,7 @@
   </item>
 
 <item>
-  <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+  <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-1 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
   <link>$doregex[genre]</link>
   <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
@@ -191,7 +191,7 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-2 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
 <link>$doregex[leg2]</link>
