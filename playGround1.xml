@@ -319,7 +319,7 @@
    <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
    <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Russian",(.*)\n(.*)]]></expres>
+<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Russia",(.*)\n(.*)]]></expres>
 <page>$doregex[iptvLink]</page>
 </regex>
 <regex>
@@ -366,9 +366,9 @@
    <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[logo="([^"]*)"[^"]*"USA[^"]*",(.*)\W(.*)]]></expres>
-<page>https://pastebin.com/raw/ZzGTySZE</page>
+<page>https://fluxustv.blogspot.com/p/iptv.html</page>
 </regex>
-
+#https://pastebin.com/raw/ZzGTySZE
 </item>
 
 <item>
