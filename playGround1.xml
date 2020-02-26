@@ -99,14 +99,6 @@
 </item>
 
 <item>
-    <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] LODGE IPTV [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-    <link>http://ignorame</link>
-    <externallink>https://pastebin.com/raw/2D80tRy5</externallink>
-    <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-<item>
    <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR deepskyblue]IPTV by Country[/COLOR][/B]</title>
    <link>http://ignorame</link>
    <externallink>https://iptv-org.github.io/iptv/index.category.m3u</externallink>
@@ -285,7 +277,7 @@
 
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Fluxus IPTV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus IPTV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
 <link>ignore-me</link>
@@ -298,7 +290,7 @@
 </item>
 	 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Fluxus France IPTV [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus France IPTV [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -320,7 +312,7 @@
 </item>
  
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] FLUXUS USA[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] FLUXUS USA[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
@@ -336,6 +328,19 @@
 </regex>
 
 </item>id="myInput1".+?value="([^"]+)
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Lodge TV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
+<link>ignore-me</link>
+<externallink>$doregex[iptvLink]</externallink>
+<regex>
+<name>iptvLink</name>
+<expres>id="myInput1".+?value="([^"]+)</expres>
+<page>https://lodgetv.blogspot.com/</page>
+</regex>
+</item>
 
 
 
