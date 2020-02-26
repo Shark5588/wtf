@@ -122,38 +122,6 @@
 	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
-    <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR snow] Fluxus English IPTV Cinema (Outdated) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-	<link>http://ignorame</link>
-    <externallink>https://pastebin.com/raw/jbqA0j82<externallink>
-	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-<item>
-    <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR snow] French IPTV Cinema (Outdated) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-	<link>http://ignorame</link>
-    <externallink>https://pastebin.com/raw/cWbbtduU<externallink>
-	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-<item>
-    <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR snow] Italian IPTV Cinema (Outdated) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-	<link>http://ignorame</link>
-    <externallink>https://pastebin.com/raw/JkBfYpXz<externallink>
-	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-<item>
-    <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR snow] Spanish IPTV Cinema (Outdated) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-	<link>http://ignorame</link>
-    <externallink>https://pastebin.com/raw/U5Nai4hs<externallink>
-	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -310,16 +278,16 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus Italy [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus Mexico [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
    <title>[COLOR gold][makelist.param2][/COLOR]</title>
-   <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
+   <link>[makelist.param3]|user-agent=ipad</link>
    <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Switzerland",(.*)\n(.*)]]></expres>
+<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Mexico",(.*)\n(.*)]]></expres>
 <page>$doregex[iptvLink]</page>
 </regex>
 <regex>
@@ -330,29 +298,6 @@
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus Russia [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>[COLOR gold][makelist.param2][/COLOR]</title>
-   <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
-   <thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Canada",(.*)\n(.*)]]></expres>
-<page>$doregex[iptvLink]</page>
-</regex>
-<regex>
-<name>iptvLink</name>
-<expres>id="myInput1".+?value="([^"]+)</expres>
-<page>https://fluxustv.blogspot.com/p/iptv.html</page>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus UK [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -394,7 +339,7 @@
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus Cinema[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus English Cinema (Outdated) [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
 <link>ignore-me</link>
@@ -405,8 +350,6 @@
 <page>https://pastebin.com/raw/jbqA0j82</page>
 </regex>
 </item>
-
-
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
