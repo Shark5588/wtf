@@ -312,7 +312,7 @@
 </item>
  
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] FLUXUS USA[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus USA[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
@@ -330,7 +330,7 @@
 </item>id="myInput1".+?value="([^"]+)
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Lodge TV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus Cinema[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
 <link>ignore-me</link>
@@ -338,7 +338,7 @@
 <regex>
 <name>iptvLink</name>
 <expres>id="myInput1".+?value="([^"]+)</expres>
-<page>https://lodgetv.blogspot.com/</page>
+<page>https://fluxuscinema.blogspot.com/p/m3u-remote-playlists.html</page>
 </regex>
 </item>
 
