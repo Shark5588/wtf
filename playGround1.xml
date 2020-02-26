@@ -319,7 +319,7 @@
    <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
    <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Italy",(.*)\n(.*)]]></expres>
+<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Switzerland",(.*)\n(.*)]]></expres>
 <page>$doregex[iptvLink]</page>
 </regex>
 <regex>
@@ -341,7 +341,7 @@
    <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY;url=[makelist.param3]</link>
    <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Russia",(.*)\n(.*)]]></expres>
+<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="Canada",(.*)\n(.*)]]></expres>
 <page>$doregex[iptvLink]</page>
 </regex>
 <regex>
