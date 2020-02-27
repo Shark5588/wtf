@@ -6,7 +6,7 @@
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue]PlAyLiSt 1[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://iptvm3ulist.com/m3u/us05_iptvm3ulist_com_270220.m3u&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://pastebin.com/raw/Jrx5PvzU&amp;output=mpegts$$HLSRETRY$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
