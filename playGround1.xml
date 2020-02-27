@@ -432,7 +432,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/E62arX4W</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -633,7 +633,7 @@ def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://pastebin.com/E62arX4W</page>
 <referer></referer>&amp;type=m3u
 <cookieJar></cookieJar>
 </regex>
