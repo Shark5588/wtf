@@ -919,11 +919,11 @@ item>
 <regex>
 <name>get_nhl1.php</name>
 <expres>source:.*[",'](.*/nhl/.*?)[",']</expres>
-<page>$doregex[get_sxstream1]</page>
-<referer>$doregex[get_sxstream1]</referer>
+<page>$doregex[get_nhl1.php]</page>
+<referer>$doregex[get_nhl1.php]</referer>
 </regex>
 <regex>
-<name>get_sxstream1</name>
+<name>get_nhl1.php</name>
 <expres>src=.*[",'](.*.title.*?)[",']</expres>
 <page>http://unitedstreams4all.com/nhl1.php</page>
 <referer>http://unitedstreams4all.com/</referer>
