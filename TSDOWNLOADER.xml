@@ -82,6 +82,5 @@
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
       
-	  plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;Buffer=20971520&amp;url=http://YourTsLinkHere.ts
 
 </xml>
