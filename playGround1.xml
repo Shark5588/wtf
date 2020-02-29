@@ -913,6 +913,25 @@ item>
 </item>
 
 
+<item>
+  <title>[COLOR black][B]NHL [/B][/COLOR] : [COLOR white][B]Colorado Avalanche [/B][/COLOR]</title>
+   <link>http://nhl.nbabostonx.xyz$doregex[get_sxstream]</link>
+<regex>
+<name>get_sxstream</name>
+<expres>source:.*[",'](.*/nhl/.*?)[",']</expres>
+<page>$doregex[get_sxstream1]</page>
+<referer>$doregex[get_sxstream1]</referer>
+</regex>
+<regex>
+<name>get_sxstream1</name>
+<expres>src=.*[",'](.*.title.*?)[",']</expres>
+<page>http://unitedstreams4all.com/nhl1.php</page>
+<referer>http://unitedstreams4all.com/</referer>
+</regex>
+ <thumbnail></thumbnail>
+  <fanart></fanart>
+</item>
+
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
