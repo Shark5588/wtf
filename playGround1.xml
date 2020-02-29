@@ -914,8 +914,8 @@ item>
 
 
 <item>
-  <title>[COLOR black][B]NHL [/B][/COLOR] : [COLOR white][B]Colorado Avalanche [/B][/COLOR]</title>
-   <link>http://nhl.nbabostonx.xyz$doregex[get_sxstream]</link>
+  <title>[COLOR black][B]NHL [/B][/COLOR] : [COLOR white][B][/B][/COLOR]</title>
+   <link>http://unitedstreams4all.com$doregex[get_sxstream]</link>
 <regex>
 <name>get_sxstream</name>
 <expres>source:.*[",'](.*/nhl/.*?)[",']</expres>
