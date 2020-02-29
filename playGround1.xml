@@ -915,9 +915,9 @@ item>
 
 <item>
   <title>[COLOR black][B]NHL [/B][/COLOR] : [COLOR white][B][/B][/COLOR]</title>
-   <link>http://unitedstreams4all.com$doregex[get_stream]</link>
+   <link>http://unitedstreams4all.com$doregex[get_nhl1.php]</link>
 <regex>
-<name>get_stream</name>
+<name>get_nhl1.php</name>
 <expres>source:.*[",'](.*/nhl/.*?)[",']</expres>
 <page>$doregex[get_sxstream1]</page>
 <referer>$doregex[get_sxstream1]</referer>
