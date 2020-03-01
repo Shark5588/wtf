@@ -15,6 +15,11 @@
     <link>https://bit.ly/2rBpHik</link>
 </dir>
 
+<plugin>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movies PlayList[/COLOR][/B]</title>
+  <link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/wtf/master/WTFlist1.xml</link>
+</plugin> 
+
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/movies/trending</trakt>
