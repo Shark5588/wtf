@@ -26,8 +26,8 @@
 <regex>
 <name>makelist0</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightgray] [makelist0.param1] [/COLOR] </title>
-<link>http://engmovie.iflimbd.com/[makelist0.param1]</link>
+<title>[COLOR lightgray] [makelist0.param2] [/COLOR] </title>
+<link>http://engmovie.iflimbd.com/[makelist0.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://engmovie.iflimbd.com/</page>
