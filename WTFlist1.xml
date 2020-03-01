@@ -36,3 +36,21 @@
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
+
+<item>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](3x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<link>$doregex[makelist0]</link>
+ 
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[B][COLORorangered] [makelist0.param1] [/COLOR][/B] </title>
+<link>http://www.allserv.fr/Media/Movies/[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>http://www.allserv.fr/Media/Movies/</page>
+ 
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
