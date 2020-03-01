@@ -39,13 +39,13 @@
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](3x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
-<link>$doregex[makelist0]</link>
+<link>$doregex[makelist]</link>
  
 <regex>
-<name>makelist0</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLORorangered] [makelist0.param2] [/COLOR][/B] </title>
-<link>http://www.allserv.fr/[makelist0.param2]</link>
+<title>[B][COLORorangered] [makelist.param2] [/COLOR][/B] </title>
+<link>http://www.allserv.fr/[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://www.allserv.fr/Media/Movies/</page>
