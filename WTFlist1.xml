@@ -45,10 +45,28 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[B][COLORorangered] [makelist.param2] [/COLOR][/B] </title>
-<link>http://www.allserv.fr/Media/Movies/[makelist.param2]</link>
+<link>http://www.allserv.fr/Media/Movies/[makelist.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://www.allserv.fr/Media/Movies/</page>
+ 
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](4x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+ 
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[B][COLORorangered] [makelist.param1] [/COLOR][/B] </title>
+<link>http://144.217.176.177/private/[makelist.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>http://144.217.176.177/private/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
