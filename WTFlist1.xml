@@ -45,7 +45,7 @@
 <name>makelist0</name>
 <listrepeat><![CDATA[
 <title>[B][COLORorangered] [makelist0.param2] [/COLOR][/B] </title>
-<link>http://www.allserv.fr/[makelist0.param1]</link>
+<link>http://www.allserv.fr/[makelist0.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://www.allserv.fr/Media/Movies/</page>
