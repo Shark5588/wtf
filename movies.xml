@@ -72,4 +72,22 @@ dir>
   <thumbnail>http://pluspng.com/img-png/mag-png-mag-png-550.png</thumbnail>
 </plugin>
 
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist0]</link>
+ 
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue] [makelist0.param2] [/COLOR] </title>
+<link>https://server116.andy10gbit.xyz/files/Movies2020/[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>https://server116.andy10gbit.xyz/files/Movies2020/</page>
+ 
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
 </xml>
