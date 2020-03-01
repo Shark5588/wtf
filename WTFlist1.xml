@@ -2,7 +2,7 @@
 <layouttype>-=WTF-SHARK=-</layouttype>
 
 <item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](1x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 1x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist0]</link>
  
 <regex>
@@ -20,7 +20,7 @@
 </item>
 
 <item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](2x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 2x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist0]</link>
  
 <regex>
@@ -38,7 +38,7 @@
 </item>
 
 <item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](3x)(Italian) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 3x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Ita [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist0]</link>
  
 <regex>
@@ -56,7 +56,7 @@
 </item>
 
 <item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](4x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 4x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Fr [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist0]</link>
  
 <regex>
