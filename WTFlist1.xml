@@ -1,15 +1,20 @@
-#EXTM3U
+
 <layouttype>-=WTF-SHARK=-</layouttype>
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zmHJfmy/Sports-Classic-Thumbnail.png",[COLOR white][B]****[/B][/COLOR][COLOR ff00afaf][B]<< I DO NOT OWN OR HOST THESE STREAMING LINKS.[/B][/COLOR][COLOR white][B]****[/B][/COLOR]
-http://0.0.0.0:1234
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zmHJfmy/Sports-Classic-Thumbnail.png",[COLOR white][B]****[/B][/COLOR][COLOR ff00afaf][B] THEY ARE FREELY AVAILABLE ON THE INTERNET.[/B][/COLOR][COLOR white][B]****[/B][/COLOR]
-http://0.0.0.0:1234
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zmHJfmy/Sports-Classic-Thumbnail.png",[COLOR white][B]****[/B][/COLOR][COLOR ff00afaf][B] Credits to the owners. >>[/B][/COLOR][COLOR white][B]****[/B][/COLOR]
-http://0.0.0.0:1234
-#EXTINF:-1 tvg-logo="https://i.ibb.co/zmHJfmy/Sports-Classic-Thumbnail.png",[COLOR red][B]****[/B][/COLOR][COLOR snow][B] 1/8/2020[/B][/COLOR][COLORred][B]****[/B][/COLOR]
-http://0.0.0.0:1234
-#EXTINF:-1 tvg-logo="https://i.ibb.co/m66k7dp/55.png",[COLOR white][B]****[/B][/COLOR][COLOR red][B]Requires Good Internet[/B][/COLOR][COLOR white][B]****[/B][/COLOR]
-http://0.0.0.0:1234
-################################################################ LIST 1 ###########################################################################################
-
+<item>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORred](1x) [/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<link>$doregex[makelist0]</link>
+ 
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue] [makelist0.param1] [/COLOR] </title>
+<link>https://server116.andy10gbit.xyz/files/Movies2020/[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>https://server116.andy10gbit.xyz/files/Movies2020/</page>
+ 
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
