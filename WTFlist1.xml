@@ -26,6 +26,24 @@
 <regex>
 <name>makelist0</name>
 <listrepeat><![CDATA[
+<title>[COLOR lightgray] [makelist0.param1] [/COLOR] </title>
+<link>http://engmovie.iflimbd.com/[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>http://engmovie.iflimbd.com/</page>
+ 
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 3x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<link>$doregex[makelist0]</link>
+ 
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
 <title>[B][COLORmagenta] [makelist0.param1] [/COLOR][/B] </title>
 <link>https://server116.andy10gbit.xyz/files/Movies2019/[makelist0.param1]</link>
 ]]></listrepeat>
@@ -38,7 +56,7 @@
 </item>
 
 <item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 3x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Ita [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 4x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Ita [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist0]</link>
  
 <regex>
@@ -56,7 +74,7 @@
 </item>
 
 <item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 4x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Fr [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 5x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Fr [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist0]</link>
  
 <regex>
