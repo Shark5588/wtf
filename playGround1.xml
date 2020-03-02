@@ -912,21 +912,6 @@ item>
 <fanart></fanart>
 </item>
 
-<item>
-<title> test</title>
-<link>$doregex[m3u8]|User-Agent=iPhone&amp;Referer=https://box-live.stream/stream/45629.htm</link>
-<regex>
-<name>m3u8</name>
-<expres>'(http.*m3u8[^']+)</expres>
-<page>https://sportsbay.org/watch/45629/1/btn-big-ten-network-live.html</page>
-<referer>https://box-live.stream/stream/45629.htm</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
