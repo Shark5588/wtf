@@ -26,8 +26,8 @@
 <regex>
 <name>makelist0</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightgray] [makelist0.param2] [/COLOR] </title>
-<link>http://engmovie.iflimbd.com/[makelist0.param2]</link>
+<title>[COLOR lightgray] [makelist0.param3] [/COLOR] </title>
+<link>http://engmovie.iflimbd.com/[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://engmovie.iflimbd.com/</page>
@@ -40,11 +40,11 @@
 
 <item>
  <title>[COLOR cyan]test[/COLOR]</title>
-<link>$doregex[makelist]</link>
+<link>$doregex[makelist0]</link>
 <regex>
-<name>makelist</name>
+<name>makelist0</name>
 <listrepeat><![CDATA[
-     <title>[COLOR red][B]Test[/B][/COLOR][COLOR green][B]1[/B][/COLOR] ( [makelist.param1] )  </title>
+     <title>[COLOR red][B]Test[/B][/COLOR][COLOR green][B]1[/B][/COLOR] ( [makelist0.param1] )  </title>
     <link>[makelist.param1]</link>
 	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
