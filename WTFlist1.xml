@@ -26,11 +26,11 @@
 <regex>
 <name>makelist0</name>
 <listrepeat><![CDATA[
-<title>[B][COLORlightgray] [makelist0.param2] [/COLOR][/B] </title>
-<link>http://103.133.204.82/Data/Disk2/English%20Movie/2019/IO%20%282019%29/[makelist0.param2]</link>
+<title>[B][COLORlightgray] [makelist0.param1] [/COLOR][/B] </title>
+<link>http://dl8.hub30t.com/f/[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://103.133.204.82/Data/Disk2/English%20Movie/2019/IO%20%282019%29/</page>
+<page>http://dl8.hub30t.com/f/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
