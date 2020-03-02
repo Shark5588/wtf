@@ -914,34 +914,39 @@ item>
 
 
 <item>
-<title>Shark IPTV</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[COLOR red]Shark TV [/COLOR][COLOR orange ][makelist2.param1][/COLOR]</title>
- <link>$doregex[makelist]</link>
- <thumbnail></thumbnail>
- <fanart></fanart>
- ]]></listrepeat>
-<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
-<page>https://pastebin.com/raw/RdmF8GdK</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-
+<title>[COLOR cyan]DAILY IPTV M3U 2[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
- <title>[COLOR blue]Shark TV[COLOR orange][makelist.param1][/COLOR]</title>
- <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] Shark TV[/COLOR] [makelist.param1]</link>
- <thumbnail></thumbnail>
- ]]></listrepeat>
-<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
-<page>[makelist2.param2]</page>
+<title>[COLOR cyan]Server:[/COLOR] [makelist.param2]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(http://(.*)/.*)</expres>
+<page>https://pastebin.com/RdmF8GdK</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+ 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]  [makelist2.param1]</title>
+	<thumbnail></thumbnail>
+<fanart></fanart>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
+    <thumbnail></thumbnail>
+        <fanart></fanart>
+]]></listrepeat>
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail></thumbnail>
+<fanart></fanart>
 </item>
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
