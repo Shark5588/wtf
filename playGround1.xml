@@ -958,17 +958,17 @@ item>
 
 
 <item>
-<title>[COLOR cyan]DAILY IPTV M3U 2[/COLOR]</title>
+<title>[COLOR cyan]TESTING[/COLOR]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist]</link>
+<link>$doregex[makelist2]</link>
 <regex>
-<name>makelist</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
 <title>[COLOR cryan][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
 <thumbnail></thumbnail>
 <fanart></fanart>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
 <page>https://pastebin.com/RdmF8GdK</page>
