@@ -956,42 +956,6 @@ item>
 <fanart></fanart>
 </item>
 
-
-<item>
-<title>[COLOR cyan]TESTING[/COLOR]</title>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-<title>[COLOR cryan][B]Server [/B][/COLOR] [COLOR gold][makelist2.param2][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist]</link>
-]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
-<page>https://pastebin.com/RdmF8GdK</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]  [makelist2.param1]</title>
-	<thumbnail></thumbnail>
-<fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
-    <thumbnail></thumbnail>
-        <fanart></fanart>
-]]></listrepeat>
-<expres>#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')</expres>
-<page>[makelist.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
