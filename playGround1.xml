@@ -917,7 +917,7 @@ item>
 <title>[COLOR cyan]DAILY IPTV M3U 2[/COLOR]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist.param1]</link>
+<link>[makelist.param1]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
