@@ -26,10 +26,10 @@
 <regex>
 <name>makelist0</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightgray] [makelist0.param3] [/COLOR] </title>
+<title>[COLOR lightgray] [makelist0.param1] [/COLOR] </title>
 <link>http://engmovie.iflimbd.com/[makelist0.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://engmovie.iflimbd.com/</page>
  
 </regex>
@@ -40,16 +40,16 @@
 
 <item>
  <title>[COLOR cyan]test[/COLOR]</title>
-<link>$doregex[makelist0]</link>
+<link>$doregex[makelist2]</link>
 <regex>
-<name>makelist0</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
-     <title>[COLOR red][B]Test[/B][/COLOR][COLOR green][B]1[/B][/COLOR] ( [makelist0.param1] )  </title>
-    <link>[makelist.param1]</link>
+     <title>[COLOR red][B]Test[/B][/COLOR][COLOR green][B]1[/B][/COLOR] ( [makelist2.param2] )  </title>
+    <link>$doregex[makelist]</link>
 	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
 <page>http://engmovie.iflimbd.com/</page>
 <referer></referer>
 <cookieJar></cookieJar>
