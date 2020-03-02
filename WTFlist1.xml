@@ -26,38 +26,16 @@
 <regex>
 <name>makelist0</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightgray] [makelist0.param1] [/COLOR] </title>
-<link>http://engmovie.iflimbd.com/[makelist0.param1]</link>
+<title>[B][COLORlightgray] [makelist0.param1] [/COLOR][/B] </title>
+<link>http://103.133.204.82/Data/Disk2/English%20Movie/2019/IO%20%282019%29/[makelist0.param1]</link>
 ]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
-<page>http://engmovie.iflimbd.com/</page>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>http://103.133.204.82/Data/Disk2/English%20Movie/2019/IO%20%282019%29/</page>
+ 
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 </item>
-
-
-<item>
- <title>[COLOR cyan]test[/COLOR]</title>
-<link>$doregex[makelist2]</link>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-     <title>[COLOR red][B]Test[/B][/COLOR][COLOR green][B]1[/B][/COLOR] ( [makelist2.param2] )  </title>
-    <link>$doregex[makelist]</link>
-	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="(.*?)'>(.*?)<]]></expres>
-<page>http://engmovie.iflimbd.com/</page>
-<referer></referer>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
-<info></info>
-</item>
-
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 3x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
