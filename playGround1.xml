@@ -959,7 +959,7 @@ item>
 
 <item>
 <title>NBC SN</title>
-<link>$doregex[getpage]|User-Agent=iPad&amp;Referer=http://imkmedia.com/</link>
+<link>$doregex[getpage]|User-Agent=iPad&amp;Referer=http://imkmedia.com/watch/fox-sports-1/</link>
 <regex>
 <name>getpage</name>
 <expres>file:\s*'([^']+)</expres>
