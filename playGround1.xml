@@ -956,6 +956,21 @@ item>
 <fanart></fanart>
 </item>
 
+
+<item>
+<title>NBC SN</title>
+<link>$doregex[getpage]|User-Agent=iPad&amp;Referer=http://imkmedia.com/</link>
+<regex>
+<name>getpage</name>
+<expres>file:\s*'([^']+)</expres>
+<page>$doregex[createsession]</page>
+</regex>
+<regex>
+<name>createsession</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('http://imkmedia.com/watch/fox-sports-1/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+</item>
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
