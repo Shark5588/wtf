@@ -963,7 +963,7 @@ item>
 <regex>
         <name>makelist</name>
         <listrepeat><![CDATA[
-        <title>[makelist.param1] - [makelist.param2]   ($doregex[mudar])</title>
+        <title>[makelist.param1] - [makelist.param2]   $doregex[mudar]</title>
         <link>$doregex[geturl]|user-agent=Mozilla/5.0 (Linux; Android 7.0; 5086D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36&referer=https://wstream.to/</link>
         ]]></listrepeat>
         <expres>(\d\d:\d\d)\s+(.+?)\|\s+https(.+?)\.php</expres>
