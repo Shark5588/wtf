@@ -969,7 +969,7 @@ item>
 <thumbnail></thumbnail>
 <fanart></fanart>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>m3u playlist (.*?)2020]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>get_m3u (.*?)2020]]></expres>
 <page>https://www.iptvm3ulist.com/english-download-best-iptv-m3u-lists-03-mar-2020</page>
 </regex>
 </regex>
