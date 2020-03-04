@@ -957,53 +957,6 @@ item>
 </item>
 
 
-<item>
-<title>NBC SN</title>
-<link>$doregex[getpage]|User-Agent=iPad&amp;Referer=http://imkmedia.com/watch/fox-sports-1/</link>
-<regex>
-<name>getpage</name>
-<expres>file:\s*'([^']+)</expres>
-<page>$doregex[createsession]</page>
-</regex>
-<regex>
-<name>createsession</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('http://imkmedia.com/watch/fox-sports-1/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
-<page></page>
-</regex>
-</item>
-
-
-
-<item>
-<title>•  [B]GO[/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param2] </title>
-<link>$doregex[getpage]|User-Agent=iPad&amp;Referer=http://imkmedia.com/</link>
-]]></listrepeat>
-<expres><![CDATA[title-link"\s*href="(.*?)".*?>(.*?)<]]></expres>
-<page>$doregex[createsessionhome]</page>
-</regex>
-<regex>
-<name>createsessionhome</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('http://imkmedia.com/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getpage</name>
-<expres>file:\s*'([^']+)</expres>
-<page>$doregex[createsession]</page>
-</regex>
-<regex>
-<name>createsession</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
-<page></page>
-</regex>
-</item>
-
-
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
