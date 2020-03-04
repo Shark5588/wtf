@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+<layouttype>-=Gith55=-</layouttype>
+
+<item>
+<title>[B][COLOR snow]•[/COLOR][COLOR lightyellow]•[/COLOR][COLOR fuchsia]XVIDEOS[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[<a href="(\/tags.+?)"><b>(.+?)<\/b><span]]></expres>
+<page>http://www.xvideos.com/tags</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[B][COLOR yellowgreen][makelist2.param3][/COLOR][/B]</title>
+        <link>$doregex[getsrcadult]</link>
+        <thumbnail>[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[div id.+<a href="(.+?)".+img src="(.+?)".+title="(.+?)">]]></expres>
+<page>http://www.xvideos.com[makelist.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getsrcadult</name>
+<expres><![CDATA[setVideoUrlHigh\('(.+?)'\)]]></expres>
+<page>http://www.xvideos.com[makelist2.param1]</page>
+</regex>
+<thumbnail>https://cdn.pling.com/img/d/3/4/1/d12e9051479c9648fe48541e9bd88b09abc8.png</thumbnail>
+<fanart>https://i.ibb.co/mb7mkSk/WTF-Jaws.jpg</fanart>
+</item>
+
