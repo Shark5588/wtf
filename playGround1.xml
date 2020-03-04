@@ -990,6 +990,119 @@ item>
 </regex>
 
 </item>
+
+
+<item>
+<title>[B]LIVE HOCKEY[/B]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>http://dahenchmen.org/images/sports/hockey.png</thumbnail>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>$doregex[geturl]</link>
+<thumbnail>http://dahenchmen.org/images/sports/hockey.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = ''):
+ import re
+ from resources.lib.modules import client
+
+ url = 'http://onhockey.tv/schedule_table_eng.php'
+
+ headers = {'X-Requested-With': 'XMLHttpRequest'}
+
+ r = client.request(url, headers=headers)
+ r = re.compile("<tr class='game'.*?\d{2}.*?<td>(.*?)\n.*?\n(.*?)</tr>", re.MULTILINE|re.DOTALL).findall(r)
+ r = [(i[0], re.compile("href='(.*?)'.*?>(.*?)</a>", re.MULTILINE|re.DOTALL).findall(i[1])) for i in r]
+ r = [(i[0], [(x[0], x[1]) for x in i[1] if '.m3u8' in x[0] or 'rtmp' in x[0] or x[1] in ['youtube', 'hdcast', 'broadcast']]) for i in r]
+ r = [(i[0], i[1][0][0]) for i in r if len(i[1]) > 0]
+
+ return r
+]]></expres>
+<page></page>
+</regex>
+
+<regex>
+<name>geturl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url = '[makelist.param2]'):
+ import requests, urllib, urlparse, re
+ from resources.lib.modules import client
+
+ page = url
+
+ try: return re.findall('(http(?:s|)://.+?\.m3u8(?:.+|))', page)[-1]
+ except: pass
+
+ try: return re.findall('(rtmp(?:s|)://.+)', page)[-1]
+ except: pass
+
+ try:
+  url = re.findall('youtube.*?channel=(.+)', page)[-1]
+  url = 'http://www.youtube.com/watch?v=%s' % url
+
+  url = client.request(url)
+  url = re.findall('"hlsvp"\s*:\s*"(.+?)"', url)[0]
+  url = urllib.unquote(url).replace('\\/', '/')
+
+  url = client.request(url)
+  url = url.replace('\n','')
+  url = re.findall('RESOLUTION\s*=\s*(\d*)x\d{1}.+?(http.+?\.m3u8)', url)
+
+  url = [(int(i[0]), i[1]) for i in url]
+  url.sort()
+  url = url[-1][1]
+
+  return url
+ except:
+  pass
+
+ try:
+  url = urlparse.urljoin('http://onhockey.tv', page)
+
+  u1 = client.request(url)
+  u1 = re.findall('(?:<iframe|<script) .+?src=(?:\"|\')(.+?)(?:\"|\')', u1)[0]
+  r1 = u1
+
+  u2 = client.request(u1, referer=url)
+  u2 = re.findall('fid="(.+?)".+?src="http://hdcast.org/', u2)[0]
+  u2 = 'http://hdcast.org/streamhd3.php?u=%s&vw=100%%&vh=100%%' % u2
+  r2 = u2
+
+  u3 = client.request(u2, referer=r1)
+  u3 = re.findall('src=(http.+?)\s', u3)[0]
+  r3 = u3
+
+  u4 = client.request(u3, referer=r2)
+  u4 = re.findall('file:"(.+?)"', u4)[0]
+
+  return u4
+ except:
+  pass
+
+ try:
+  url = urlparse.urljoin('http://onhockey.tv', page)
+
+  headers = {'Referer': 'http://onhockey.tv/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0'}
+
+  r = requests.get(url, headers=headers).text
+  r = re.findall('<iframe src="(.+?)"', r)[0]
+  headers['Referer'] = url
+  r = requests.get(r, headers=headers).text
+  r = re.findall('src=\'(.+?)\'', r)[0]
+  referer = r ; headers['Referer'] = r
+  r = requests.get(r, headers=headers).text
+  i = re.findall('id=\'(.+?)\'.+?src=\'http://static.bro.adca.st/', r)
+  if len(i) > 0 :
+   return 'http://bro.adca.st/stream.php?id=%s&cache=4&width=100%&height=100%&stretching=uniform&p=1&c=0&referer=%s' % (i[0], referer)
+ except:
+  pass
+]]></expres>
+<page></page>
+</regex>
+</item>
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
