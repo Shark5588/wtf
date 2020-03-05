@@ -943,7 +943,7 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[ 
-<title>[COLOR cran][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+<title>[COLOR cran][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <link>$doregex[makelist2]</link>
@@ -963,7 +963,7 @@ item>
     <thumbnail></thumbnail>
         <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 ]]></listrepeat>
-<expres>#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')</expres>
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
