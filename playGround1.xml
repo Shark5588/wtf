@@ -829,27 +829,6 @@ _______________________________________________
 </item>
 
 item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE Generator[/COLOR][COLORred] (5x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR lime]  Torrent [/COLOR] [makelist.param2]   </title>
-<link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres><![CDATA[location>(.*?)<{0,30}title>(.*?)<]]></expres>
-<page>https://pastebin.com/QW9UgAZa</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]1[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
 
@@ -984,7 +963,7 @@ item>
     <thumbnail></thumbnail>
         <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 ]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<expres>#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')</expres>
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -994,6 +973,7 @@ item>
 
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
 #(http://(.*)/.*)
+#EXTINF:-1,(.*?)\n(.*)
 #(r'#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
