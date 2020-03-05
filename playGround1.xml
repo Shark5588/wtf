@@ -958,18 +958,18 @@ item>
 
 <item>
 <title>[COLOR cyan]TESTING[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[ 
 <title>[COLOR cran][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>>(http://(.*)/.*)</expres>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/E62arX4W</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -979,17 +979,17 @@ item>
 <listrepeat><![CDATA[
     <title>[COLOR red][B]My[/B][/COLOR][COLOR green][B]Pastbine[/B][/COLOR]  [makelist2.param1]</title>
 	<thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
     <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist2.param1][/COLOR]</title></link>
     <thumbnail></thumbnail>
-        <fanart></fanart>
+        <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*)</expres>
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
