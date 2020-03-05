@@ -10,6 +10,7 @@
   <listrepeat><![CDATA[
         <title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
         <link>$doregex[makelist2]</link>
+		<thumbnail>https://i.ibb.co/hDDjtV9/milf.png</thumbnail>
 		<Fanart>https://skirkland3315.files.wordpress.com/2015/04/wpid-201474203411_blood-red-roses-sexy.jpg?w=660</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<a href="(\/tags.+?)"><b>(.+?)<\/b><span]]></expres>
