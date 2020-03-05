@@ -678,7 +678,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/E62arX4W</page>
-<referer></referer>&amp;type=m3u
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -969,7 +969,7 @@ item>
 <fanart></fanart>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://pastebin.com/raw/E62arX4W</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
