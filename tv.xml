@@ -20,6 +20,11 @@
 </dir>
 
 <dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Newest[/COLOR][/B]</title>
+  <imdburl>tvshows/new</imdburl>
+</dir>
+
+<dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Best Ratings[/COLOR][/B]</title>
   <imdburl>tvshows/rating</imdburl>
 </dir>
