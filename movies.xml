@@ -61,6 +61,11 @@ dir>
 </dir>
 
 <dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
+  <imdburl>movies/trending</imdburl>
+</dir>
+
+<dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Star Wars Collection[/COLOR][/B]</title>
   <tmdb>collection/10</tmdb>
 </dir>
