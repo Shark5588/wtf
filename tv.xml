@@ -20,6 +20,16 @@
 </dir>
 
 <dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Best Ratings[/COLOR][/B]</title>
+  <imdburl>tvshows/rating</imdburl>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Most Viewed[/COLOR][/B]</title>
+  <imdburl>tvshows/mostviews</imdburl>
+</dir>
+
+<dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Tv Collection [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
   <trakt>https://api.trakt.tv/sync/collection/shows</trakt>
 </dir>
