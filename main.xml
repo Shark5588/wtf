@@ -46,10 +46,15 @@
     <trakt>search</trakt>
   </dir>
 
-<dir>
+ <dir>
     <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue] T[/COLOR][COLORsnow]MDB [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
     <tmdb>search</tmdb>
   </dir>
+  
+ <dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue] I[/COLOR][COLORsnow]MDB [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+      <imdburl>searchseries</imdburl>
+    </dir>
   
 <plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] I[/COLOR][COLORlightslategray]PTV[/COLOR][COLORdeepskyblue] P[/COLOR][COLORlightslategray]lAyGrOuNd [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
