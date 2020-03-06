@@ -93,6 +93,11 @@
             <link>plugin://plugin.video.jaws/?action=openSettings</link>
         </plugin>
         
+        <item>
+             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Apply the Addon's Youtube API Keys to Kodi[/COLOR][/B]</title>
+             <ytapi>titleforyouapigoeshere/apikeygoeshere/clientgoeshere/secretgoeshere</ytapi>
+        </item>
+        
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Customization [/COLOR][/B]</title>
             <meta>
