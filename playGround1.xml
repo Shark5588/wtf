@@ -326,8 +326,8 @@
 <listrepeat><![CDATA[
 <title>[COLOR skyblue][B]$doregex[fixedTitle][/B][/COLOR]</title>
 <link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustv247.tv$doregex[getIframe]</link>
-<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</thumbnail>
-<fanart>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</fanart>
+<thumbnail>https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/38274521_291251861456740_8736440225728823296_n.png?_nc_cat=104&_nc_sid=85a577&_nc_ohc=54_Ox0HPCgoAX8yV2XO&_nc_ht=scontent-lga3-1.xx&oh=1c4376192467158d81006f5259b83c8b&oe=5E8EA82B</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
 <page>https://ustv247.tv</page>
@@ -360,8 +360,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-
-
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR] Down[/B]</title>
