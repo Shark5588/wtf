@@ -702,7 +702,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://m3u.website/fresh-updates-iptv-m3u-playlist-11-mar-2020-free-links-m3u-website/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
