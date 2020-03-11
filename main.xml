@@ -71,9 +71,9 @@
 	<link>https://raw.githubusercontent.com/Shark5588/wtf/master/settings_menu.xml</link>
 </dir>
 
-<plugin>
+plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORlightslategray] AfterHours[/COLOR][COLORred]([/COLOR][COLOR magenta] Adult [/COLOR][COLOR red])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
-	<link>plugin://plugin.video.live.streamspro/?mode=1&url=https://raw.githubusercontent.com/Shark5588/wtf/master/afterhours.xml</link>
+	<link>plugin://plugin.video.live.streamspro/?mode=1&url=</link>
   </plugin>
 
 <plugin>
