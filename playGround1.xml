@@ -316,8 +316,55 @@
 </regex>
 </item>
 
+
+
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue][B]$doregex[fixedTitle][/B][/COLOR]</title>
+<link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustv247.tv$doregex[getIframe]</link>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/37/31/ba/3731ba2dfa91ea1527f1c0044e3aae89.gif</fanart>
+]]></listrepeat>
+<expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
+<page>https://ustv247.tv</page>
+</regex>
+<regex>
+<name>fixedTitle</name>
+<expres>$pyFunction:('[makelist.param2]').replace('#038;','')</expres>
+<page>https://ustv247.tv</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getIframe</name>
+<expres>iframe\s*src=['"]([^'"]+)</expres>
+<page>[makelist.param1]</page>
+</regex>
+<regex>
+<name>getStream</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  sid=re.findall('file:\s*([^\(]+)',page_data)[0]
+  url,tok1,tok2=re.findall('%s[\w\W]*?return.+?\[(.*?)\].+?\+\s*([^\.]+).+?"(\w[^"]+)'%sid,page_data)[0]
+  rtmp=''.join(eval(url)).replace('\\','')
+  token=re.findall('var\s*%s.+?\[([^\]]+)'%tok1,page_data)[0];token=''.join(eval(token))
+  atoken=re.findall('id=%s>(.*?)<'%tok2,page_data)[0]
+  return '%s%s%s'%(rtmp,token,atoken)
+]]></expres>
+<page>https://ustv247.tv$doregex[getIframe]</page>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR] Down[/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
