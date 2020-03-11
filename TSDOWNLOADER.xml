@@ -54,13 +54,13 @@
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue] PlAyLiSt 9[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=http://sp3te.website:8080/get.php?username=live:alinhotfc&password=n2J5QTnoEp&type=m3u&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=http://albaniaiptv.info/iptv/ad-playlist-m3u-11-03-2020.m3u&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
 <plugin>
    <name>[B][COLORred]•[/COLOR][COLORblue] PlAyLiSt 10[/COLOR][/B]</name>
-   <link>plugin://plugin.video.live.streamspro/?mode=1&url=&amp;output=mpegts$$TSDOWNLOADER$$</link>
+   <link>plugin://plugin.video.live.streamspro/?mode=1&url=http://albaniaiptv.info/iptv/ad-playlist-m3u-11-03-2020-1.m3u&amp;output=mpegts$$TSDOWNLOADER$$</link>
    <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </plugin>
 
