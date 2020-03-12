@@ -34,6 +34,11 @@
     <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] W[/COLOR][COLORsnow]hatEver[/COLOR][COLORlightslategray] ! [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
     <link>https://bit.ly/2Qv6tn4</link>
   </dir>    
+  
+<dir>
+    <title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] M[/COLOR][COLORsnow]usic [/COLOR][COLORdeepskyblue] L[/COLOR][COLORsnow]astfm [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
+	<link>https://raw.githubusercontent.com/Shark5588/wtf/master/music.xml</link>
+  </dir>  
  
  plugin>
     <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] S[/COLOR][COLORsnow]earch [/COLOR][COLORdeepskyblue]([/COLOR][COLORsnow]InHouse[/COLOR][COLORdeepskyblue])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
@@ -71,12 +76,7 @@
 	<link>https://raw.githubusercontent.com/Shark5588/wtf/master/settings_menu.xml</link>
 </dir>
 
-plugin>
-    <name>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORlightslategray] AfterHours[/COLOR][COLORred]([/COLOR][COLOR magenta] Adult [/COLOR][COLOR red])[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</name>
-	<link>plugin://plugin.video.live.streamspro/?mode=1&url=</link>
-  </plugin>
-
-<plugin>
+ plugin>
     <name>Testings</name>
     <link>plugin://plugin.video.jaws/?action=developer</link>
     <summary>Testings</summary>
