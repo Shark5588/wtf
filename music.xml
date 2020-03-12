@@ -1,3 +1,15 @@
+
+
+<dir>
+  <title>[B][COLORsnow]•[/COLOR][COLORorangered] Search Artist[/COLOR][/B]</title>
+  <lastfm>search/artist</lastfm>
+</dir>
+
+<dir>
+  <title>[B][COLORsnow]•[/COLOR][COLORorangered] Search Album[/COLOR][/B]</title>
+  <lastfm>search/album</lastfm>
+</dir>
+    
 <dir>
   <title>[B][COLORsnow]•[/COLOR][COLORorangered] Blind Guardian Albums[/COLOR][/B]</title>
   <lastfm>artist/blind guardian/albums</lastfm>
@@ -19,6 +31,10 @@
   <lastfm>artist/iced earth/tracks</lastfm>
 </dir>
 
+<dir>
+  <title>[B][COLORsnow]•[/COLOR][COLORorangered] Top-Releases[/COLOR][/B]</title>
+  <lastfm>chart/top-releases</lastfm>
+</dir>
 
 <dir>
   <title>[B][COLORsnow]•[/COLOR][COLORorangered] Artist Chart[/COLOR][/B]</title>
@@ -49,3 +65,4 @@
   <title>[B][COLORsnow]•[/COLOR][COLORorangered] Metal Albums[/COLOR][/B]</title>
   <lastfm>tag/metal/albums</lastfm>
 </dir>
+
