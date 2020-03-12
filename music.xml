@@ -32,11 +32,6 @@
 </dir>
 
 <dir>
-  <title>[B][COLORsnow]•[/COLOR][COLORorangered] Top-Releases[/COLOR][/B]</title>
-  <lastfm>chart/releases</lastfm>
-</dir>
-
-<dir>
   <title>[B][COLORsnow]•[/COLOR][COLORorangered] Artist Chart[/COLOR][/B]</title>
   <lastfm>chart/artists</lastfm>
 </dir>
@@ -64,10 +59,5 @@
 <dir>
   <title>[B][COLORsnow]•[/COLOR][COLORorangered] Metal Albums[/COLOR][/B]</title>
   <lastfm>tag/metal/albums</lastfm>
-</dir>
-
-<dir>
-  <title>[B][COLORsnow]•[/COLOR][COLORorangered] Tag Country[/COLOR][/B]</title>
-  <lastfm>tag/country/albums</lastfm>
 </dir>
 
