@@ -30,7 +30,7 @@
 <link>http://dl8.hub30t.com/f/[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://dominicannetworkvideos.com/files/cinemas/</page>
+<page>https://server116.andy10gbit.xyz/files/Movies2019/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -48,8 +48,8 @@
 <link>https://server116.andy10gbit.xyz/files/Movies2019/[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>https://server116.andy10gbit.xyz/files/Movies2019/</page>
- 
+<page>http://dominicannetworkvideos.com/files/cinemas/</page>
+
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
