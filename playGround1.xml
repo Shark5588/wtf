@@ -228,6 +228,173 @@
 </regex> 
 </item>
 
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTV247 [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR skyblue][B]$doregex[fixedTitle][/B][/COLOR]</title>
+<link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustv247.tv$doregex[getIframe]</link>
+<thumbnail>https://images-eu.ssl-images-amazon.com/images/I/711Jm%2ByJcRL.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
+<page>https://ustv247.tv</page>
+</regex>
+<regex>
+<name>fixedTitle</name>
+<expres>$pyFunction:('[makelist.param2]').replace('#038;','')</expres>
+<page>https://ustv247.tv</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getIframe</name>
+<expres>iframe\s*src=['"]([^'"]+)</expres>
+<page>[makelist.param1]</page>
+</regex>
+<regex>
+<name>getStream</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  sid=re.findall('file:\s*([^\(]+)',page_data)[0]
+  url,tok1,tok2=re.findall('%s[\w\W]*?return.+?\[(.*?)\].+?\+\s*([^\.]+).+?"(\w[^"]+)'%sid,page_data)[0]
+  rtmp=''.join(eval(url)).replace('\\','')
+  token=re.findall('var\s*%s.+?\[([^\]]+)'%tok1,page_data)[0];token=''.join(eval(token))
+  atoken=re.findall('id=%s>(.*?)<'%tok2,page_data)[0]
+  return '%s%s%s'%(rtmp,token,atoken)
+]]></expres>
+<page>https://ustv247.tv$doregex[getIframe]</page>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR] Down[/B]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
+<link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustvgo.tv$doregex[getIframe]</link>
+<thumbnail>https://dl1.cbsistatic.com/i/2019/12/24/9d97ffc9-fa5a-4b58-b164-a9e5ca50e418/0ad453c514e6ebe5ee129d76e3d5dc29/imgingest-378481898297301903.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
+<page>$doregex[createSessionHome]</page>
+</regex>
+<regex>
+<name>createSessionHome</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('http://ustvgo.tv/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getStream</name>
+<expres>file:\s*'([^']+)</expres>
+<page>$doregex[createSessionCookie]</page>
+</regex>
+<regex>
+<name>createSessionCookie</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('http://ustvgo.tv$doregex[getIframe]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+<regex>
+<name>getIframe</name>
+<expres>iframe\s*src=['"]([^'"]+)</expres>
+<page>$doregex[createSession]</page>
+</regex>
+<regex>
+<name>createSession</name>
+<expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
+<page></page>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Sports.Stream [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR lime][makelist.param2] [COLOR dodgerblue][makelist.param1][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>https://i.ibb.co/k5kMwsx/Sport-iptv.png</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  url='http://yoursports.stream/games.js?x='+re.findall('src="(/games.js[^"]+)',page_data)[0]
+  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream','accept':'*/*'}).content
+  return re.findall('time:.([^\'"]+)..chan:.([^\'"]+)..url:.([^\'"]+)',source)
+]]></expres>
+<page>http://yoursports.stream</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
+  url='http://yoursports.stream'+re.findall('id=playframe.+?src="([^"]+)',page_data)[0]
+  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream/live?v=[makelist.param3]'}).content
+  return re.findall('atob.[\'"]([^\'"]+)',source)[0].decode('base64')+'|user-agent=ipad&referer='+url
+]]></expres>
+<page>http://yoursports.stream/live?v=[makelist.param3]</page>
+<referer>http://yoursports.stream</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] CRACKSTREAM [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param2][/COLOR]</title>
+  <link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('href="/(.*?)">([^\s]+)',re.findall('"nav navbar-nav">(?s)(.*?)</ul',page_data)[0])
+]]></expres>
+<page>http://crackstreams.com/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist2.param3][/COLOR]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>http://crackstreams.com/[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?s)href=[\'"]([^\'"]+).+?(imag[^\'"]+).+?media-heading.>([^<]+)',re.findall('Schedule</h1>(?s)(.*?)(?:"text-center|<h2)',page_data)[0])
+]]></expres>
+<page>http://crackstreams.com/[makelist.param1]</page>
+<referer>http://crackstreams.com/</referer>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  link=re.findall('<iframe.+?src=[\'"]([^\'"]+)',page_data)[0]
+  source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist2.param1]','accept':'*/*'}.content
+  return re.findall('id=.vid[\w\W]*?(?:source|src|file):\s*[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
+]]></expres>
+<page>[makelist2.param1]</page>
+<referer>http://crackstreams.com/[makelist.param1]</referer>
+</regex>
+</item>
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORmagenta] Fluxus Lust[/COLOR][COLORlime] ([/COLOR][COLORred] ADULT [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -316,179 +483,6 @@
 </regex>
 </item>
 
-
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTV247 [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR skyblue][B]$doregex[fixedTitle][/B][/COLOR]</title>
-<link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustv247.tv$doregex[getIframe]</link>
-<thumbnail>https://images-eu.ssl-images-amazon.com/images/I/711Jm%2ByJcRL.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
-<page>https://ustv247.tv</page>
-</regex>
-<regex>
-<name>fixedTitle</name>
-<expres>$pyFunction:('[makelist.param2]').replace('#038;','')</expres>
-<page>https://ustv247.tv</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getIframe</name>
-<expres>iframe\s*src=['"]([^'"]+)</expres>
-<page>[makelist.param1]</page>
-</regex>
-<regex>
-<name>getStream</name>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  sid=re.findall('file:\s*([^\(]+)',page_data)[0]
-  url,tok1,tok2=re.findall('%s[\w\W]*?return.+?\[(.*?)\].+?\+\s*([^\.]+).+?"(\w[^"]+)'%sid,page_data)[0]
-  rtmp=''.join(eval(url)).replace('\\','')
-  token=re.findall('var\s*%s.+?\[([^\]]+)'%tok1,page_data)[0];token=''.join(eval(token))
-  atoken=re.findall('id=%s>(.*?)<'%tok2,page_data)[0]
-  return '%s%s%s'%(rtmp,token,atoken)
-]]></expres>
-<page>https://ustv247.tv$doregex[getIframe]</page>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR] Down[/B]</title>
-<link>$doregex[makelist]</link>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
-<link>$doregex[getStream]|User-Agent=iPad&amp;Referer=https://ustvgo.tv$doregex[getIframe]</link>
-<thumbnail>https://dl1.cbsistatic.com/i/2019/12/24/9d97ffc9-fa5a-4b58-b164-a9e5ca50e418/0ad453c514e6ebe5ee129d76e3d5dc29/imgingest-378481898297301903.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[pis-title-link".*?["']([^"']+).*?>([^\<]+)]]></expres>
-<page>$doregex[createSessionHome]</page>
-</regex>
-<regex>
-<name>createSessionHome</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('http://ustvgo.tv/',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getStream</name>
-<expres>file:\s*'([^']+)</expres>
-<page>$doregex[createSessionCookie]</page>
-</regex>
-<regex>
-<name>createSessionCookie</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('http://ustvgo.tv$doregex[getIframe]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
-<page></page>
-</regex>
-<regex>
-<name>getIframe</name>
-<expres>iframe\s*src=['"]([^'"]+)</expres>
-<page>$doregex[createSession]</page>
-</regex>
-<regex>
-<name>createSession</name>
-<expres>$pyFunction:sucuri_cookie.createCookie('[makelist.param1]',Cookie_Jar,'Mozilla/5.0 (Windows NT 6.1; rv:14.0) Gecko/20100101 Firefox/14.0.1')</expres>
-<page></page>
-</regex>
-</item>
-
-
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Sports.Stream [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR lime][makelist.param2] [COLOR dodgerblue][makelist.param1][/COLOR]</title>
-  <link>$doregex[getUrl]</link>
-  <thumbnail>https://i.ibb.co/k5kMwsx/Sport-iptv.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  url='http://yoursports.stream/games.js?x='+re.findall('src="(/games.js[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream','accept':'*/*'}).content
-  return re.findall('time:.([^\'"]+)..chan:.([^\'"]+)..url:.([^\'"]+)',source)
-]]></expres>
-<page>http://yoursports.stream</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
-  url='http://yoursports.stream'+re.findall('id=playframe.+?src="([^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream/live?v=[makelist.param3]'}).content
-  return re.findall('atob.[\'"]([^\'"]+)',source)[0].decode('base64')+'|user-agent=ipad&referer='+url
-]]></expres>
-<page>http://yoursports.stream/live?v=[makelist.param3]</page>
-<referer>http://yoursports.stream</referer>
-</regex>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] CRACKSTREAM [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold][makelist.param2][/COLOR]</title>
-  <link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('href="/(.*?)">([^\s]+)',re.findall('"nav navbar-nav">(?s)(.*?)</ul',page_data)[0])
-]]></expres>
-<page>http://crackstreams.com/</page>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold][makelist2.param3][/COLOR]</title>
-  <link>$doregex[getUrl]</link>
-  <thumbnail>http://crackstreams.com/[makelist2.param2]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('(?s)href=[\'"]([^\'"]+).+?(imag[^\'"]+).+?media-heading.>([^<]+)',re.findall('Schedule</h1>(?s)(.*?)(?:"text-center|<h2)',page_data)[0])
-]]></expres>
-<page>http://crackstreams.com/[makelist.param1]</page>
-<referer>http://crackstreams.com/</referer>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  link=re.findall('<iframe.+?src=[\'"]([^\'"]+)',page_data)[0]
-  source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist2.param1]','accept':'*/*'}.content
-  return re.findall('id=.vid[\w\W]*?(?:source|src|file):\s*[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
-]]></expres>
-<page>[makelist2.param1]</page>
-<referer>http://crackstreams.com/[makelist.param1]</referer>
-</regex>
-</item>
-
-
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](1x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -502,7 +496,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://freem3ulist.com/free-iptv-m3u-playlist-download/</page>
-<referer></referer>#https://fr.m3uiptv.com/iptv-links-free-m3u-playlist-2020/
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -521,7 +515,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://mmorpgwarcraft.com/iptv-m3u-plalist.php</page>
+<page>https://freem3ulist.com/free-iptv-m3u-playlist-download/2/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -541,7 +535,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-11-03-2020/</page>
+<page>https://freem3ulist.com/free-iptv-m3u-playlist-download/3/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -561,7 +555,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.iptvurls.com/iptv-m3u-playlist-11-mar-2020/</page>
+<page>http://www.iptvurls.com/iptv-m3u-playlist-13-mar-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -581,7 +575,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-11-03-2020/</page>
+<page>https://iptvgratuit.xyz/m3u-iptv-list-iptv-links-free-13-03-2020/</page>
 <referer>https://iptvgratuit.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -601,14 +595,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-11-03-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-13-03-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](7x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -642,7 +635,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/amp/m3u-iptv-list-iptv-links-free-11-03-2020/</page>
+<page>https://iptvgratuit.xyz/amp/m3u-iptv-list-iptv-links-free-13-03-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -662,7 +655,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/free-iptv-links-11-03-2020/</page>
+<page>https://en.tousecurity.com/free-iptv-links-13-03-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -702,7 +695,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.website/fresh-updates-iptv-m3u-playlist-11-mar-2020-free-links-m3u-website/</page>
+<page>https://m3u.website/fresh-updates-iptv-m3u-playlist-13-mar-2020-free-links-m3u-website/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -722,7 +715,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/E62arX4W</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -742,7 +735,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.com/RdmF8GdK</page>
+<page>http://mmorpgwarcraft.com/iptv-m3u-plalist.php</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -750,34 +743,42 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-_______________________________________________
-◄◄◄◄= REGEX FOR CAPTURE IPTV LIST-Needs to be fix =►►►► 
-===============================================
-
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](14x) Needs to be fix [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](14x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLOR skyblue] [makelist.param1][/COLOR]</title>
-   <link>$doregex[makelist2]</link>
-   <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+     <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page>https://freem3ulist.com/free-iptv-m3u-playlist-download/</page>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-13-03-2020/</page>
+<referer></referer>
+<cookieJar></cookieJar>
 </regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
-   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
-   <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page>[makelist.param1]?get=download_m3u8</page>
-</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
 
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](15x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>https://pastebin.com/RdmF8GdK</page>
+<referer></referer>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
