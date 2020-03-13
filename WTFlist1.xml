@@ -99,7 +99,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[B][COLORorangered] [makelist.param1] [/COLOR][/B] </title>
-<link>[makelist.param2]</link>
+<link>[makelist1.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://stream.youp.lol/</page>
