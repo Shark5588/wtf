@@ -109,8 +109,8 @@
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 </item>
 
-item>
-<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 7x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Test [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<item>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLOR silver] Index[/COLOR][COLORsnow] •[/COLOR][COLOR red]Play[/COLOR][COLORsnow]•[/COLOR][COLOR orangered]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 7x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Test [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
@@ -125,4 +125,22 @@ item>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLOR silver] Index[/COLOR][COLORsnow] •[/COLOR][COLOR red]Play[/COLOR][COLORsnow]•[/COLOR][COLOR orangered]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 8x [COLORlime])[/COLOR][COLORlime]([/COLOR][COLORred] Test [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
+<link>$doregex[makelist0]</link>
+ 
+<regex>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[COLOR lightblue] [makelist0.param2] [/COLOR] </title>
+<link>plugin://plugin.video.elementum/play?uri=[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<page>https://pastebin.com/raw/9nN1kdsD</page>
+ 
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
