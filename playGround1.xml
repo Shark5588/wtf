@@ -271,7 +271,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR] Down[/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
