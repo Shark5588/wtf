@@ -635,7 +635,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvgratuit.xyz/amp/m3u-iptv-list-iptv-links-free-19-03-2020/</page>
+<page></page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -655,7 +655,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/free-iptv-links-19-03-2020/</page>
+<page>https://en.tousecurity.com/free-iptv-links-m3u-urls-19-03-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -775,7 +775,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/iptv-xtream-codes-account-login-free/</page>
+<page>https://m3u.website/fresh-updates-new-42-free-iptv-list-premium-worldsport-hd-sd-fhd-4k-channels-m3u-m3u8-playlist-19-03-2020-free-links-m3u-website/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
