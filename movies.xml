@@ -23,36 +23,43 @@
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
   <tmdb>movies/popular</tmdb>
+  <thumbnail></thumbnail>
 </dir>
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Now Playing Movies[/COLOR][/B]</title>
   <tmdb>movies/now_playing</tmdb>
+  <thumbnail></thumbnail>
 </dir>
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Top Rated Movies[/COLOR][/B]</title>
   <tmdb>movies/top_rated</tmdb>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Action Movies[/COLOR][/B]</title>
   <tmdb>genre/movies/28</tmdb>
-</dir>
-
-<dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
-  <imdburl>movies/trending</imdburl>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Star Wars Collection[/COLOR][/B]</title>
   <tmdb>collection/10</tmdb>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] List[/COLOR][/B]</title>
   <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
+  <imdburl>movies/trending</imdburl>
+  <thumbnail>http://actorstalkpodcast.com/wp-content/uploads/2012/04/IMDB-ipad.png</thumbnail>
 </dir>
 
 <plugin>
