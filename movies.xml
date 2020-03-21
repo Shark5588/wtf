@@ -1,13 +1,13 @@
 <xml>
 
 <dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Years[/COLOR][/B]</title>
-    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/movie-years.xml</link>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Years[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/wtf/master/movie-years.xml</link>
 </dir>
 
 <dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Genres[/COLOR][/B]</title>
-    <link>https://raw.githubusercontent.com/Shark5588/wtf/master/genre_movies.xml</link>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Movie Genres[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/wtf/master/genre_movies.xml</link>
 </dir>
 
 <plugin>
@@ -16,30 +16,10 @@
 </plugin> 
 
 <dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Boxsets[/COLOR][/B]</title>
-    <link>https://bit.ly/2rBpHik</link>
-</dir>
-
-<dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
-  <trakt>https://api.trakt.tv/movies/trending</trakt>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Boxsets[/COLOR][/B]</title>
+  <link>https://bit.ly/2rBpHik</link>
 </dir>
   
-<dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
-  <trakt>https://api.trakt.tv/movies/popular</trakt>
-</dir>
-
-<dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Movie Watchlist[/COLOR][/B]</title>
-  <trakt>https://api.trakt.tv/sync/watchlist/movies</trakt>
-</dir>
-
-<dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Movie Collection[/COLOR][/B]</title>
-  <trakt>https://api.trakt.tv/sync/collection/movies</trakt>
-</dir>
-
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
   <tmdb>movies/popular</tmdb>
