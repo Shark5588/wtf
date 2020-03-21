@@ -23,13 +23,13 @@
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
   <tmdb>movies/popular</tmdb>
-  <thumbnail></thumbnail>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
   <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Now Playing Movies[/COLOR][/B]</title>
   <tmdb>movies/now_playing</tmdb>
-  <thumbnail></thumbnail>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
