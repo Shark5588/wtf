@@ -1,5 +1,10 @@
 <xml>
 
+ <dir>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLOR red] S[/COLOR][COLORsnow]earch [/COLOR][COLOR red] T[/COLOR][COLORsnow]rakt [/COLOR][COLOR purple]•[/COLOR][COLOR yellowgreen]•[/COLOR][/B]</title>
+    <trakt>search</trakt>
+  </dir>
+
   <dir>
      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Movie Watchlist[/COLOR][/B]</title>
      <trakt>https://api.trakt.tv/sync/watchlist/movies</trakt>
