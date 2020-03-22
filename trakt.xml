@@ -68,40 +68,40 @@
   </dir>
   
   <dir>
-      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My TV Show Collection[/COLOR][/B]</title>
+      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My TV Show Collection[/COLOR][/B]</title>
       <trakt>https://api.trakt.tv/users/me/collection/shows</trakt>
 	  <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
       <summary>Your TV Show Collection</summary>
   </dir>
   
   <dir>
-      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My Watchlist[/COLOR][/B]</title>
+      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Watchlist[/COLOR][/B]</title>
       <trakt>https://api.trakt.tv/users/me/watchlist/</trakt>
 	  <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
       <summary>Your Watch List</summary>
   </dir>
   
   <dir>
-      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My Watchlist[/COLOR][/B]</title>
+      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Watchlist[/COLOR][/B]</title>
       <trakt>https://api.trakt.tv/sync/watchlist/shows</trakt>
       <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
       <summary>Your Watch List</summary>
   </dir>
   
   <dir>
-     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Reddit Top 250 (2019 Edition)[/COLOR][/B]</title>
+     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Reddit Top 250 (2019 Edition)[/COLOR][/B]</title>
      <trakt>https://api.trakt.tv/users/jay-greene/lists/reddit-top-250-2019-edition/items</trakt>
      <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
   </dir>
   
   <dir>
-     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] 2020 - Academy Awards[COLORred]([/COLOR][COLORlightslategray]Track[/COLOR][COLORred])[/COLOR][/B]</title>
+     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] 2020 - Academy Awards[/COLOR][/B]</title>
      <trakt>https://api.trakt.tv/users/andreofgyn/lists/2020-oscar-nominees-winners/items</trakt>
      <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
   </dir>
 
   <dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Rotten Tomatoes: Best of 2019[COLORred]([/COLOR][COLORlightslategray]Track[/COLOR][COLORred])[/COLOR][/B]</title>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Rotten Tomatoes: Best of 2019[/COLOR][/B]</title>
     <trakt>https://api.trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2019/items</trakt>
     <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
   </dir>
