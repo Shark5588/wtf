@@ -26,13 +26,6 @@
   </dir>
   
   <dir>
-    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Movie Collection[/COLOR][/B]</title>
-    <trakt>https://api.trakt.tv/sync/collection/movies</trakt>
-    <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
-    <summary>Your Movie Collection</summary>
-  </dir>
-
-  <dir>
     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]Trending TV Shows[/COLOR][/B]</title>
     <trakt>https://api.trakt.tv/shows/trending</trakt>
     <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
@@ -54,24 +47,31 @@
   </dir>
   
   <dir>
-      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My TV Show Collection[/COLOR][/B]</title>
-      <trakt>https://api.trakt.tv/users/me/collection/shows</trakt>
-	  <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
-      <summary>Your TV Show Collection</summary>
-  </dir>
-
-  <dir>
       <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My lists[/COLOR][/B]</title>
       <trakt>https://api.trakt.tv/users/me/lists/</trakt>
       <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
       <summary>Your Trakt Lists</summary>
   </dir>
-
+  
   <dir>
       <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My Liked Lists[/COLOR][/B]</title>
       <trakt>https://api.trakt.tv/users/likes/lists</trakt>
       <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
       <summary>Your Liked Lists</summary>
+  </dir>
+  
+  <dir>
+    <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Movie Collection[/COLOR][/B]</title>
+    <trakt>https://api.trakt.tv/sync/collection/movies</trakt>
+    <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
+    <summary>Your Movie Collection</summary>
+  </dir>
+  
+  <dir>
+      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow]My TV Show Collection[/COLOR][/B]</title>
+      <trakt>https://api.trakt.tv/users/me/collection/shows</trakt>
+	  <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
+      <summary>Your TV Show Collection</summary>
   </dir>
   
   <dir>
