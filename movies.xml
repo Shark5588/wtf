@@ -51,8 +51,20 @@ dir>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] List[/COLOR][/B]</title>
-  <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] TMDB List: Animal Kingdom[COLORred]([/COLOR][COLORlightslategray]TMDB[/COLOR][COLORred])[/COLOR][/B]</title>
+  <tmdb>list/13488</tmdb>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Shan Animated[COLORred]([/COLOR][COLORlightslategray]TMDB[/COLOR][COLORred])[/COLOR][/B]</title>
+  <tmdb>list/32947</tmdb>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
+</dir>
+
+<dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORsnow] Shark 55 List[COLORred]([/COLOR][COLORlightslategray]TMDB[/COLOR][COLORred])[/COLOR][/B]</title>
+  <tmdb>list/14018</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
@@ -68,5 +80,11 @@ dir>
   <fanart>https://www.studioef.cz/wp-content/uploads/2017/10/the-mag.png</fanart>
   <thumbnail>http://pluspng.com/img-png/mag-png-mag-png-550.png</thumbnail>
 </plugin>
+
+dir>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] List[/COLOR][/B]</title>
+  <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
+  <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
+</dir>
 
 </xml>
