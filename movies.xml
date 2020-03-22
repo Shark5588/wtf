@@ -21,68 +21,68 @@
 </dir>
   
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Popular Movies[/COLOR][/B]</title>
   <tmdb>movies/popular</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Now Playing Movies[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Now Playing Movies[/COLOR][/B]</title>
   <tmdb>movies/now_playing</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Top Rated Movies[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Top Rated Movies[/COLOR][/B]</title>
   <tmdb>movies/top_rated</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Action Movies[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Action Movies[/COLOR][/B]</title>
   <tmdb>genre/movies/28</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Star Wars Collection[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Star Wars Collection[/COLOR][/B]</title>
   <tmdb>collection/10</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow]  Animal Kingdom[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow]  Animal Kingdom[/COLOR][/B]</title>
   <tmdb>list/13488</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Shan Animated[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Shan Animated[/COLOR][/B]</title>
   <tmdb>list/32947</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Shark 55 List[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] TMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Shark 55 List[/COLOR][/B]</title>
   <tmdb>list/14018</tmdb>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
 
 <dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] IMDB [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORlightslategray] IMDB [/COLOR][COLORred])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
   <imdburl>movies/trending</imdburl>
   <thumbnail>https://www.userlogos.org/files/logos/mafi0z/IMDb.png</thumbnail>
 </dir>
 
 <plugin>
-  <name>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TORRENTS [/COLOR][COLORlime])[/COLOR][COLORsnow] THE MAG[/COLOR][/B]</name>
+  <name>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORred] TORRENTS [/COLOR][COLORred])[/COLOR][COLORsnow] THE MAG[/COLOR][/B]</name>
   <link>plugin://plugin.video.sports55classic/?fanart=https%3a%2f%2fwww.studioef.cz%2fwp-content%2fuploads%2f2017%2f10%2fthe-mag.png&amp;mode=1&amp;name=%5bB%5d%5bCOLOR%20yellowgreen%5d%e2%80%a2%5b%2fCOLOR%5d%5bCOLOR%20purple%5d%e2%80%a2%5b%2fCOLOR%5d%5bCOLORsnow%5d%20THE%20MAG%5b%2fCOLOR%5d%5bCOLORpurple%5dExperience%20Max%20Quality%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=https%3a%2f%2fpastebin.com%2fraw%2fXXCy2cGm&quot;,return</link>
   <fanart>https://www.studioef.cz/wp-content/uploads/2017/10/the-mag.png</fanart>
   <thumbnail>http://pluspng.com/img-png/mag-png-mag-png-550.png</thumbnail>
 </plugin>
 
 dir>
-  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] TMDB [/COLOR][COLORlime])[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] List[/COLOR][/B]</title>
+  <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORred] ([/COLOR][COLORred] TMDB [/COLOR][COLORred])[/COLOR][COLORred] ([/COLOR][COLORred] Trakt [/COLOR][COLORred])[/COLOR][COLORsnow] List[/COLOR][/B]</title>
   <link>https://raw.githubusercontent.com/Shark5588/wtf/master/lists.xml</link>
   <thumbnail>http://www.userlogos.org/files/logos/Vyp3R/TMDb.png</thumbnail>
 </dir>
