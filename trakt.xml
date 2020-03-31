@@ -7,12 +7,6 @@
   </dir>
 
   <dir>
-     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Movie Watchlist[/COLOR][/B]</title>
-     <trakt>https://api.trakt.tv/sync/watchlist/movies</trakt>
-     <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
-  </dir>
-  
-  <dir>
     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Trending Movies[/COLOR][/B]</title>
     <trakt>https://api.trakt.tv/movies/trending</trakt>
     <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
@@ -78,13 +72,6 @@
       <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Watchlist[/COLOR][/B]</title>
       <trakt>https://api.trakt.tv/users/me/watchlist/</trakt>
 	  <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
-      <summary>Your Watch List</summary>
-  </dir>
-  
-  <dir>
-      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] My Watchlist[/COLOR][/B]</title>
-      <trakt>https://api.trakt.tv/sync/watchlist/shows</trakt>
-      <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
       <summary>Your Watch List</summary>
   </dir>
   
