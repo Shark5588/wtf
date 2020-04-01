@@ -75,6 +75,12 @@
       <summary>Your Watch List</summary>
   </dir>
   
+    <dir>
+     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Action Movies (2000 To 2020)[/COLOR][/B]</title>
+     <trakt>https://api.trakt.tv/users/fresnobiker/lists/action-movies-2000-to-2020</trakt>
+     <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
+  </dir>
+  
   <dir>
      <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Reddit Top 250 (2019 Edition)[/COLOR][/B]</title>
      <trakt>https://api.trakt.tv/users/jay-greene/lists/reddit-top-250-2019-edition/items</trakt>
