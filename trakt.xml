@@ -76,10 +76,10 @@
   </dir>
   
     <dir>
-     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] Amazon Prime's Top 250 Films[/COLOR][/B]</title>
-     <trakt>https://api.trakt.tv/users/fresnobiker/lists/amazon-prime-s-top-250-films/items</trakt>
+     <title>[B][COLOR yellowgreen]•[/COLOR][COLOR purple]•[/COLOR][COLORlime] ([/COLOR][COLORred] Trakt [/COLOR][COLORlime])[/COLOR][COLORsnow] 4k-Releases[/COLOR][/B]</title>
+     <trakt>https://api.trakt.tv/users/phlexall/lists/4k-releases/items</trakt>
      <thumbnail>https://kodi.tv/sites/default/files/styles/medium_crop/public/addon_assets/script.trakt/icon/icon.png?itok=1Io9_3Xl</thumbnail>
-     <summary>This list is Amazon Prime's Top 250 films voted by Rotten Tomatoes as of March 2020</summary>
+     <summary></summary>
   </dir>
   
     <dir>
