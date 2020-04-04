@@ -421,6 +421,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>https://fluxustv.blogspot.com/p/iptv.html</page>
 </regex>
 </item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus Cinema[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
+<link>ignore-me</link>
+<externallink>$doregex[iptvLink]</externallink>
+<regex>
+<name>iptvLink</name>
+<expres>id="myInput1".+?value="([^"]+)</expres>
+<page>https://fluxuscinema.blogspot.com/p/m3u-remote-playlists.html</page>
+</regex>
+</item>
 	 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus France [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
