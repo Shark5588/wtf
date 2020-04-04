@@ -460,7 +460,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>iptvLink</name>
 <expres>id="myInput1".+?value="([^"]+)</expres>
-<page>https://fluxustv.blogspot.com/p/iptv.html</page>
+<page>https://fluxustv.blogspot.com/p/m3u-list.html</page>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
