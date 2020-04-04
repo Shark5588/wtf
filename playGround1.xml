@@ -445,28 +445,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-   <title>[COLOR gold][makelist.param2][/COLOR]</title>
-   <link>[makelist.param3]|user-agent=ipad</link>
-   <thumbnail>[makelist.param1]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[tvg-logo="(.*?)"\s*group-title="USA",(.*)\n(.*)]]></expres>
-<page>$doregex[iptvLink]</page>
-</regex>
-<regex>
-<name>iptvLink</name>
-<expres>id="myInput1".+?value="([^"]+)</expres>
-<page>https://fluxustv.blogspot.com/p/iptv.html</page>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus UK [/COLOR][COLORred](R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
