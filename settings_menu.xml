@@ -87,26 +87,26 @@
             <pairwith>pairlist</pairwith>
         </item>
         
+                <plugin>
+            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Customization [/COLOR][/B]</title>
+            <meta>
+                <summary>Open the Settings for the addon on the Customization tab</summary>
+            </meta>
+            <mysettings>0/0</mysettings>
+        </plugin> 
+        
         <plugin>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Settings[/COLOR][/B]</title>
             <meta>
             <link>plugin://plugin.video.jaws/?action=openSettings</link>
         </plugin>
         
-        <item>
+        item>
              <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Apply the Addon's Youtube API Keys to Kodi[/COLOR][/B]</title>
              <ytapi>titleforyouapigoeshere/apikeygoeshere/clientgoeshere/secretgoeshere</ytapi>
         </item>
         
-        <plugin>
-            <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] Customization [/COLOR][/B]</title>
-            <meta>
-                <summary>Open the Settings for the addon on the Customization tab</summary>
-            </meta>
-            <mysettings>0/0</mysettings>
-        </plugin>        
-        
-        <item>
+        item>
             <title>[B][COLOR snow]•[/COLOR][COLOR lime]•[/COLOR][COLORlightslategray] YOUTUBE: Live and CAMS Fix[/COLOR][/B]</title>
             <meta>
                 <summary>Apply fix for YouTube Live playback issues and if you have problems with CAMS</summary>
