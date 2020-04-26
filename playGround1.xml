@@ -755,7 +755,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-26-04-2020/</page>
+<page>https://www.mmorpgwarcraft.com/daily-iptv-playlist.php</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -775,7 +775,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvsrc.net/2020/04/daily-iptv-m3u-playlist-25-april-2020.html</page>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-26-04-2020/</page>
+<referer>https://t.me/s/zaltvcode?before=5785</referer>
+<cookieJar>https://t.me/s/zaltvcode</cookieJar>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](16x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+     <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
+    <link>NA</link>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>http://www.filmover.site/iptv-playlist.php</page>
 <referer>https://t.me/s/zaltvcode?before=5785</referer>
 <cookieJar>https://t.me/s/zaltvcode</cookieJar>
 </regex>
