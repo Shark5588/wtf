@@ -615,8 +615,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://fr.m3uiptv.com/m3u-playlist-url-free-download-2020/</page>
-<referer>https://fr.m3uiptv.com/</referer>
+<page>http://www.filmover.site/iptv-playlist.php</page>
+<referer>https://fr.m3uiptv.com/m3u-playlist-url-free-download-2020/</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
