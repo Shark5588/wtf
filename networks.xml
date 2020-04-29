@@ -8,31 +8,14 @@
 </dir>
 
 <dir>
-	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Schedule[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
-	<tvmaze>schedule</tvmaze>
-</dir>
-
-<dir>
 	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] All Networks[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
 	<tvmaze>country/all</tvmaze>
-</dir>
-
-dir>
-	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Shows[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
-	<tvmaze>shows</tvmaze>
 </dir>
 
 <dir>
 	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Web Channels[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
 	<tvmaze>web_channel/1</tvmaze>
 </dir>
-
-dir>
-	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORyellow] Disney+[/COLOR][COLORdeepskyblue] (TvMaze) [/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
-	<tvmaze>web_channel/all</tvmaze>
-</dir>
-
-
 
 <dir>
 	<title>[B][COLOR snow]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue]A&E[/COLOR][COLOR yellow]•[/COLOR][COLOR snow]•[/COLOR][/B]</title>
