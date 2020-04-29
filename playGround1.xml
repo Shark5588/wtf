@@ -270,7 +270,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-
+############################################### Broke ###################################
+<!--
 item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR] Down[/B]</title>
 <link>$doregex[makelist]</link>
@@ -313,6 +314,47 @@ item>
 <page></page>
 </regex>
 </item>
+-->
+
+
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR red]USA |[COLOR gold] [makelist.param2] ([COLOR cadetblue]SD[/COLOR])[/COLOR]</title>
+<link>$doregex[getUrl]|User-Agent=iPad&amp;Referer=https://ustvgo.tv/</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51RZSum5msL.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[<strong.+?"([^"]+)">([^<]+)]]></expres>
+<page>https://ustvgo.tv</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+  import re
+  part1, par2, par3 = re.findall('return.+?"([^\]]+).+?\+\s*([^.]+).+?\+[^"]+"([^"]+)', page_data)[0]
+  part2 = re.findall('var\s*{0}\s*=\s*\["([^]]+)'.format(par2), page_data)[0].replace('","','')[:-1]
+  part3 = re.findall('id={0}>([^<]+)'.format(par3), page_data)[0]
+  return part1[:-1].replace('","','').replace('\\','') + part2 + part3
+]]></expres>
+<page>https://ustvgo.tv$doregex[getPHP]</page>
+<referer>https://ustvgo.tv/</referer>
+</regex>
+<regex>
+<name>getPHP</name>
+<expres>iframe\s*src='([^']+)</expres>
+<page>[makelist.param1]</page>
+</regex>
+</item>
+
+
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Sports.Stream [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
