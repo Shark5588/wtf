@@ -917,7 +917,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://freem3ulist.com/free-xtream-codes-iptv/6/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-03-05-02020/</page>
 <referer>https://t.me/s/zaltvcode?before=5785</referer>
 <cookieJar>https://t.me/s/zaltvcode</cookieJar>
 </regex>
