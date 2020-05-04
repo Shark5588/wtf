@@ -877,7 +877,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://freem3ulist.com/free-xtream-codes-iptv/4/</page>
+<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-03-05-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -897,8 +897,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-04-05-2020/</page>
-<referer>https://freem3ulist.com/</referer>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-04-05-2020/</page>
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -917,7 +917,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-04-05-02020/</page>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codes-04-05-2020/</page>
 <referer>https://t.me/s/zaltvcode?before=5785</referer>
 <cookieJar>https://t.me/s/zaltvcode</cookieJar>
 </regex>
