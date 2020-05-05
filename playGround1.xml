@@ -332,7 +332,7 @@ item>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[<strong.+?"([^"]+)">([^<]+)]]></expres>
-<page>https://ustvgo.tv</page>
+<page>http://myustv.com/</page>https://ustvgo.tv
 </regex>
 <regex>
 <name>getUrl</name>
@@ -345,7 +345,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   return part1[:-1].replace('","','').replace('\\','') + part2 + part3
 ]]></expres>
 <page>https://ustvgo.tv$doregex[getPHP]</page>
-<referer>https://ustvgo.tv/</referer>
+<referer>http://myustv.com/</referer>
 </regex>
 <regex>
 <name>getPHP</name>
