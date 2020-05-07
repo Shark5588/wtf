@@ -937,7 +937,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
-<page>http://91.92.66.82/trash/ttv-list/acelive/as_cid_741776.acelive</page>
+<page>http://91.92.66.82/trash/ttv-list/AceLiveList.php</page>
 <referer></referer>
  
 </regex>
