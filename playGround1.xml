@@ -937,7 +937,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
-<page>http://91.92.66.82/trash/ttv-list/AceLiveList.php</page>
+<page>http://91.92.66.82/trash/ttv-list/ace.all.iproxy.xspf</page>
 <referer></referer>
  
 </regex>
@@ -1043,7 +1043,7 @@ item>
 <info></info>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
