@@ -948,13 +948,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime][B]  Torrent [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+<title>[COLOR lime][B]  Torrent [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
 <link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
 <expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
-<page>http://91.92.66.82/trash/ttv-list/as.sport.proxy.m3u</page>
+<page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
 <referer></referer>
  
 </regex>
