@@ -18,10 +18,18 @@
 	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] As.Sport [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 	<link>http://ignorame</link>
-	<externallink></externallink>
+	<externallink>http://91.92.66.82/trash/ttv-list/as.sport.proxy.m3u</externallink>
+	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] As.Sport [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+	<link>http://ignorame</link>
+	<externallink>http://91.92.66.82/trash/ttv-list/as.sport.iproxy.m3u</externallink>
 	<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
@@ -948,7 +956,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime]  Torrent [/COLOR] [makelist.param2]   </title>
+<title>[COLOR lime][B]  Torrent [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
 <link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
