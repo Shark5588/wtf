@@ -943,7 +943,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (1x sport.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (1x All.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -953,8 +953,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
+<expres>EXTINF.*?,(.*?)\acestream://(.*)</expres>
+<page>http://91.92.66.82/trash/ttv-list/as.all.player.m3u</page>
 <referer></referer>
  
 </regex>
@@ -964,18 +964,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (2x All.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (2x sport.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
+<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=My+acestream+channel</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
 <expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.all.player.m3u</page>
+<page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
 <referer></referer>
  
 </regex>
