@@ -949,11 +949,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
+<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Adryanlist+Arenavision</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
+<expres>#EXTINF.*?,(.*?)\nacestream://(.*)</expres>
 <page>http://91.92.66.82/trash/ttv-list/as.all.player.m3u</page>
 <referer></referer>
  
@@ -975,7 +975,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 ]]></listrepeat>
 <expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
+<page>http://91.92.66.82/trash/ttv-list/as.sport.iproxy.m3u</page>
 <referer></referer>
  
 </regex>
