@@ -953,7 +953,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
+<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
 <page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
 <referer></referer>
  
