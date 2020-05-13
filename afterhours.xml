@@ -37,3 +37,24 @@
 <fanart>https://ilikecomix.com/comics/2017/06/The-Dossier-012-15.jpg</fanart>
 </item>
 
+<item>
+<title>[B][COLOR snow]•[/COLOR][COLOR lightyellow]•[/COLOR][COLOR fuchsia]Acestreams 18+[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
+<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
+<page>http://91.92.66.82/trash/ttv-list/ace.all.player.m3u</page>
+<referer></referer>
+ 
+</regex>
+<thumbnail>http://plannersweb.com/wp-content/uploads/2003/07/Xxx-Adult-Rubber-Stamp-square.jpg</thumbnail>
+  <fanart>https://ilikecomix.com/comics/2017/06/The-Dossier-012-15.jpg</fanart>
+<info>acestream,acelive</info>
+</item>
+
