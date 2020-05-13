@@ -46,20 +46,20 @@
 <title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
 <link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
 <thumbnail>https://i.ibb.co/hDDjtV9/milf.png</thumbnail>
-<fanart>http://upfrontpolitics.com/wp-content/uploads/2017/02/Is-having-Sex-in-Porn-safer-than-the-street.png</fanart>
+<fanart>https://cdn.pixabay.com/photo/2019/08/26/12/32/abstract-4431599_960_720.jpg</fanart>
 ]]></listrepeat>
 <expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
 <page>http://91.92.66.82/trash/ttv-list/ace.all.player.m3u</page>
 <referer></referer>
  
 </regex>
-<thumbnail>http://plannersweb.com/wp-content/uploads/2003/07/Xxx-Adult-Rubber-Stamp-square.jpg</thumbnail>
+<thumbnail>http://www.pornlogos.com/wp-content/uploads/2012/03/Untitled-1.png</thumbnail>
   <fanart>https://ilikecomix.com/comics/2017/06/The-Dossier-012-15.jpg</fanart>
 <info>acestream,acelive</info>
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORmagenta] Fluxus Lust[/COLOR][COLORlime] ([/COLOR][COLORred] ADULT [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORmagenta] Fluxus Lust[/COLOR][/B]</title>
 <link>ignore-me</link>
 <externallink>$doregex[iptvLink]</externallink>
 <regex>
@@ -67,7 +67,7 @@
 <expres>id="myInput1".+?value="([^"]+)</expres>
 <page>https://fluxuslust.blogspot.com/p/playlist.html</page>
 </regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<thumbnail>http://www.pornlogos.com/wp-content/uploads/2012/03/Untitled-1.png</thumbnail>
 <fanart>https://ilikecomix.com/comics/2017/06/The-Dossier-012-15.jpg</fanart>
 </item>
 
