@@ -943,13 +943,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (1x All.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (1x All.players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=Adryanlist+Arenavision</link>
+<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
@@ -964,10 +964,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (2x sport.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (2x Sport players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
-<name>makelist</name>a25e4b08b4aad2300697ac92780d601a344a4d81
+<name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
 <link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
@@ -985,18 +985,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (3x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (3x Ace all players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime]  Torrent [/COLOR] [makelist.param2]   </title>
-<link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=1&amp;name=List[makelist.param2]</link>
+<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
+<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
-<expres><![CDATA[location>(.*?)<[\w\W\s]{0,30}title>(.*?)<]]></expres>
-<page>http://91.92.66.82/trash/ttv-list/allfon.all.player.xspf</page>
+<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
+<page>http://91.92.66.82/trash/ttv-list/ace.all.player.m3u</page>
 <referer></referer>
  
 </regex>
