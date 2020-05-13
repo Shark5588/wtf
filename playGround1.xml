@@ -967,15 +967,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORlime] ACE TV[/COLOR][COLORred] (2x sport.player) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
-<name>makelist</name>
+<name>makelist</name>a25e4b08b4aad2300697ac92780d601a344a4d81
 <listrepeat><![CDATA[
 <title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>plugin://program.plexus/?url=[makelist.param2]&amp;mode=1&amp;name=My+acestream+channel</link>
+<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 ]]></listrepeat>
 <expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.sport.iproxy.m3u</page>
+<page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
 <referer></referer>
  
 </regex>
