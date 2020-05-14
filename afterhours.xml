@@ -38,6 +38,41 @@
 </item>
 
 <item>
+<title>[B][COLOR snow]•[/COLOR][COLOR lightyellow]•[/COLOR][COLOR fuchsia]test[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR lime][B][makelist.param2][/B][/COLOR]</title>
+        <link>$doregex[makelist2]</link>
+		<thumbnail>https://i.ibb.co/hDDjtV9/milf.png</thumbnail>
+		<Fanart>https://skirkland3315.files.wordpress.com/2015/04/wpid-201474203411_blood-red-roses-sexy.jpg?w=660</fanart>
+]]></listrepeat>
+<expres><![CDATA[<a href="(\/porntags.+?)"><b>(.+?)<\/b><span]]></expres>
+<page>https://www.youporn.com/porntags/</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+  <name>makelist2</name>
+  <listrepeat><![CDATA[
+        <title>[B][COLOR yellowgreen][makelist2.param3][/COLOR][/B]</title>
+        <link>$doregex[getsrcadult]</link>
+        <thumbnail>[makelist2.param2]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[div id.+<a href="(.+?)".+img src="(.+?)".+title="(.+?)">]]></expres>
+<page>https://www.youporn.com[makelist.param1]</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getsrcadult</name>
+<expres><![CDATA[setVideoUrlHigh\('(.+?)'\)]]></expres>
+<page>https://www.youporn.com[makelist2.param1]</page>
+</regex>
+<thumbnail>https://cdn.pling.com/img/d/3/4/1/d12e9051479c9648fe48541e9bd88b09abc8.png</thumbnail>
+<fanart>https://ilikecomix.com/comics/2017/06/The-Dossier-012-15.jpg</fanart>
+</item>
+
+<item>
 <title>[B][COLOR snow]•[/COLOR][COLOR lightyellow]•[/COLOR][COLOR fuchsia]Acestreams 18+[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
