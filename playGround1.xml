@@ -1298,9 +1298,9 @@ item>
 <link>$doregex[makelist]</link>
 
 <regex>
-<name>makelist</name>
+<name>makelist</name>[COLOR lime][B]Server [/B][/COLOR] 
 <listrepeat><![CDATA[
- <title>[COLOR red]M3U [/COLOR][COLOR orange ][makelist.param1][/COLOR]</title>
+ <title>[COLOR red]M3U [/COLOR][COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
  <link>$doregex[makelist]</link>
  <thumbnail></thumbnail>
  <fanart></fanart>
