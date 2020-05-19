@@ -342,7 +342,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     fdata +=re.findall('td-module-thumb.+?href="([^"]+).+?title="([^"]+).+?src="([^"]+)',jdata);pn +=1
   return fdata
 ]]></expres>
-<page>http://imkmedia.com/</page>
+<page>http://myustv.com/</page>
 </regex>
 <regex>
 <name>getUrl</name>
