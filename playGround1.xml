@@ -318,43 +318,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] My U.S.TV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR red]Down[/COLOR][/B]</title>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR red]USA |[COLOR gold] [makelist.param2] ([COLOR cadetblue]SD[/COLOR])[/COLOR]</title>
-  <link>$doregex[getUrl]</link>
-  <thumbnail>https://images-eu.ssl-images-amazon.com/images/I/711Jm%2ByJcRL.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  count=7;pn=1;fdata=[]
-  while pn <= int(count):
-    url,bnonce,tdatts,tdblock=re.findall('(?s)var td_ajax_url="([^"]+).+?tdBlockNonce="([^"]+).+?atts.+?[\'"](\{[^\}]+).+?block_type.+?[\'"]([^\'"]+)',page_data)[0];url=url.replace('\\','')
-    data={'action':'td_ajax_block','td_atts':tdatts,'td_column_number':'3','td_current_page':str(pn),'block_type':tdblock,'td_filter_value':'','td_user_action':'','td_magic_token':bnonce}
-    jdata=requests.post(url,headers={'user-agent':'Mozilla/5.0','host':'imkmedia.com','referer':'http://imkmedia.com/','x-requested-with':'XMLHttpRequest','accept':'*/*'},data=data).json()['td_data'].replace('#038;','')
-    fdata +=re.findall('td-module-thumb.+?href="([^"]+).+?title="([^"]+).+?src="([^"]+)',jdata);pn +=1
-  return fdata
-]]></expres>
-<page>http://myustv.com/</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
-  return re.findall('id=.player[\w\W]+?atob.[\'"]([^\'"]+)',page_data)[0].decode('base64')+'|user-agent=ipad&referer=[makelist.param1]'
-]]></expres>
-<page>[makelist.param1]</page>
-<referer>http://imkmedia.com/</referer>
-</regex>
-</item>
+
 ############################################### Broke ###################################
 <!--
 item>
