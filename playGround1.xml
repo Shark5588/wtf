@@ -263,7 +263,7 @@
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>$pyFunction:'[COLOR gold][makelist2.param3][makelist2.param4][makelist2.param5][makelist2.param6]  [/COLOR]'.replace('Active','[COLOR green][B]Active[/B][COLOR]').replace('Disabled','[COLOR silver]Disabled[COLOR]').replace('Banned ','[COLOR red]Banned [COLOR]')</title>
+<title>$pyFunction:'[COLOR gold][makelist2.param2][makelist2.param3][makelist2.param4][makelist2.param5][makelist2.param6]  [/COLOR]'.replace('Active','[COLOR green][B]Active[/B][COLOR]').replace('Disabled','[COLOR silver]Disabled[COLOR]').replace('Banned ','[COLOR red]Banned [COLOR]')</title>
 <link>NA</link>
 <info>[COLOR yellow][makelist2.param7] [/COLOR] -[COLOR coral] [makelist2.param8][/COLOR]</info>
 <externallink>[makelist2.param2]$$TSDOWNLOADER$$</externallink>
