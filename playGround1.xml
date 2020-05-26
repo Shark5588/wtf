@@ -275,7 +275,7 @@
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
   </item>
 
-tem>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-4 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist1]</link>
 
@@ -287,7 +287,7 @@ tem>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[44336\'>(.*?)<.*?href='(.*?)']]></expres>
-<page>http://iptvhit.com/freeiptv</page>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codes-23-05-2020/</page>
 </regex>
 
 <regex>
