@@ -927,11 +927,11 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[         
-<title>[COLOR lime][B]Link [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
+<title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.filmover.site/iptv-m3u.php</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-28-05-2020/</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
@@ -963,7 +963,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-17-05-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-28-05-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
