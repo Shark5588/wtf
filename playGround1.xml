@@ -400,8 +400,7 @@ item>
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR red]•[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[#$pyFunction
@@ -420,8 +419,8 @@ return 'https://peer%s.ustv24h.live/ABC/myStream/playlist.m3u8?wmsAuthSign=%s%s|
 <page>https://ustvgo.tv/abc-live-streaming-free/</page>
 <referer>https://ustvgo.tv/</referer>
 </regex>
-<thumbnail>http://channelpear.com/images/media/2730.jpg</thumbnail>
-<fanart>http://channelpear.com/images/media/2730.jpg</fanart>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 
