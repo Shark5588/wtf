@@ -398,39 +398,30 @@ item>
 
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR red]Down[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR red]•[/COLOR][/B]</title>
+<link>$doregex[getUrl]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red]USA |[COLOR gold] [makelist.param2] ([COLOR cadetblue]SD[/COLOR])[/COLOR]</title>
-<link>$doregex[getUrl]|User-Agent=iPad&amp;Referer=https://ustvgo.tv/</link>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51RZSum5msL.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[<strong.+?"([^"]+)">([^<]+)]]></expres>
-<page>https://ustvgo.tv</page>
-</regex>
-<regex>
 <name>getUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-  import re
-  part1, par2, par3 = re.findall('return.+?"([^\]]+).+?\+\s*([^.]+).+?\+[^"]+"([^"]+)', page_data)[0]
-  part2 = re.findall('var\s*{0}\s*=\s*\["([^]]+)'.format(par2), page_data)[0].replace('","','')[:-1]
-  part3 = re.findall('id={0}>([^<]+)'.format(par3), page_data)[0]
-  return part1[:-1].replace('","','').replace('\\','') + part2 + part3
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+link='https://ustvgo.tv/'+re.findall('(player.php[^\'"]+)',page_data)[0]
+list=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'https://ustvgo.tv/abc-live-streaming-free/'}).content
+source=re.findall('id=.player(?s)(.*?)</body',list)[0]
+player=re.findall('(?:source|file):\s*([^\(]+)',source)[0]
+html_list,gtok,tok2=re.findall('(?s)%s.+?return.+?\]=([^\(]+).+?\)\+([^\]\[]+).+?\]\([\'"]([^\'"]+)'%player,source)[0]
+tok=re.findall('%s.+?\[("[^\]]+)'%gtok,source)[0];token=''.join(eval(tok))
+token2=re.findall('id=%s>([^<]+)'%tok2,list)[0]
+ghtml=re.findall('case.+?:\s*return\s*"([^"]+)',re.findall('%s(?s)(.*?)\}\}'%html_list,source)[0])
+return 'https://peer%s.ustv24h.live/ABC/myStream/playlist.m3u8?wmsAuthSign=%s%s|user-agent=ipad&referer=https://ustvgo.tv/'%(ghtml[8],token,token2)
 ]]></expres>
-<page>https://ustvgo.tv$doregex[getPHP]</page>
+<page>https://ustvgo.tv/abc-live-streaming-free/</page>
 <referer>https://ustvgo.tv/</referer>
 </regex>
-<regex>
-<name>getPHP</name>
-<expres>iframe\s*src='([^']+)</expres>
-<page>[makelist.param1]</page>
-</regex>
+<thumbnail>http://channelpear.com/images/media/2730.jpg</thumbnail>
+<fanart>http://channelpear.com/images/media/2730.jpg</fanart>
 </item>
 
 
