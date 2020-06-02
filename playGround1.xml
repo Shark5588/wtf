@@ -400,7 +400,6 @@ item>
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] USTVGO [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR red]•[/COLOR][/B]</title>
 <link>$doregex[getUrl]</link>
-
 <regex>
 <name>getUrl</name>
 <expres><![CDATA[#$pyFunction
