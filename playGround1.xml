@@ -811,7 +811,8 @@ item>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] </title>
-<link>$doregex[makelist2]</link>
+    <link>NA</link>
+    <externallink>[makelist2]</externallink>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
 <page>https://iptvxtreamcodes.com/iptv-xtream-codes-31-05-2020/</page>
