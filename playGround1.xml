@@ -296,11 +296,11 @@
    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=RSIPTV [makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
 <expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page>[makelist.param1]?get=download_m3u8</page>
+<page>[makelist.param1]?get=download_m3u</page>
 </regex>
 <regex>
 <name>getUrl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
+<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|user-agent=ipad</expres>
 <page></page>
 <cookieJar></cookieJar>
 </regex>
