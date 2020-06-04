@@ -275,7 +275,7 @@
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
   </item>
 
-tem>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-4 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist1]</link>
 
@@ -287,7 +287,7 @@ tem>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[44336\'>(.*?)<.*?href='(.*?)']]></expres>
-<page>https://iptvxtreamcodes.com/iptv-xtream-codes-23-05-2020/</page>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codes-31-05-2020/</page>
 </regex>
 
 <regex>
@@ -676,7 +676,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-03-06-2020/</page>
+<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-04-06-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -696,7 +696,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-03-06-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-04-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -716,7 +716,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-03-06-2020/</page>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-04-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -814,7 +814,8 @@ item>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.iptvlinksfree.com/wp-content/uploads/2020/05/Free-iptv-22-5-2020.txt</page>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codes-31-05-2020/</page>
+<referer>https://www.iptvlinksfree.com/wp-content/uploads/2020/05/Free-iptv-22-5-2020.txt</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
