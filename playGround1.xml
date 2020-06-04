@@ -296,7 +296,7 @@
    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=RSIPTV [makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
 ]]></listrepeat>
 <expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page>[makelist.param1]?get=download_m3u</page>
+<page>[makelist.param1]?get=download_m3u8</page>
 </regex>
 <regex>
 <name>getUrl</name>
