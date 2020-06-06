@@ -285,12 +285,12 @@
    <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page>https://m.m3uiptv.com/free-iptv-m3u-playlist-download-links-2020/</page>
+<page>https://www.iptvultra.com/</page>
 </regex>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-   <title>[COLOR orange] TESTING [/COLOR]  [COLOR lime] [makelist2.param2][/COLOR]</title>
+   <title>[COLOR orange] TESTING [/COLOR]  [COLOR lime] [makelist2.param1][/COLOR]</title>
    <thumbnail></thumbnail>
 <fanart></fanart>
    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name= [makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
