@@ -917,8 +917,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
-<page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-6-june-2020-new.html</page>
+<expres>(http://(.*)/.*)</expres>https://pastebin.com/raw/wwPtSVeX
+<page>https://pastebin.com/raw/wwPtSVeX</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
@@ -937,7 +937,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-
+https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-6-june-2020-new.html
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (1x All.players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
