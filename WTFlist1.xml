@@ -4,19 +4,20 @@
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 1x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
- 
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightblue] [makelist.param2] [/COLOR] </title>
-<link>[makelist.param1]</link>
+<title>[B][COLOR coral] [makelist.param2] [/COLOR][/B] </title>
+<urlsolve>[makelist.param3]</urlsolve>
+<thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
-<page>http://dl.radioplayer.ir/Movie/Foreign/2019/</page>
- 
+<expres><![CDATA[(.*?)"\s\,(.*?)\n(http.*?)\n]]></expres>
+<page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
+<referer></referer>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
+https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 </item>
 
 <item>
