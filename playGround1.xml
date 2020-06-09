@@ -708,7 +708,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](11x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -720,7 +720,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</page>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-09-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -728,7 +728,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](12x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -748,7 +748,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](13x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -908,7 +908,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](21x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -917,8 +917,8 @@ item>
 <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>https://pastebin.com/raw/wwPtSVeX
-<page>http://www.iptvclub.ltd/blog-MITV-IPTV-TEST-CODE-3217/2019-11-12-MITVpro-IPTV-TEST-CODE-11498369.html</page>
+<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>https://pastebin.com/raw/wwPtSVeX
+<page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
@@ -927,8 +927,8 @@ item>
 <listrepeat><![CDATA[
     <title>[COLOR coral][makelist2.param1][/COLOR]</title>
     <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param1]</link>
-    <thumbnail></thumbnail>
-        <fanart></fanart>
+    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
+        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*)</expres>
 <page>[makelist.param1]</page>
@@ -947,8 +947,8 @@ item>
 <listrepeat><![CDATA[
 <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold] [list.param1] [/COLOR]</title>
 <link>plugin://plugin.video.f4mTester/?url=[list.param1]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[list.param2]</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
+<fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
 <page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</page>
