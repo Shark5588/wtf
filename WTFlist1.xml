@@ -3,13 +3,13 @@
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 1x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
-<link>$doregex[makelist0]</link>
+<link>$doregex[makelist]</link>
  
 <regex>
-<name>makelist0</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightblue] [makelist0.param1] [/COLOR] </title>
-<link>[makelist0.param1]</link>
+<title>[COLOR lightblue] [makelist.param1] [/COLOR] </title>
+<link>[makelist.param1]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
 <page>http://dl.radioplayer.ir/Movie/Foreign/2019/</page>
