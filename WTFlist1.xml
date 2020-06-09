@@ -8,10 +8,10 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR coral] [makelist.param2] [/COLOR][/B] </title>
-<urlsolve>[makelist.param3]</urlsolve>
+   <title>[B][COLOR coral] [makelist.param1] [/COLOR][/B]</title>
+   <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>(http:\/\/(.*?)\/.*?get.mp4.*?)&lt;</expres>
+<expres>title:"(.*?)" link:"(.*?)"</expres>
 <page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
 <referer></referer>
 </regex>
