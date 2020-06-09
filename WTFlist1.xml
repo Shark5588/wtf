@@ -8,7 +8,7 @@
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightblue] [makelist.param1] [/COLOR] </title>
+<title>[COLOR lightblue] [makelist.param2] [/COLOR] </title>
 <link>[makelist.param1]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
@@ -21,12 +21,12 @@
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 2x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
-<link>$doregex[makelist0]</link>
+<link>$doregex[makelist]</link>
  
 <regex>
-<name>makelist0</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR lightblue] [makelist0.param1] [/COLOR][/B] </title>
+<title>[B][COLOR lightblue] [makelist.param1] [/COLOR][/B] </title>
 <link>[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
