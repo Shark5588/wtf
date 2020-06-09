@@ -1222,7 +1222,7 @@ item>
 <listrepeat><![CDATA[
  <title>[COLORdodgerblue]Servers[/COLOR] [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>[makelist.param1]</thumbnail>
+<thumbnail>http://www.iptv4free.com[makelist.param2]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
 <page>http://www.iptv4free.com/search?max-results=40</page>
