@@ -9,10 +9,9 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[B][COLOR coral] [makelist.param2] [/COLOR][/B] </title>
-<link>NA</link>
-<externallink>[makelist.param3]</externallink>
+<urlsolve>[makelist.param3]</urlsolve>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
+<expres><![CDATA[href="(.*?)"\s\,(.*?)\n(http.*?)\n]]></expres>
 <page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
 <referer></referer>
 </regex>
