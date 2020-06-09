@@ -27,7 +27,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[B][COLOR lightblue] [makelist.param1] [/COLOR][/B] </title>
-<link>[makelist0.param1]</link>
+<link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
