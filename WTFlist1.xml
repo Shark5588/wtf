@@ -12,12 +12,12 @@
 <urlsolve>[makelist.param3]</urlsolve>
 <thumbnail>[makelist.param1]</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[(.*?)"\s\,(.*?)\n(http.*?)\n]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
 <referer></referer>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
+<fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 </item>
 
 <item>
