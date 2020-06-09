@@ -720,7 +720,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-09-06-2020/</page>
+<page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -938,7 +938,7 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](21x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[list]</link>
 
@@ -956,8 +956,8 @@ item>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 <item>
