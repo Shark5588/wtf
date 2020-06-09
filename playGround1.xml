@@ -600,7 +600,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://flylinks.net/iptv-m3u-playlist-worldwide-urls-daily-update-06-june-2020/</page>
+<page>https://flylinks.net/iptv-m3u-playlist-worldwide-urls-daily-update-09-june-2020/</page>
 <referer>https://iptvgratuit.xyz/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -660,7 +660,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-08-june-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-09-june-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -680,7 +680,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-08-06-2020/</page>
+<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-09-06-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -700,7 +700,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-08-06-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-09-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -720,7 +720,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-08-06-2020/</page>
+<page>https://dailyiptvm3u.com/m3u-playlist-url-free-iptv-links-daily-updates-09-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -860,7 +860,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-07-06-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-09-06-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -880,7 +880,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-03-06-2020/</page>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codes-09-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -908,7 +908,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-tem>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](21x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -918,7 +918,7 @@ tem>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>https://pastebin.com/raw/wwPtSVeX
-<page>https://pastebin.com/raw/wwPtSVeX</page>
+<page>http://www.iptvclub.ltd/blog-MITV-IPTV-TEST-CODE-3217/2019-11-12-MITVpro-IPTV-TEST-CODE-11498369.html</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
@@ -937,7 +937,29 @@ tem>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-6-june-2020-new.html
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](21x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[list]</link>
+
+<regex>
+<name>list</name>
+<listrepeat><![CDATA[
+<title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold] [list.param1] [/COLOR]</title>
+<link>plugin://plugin.video.f4mTester/?url=[list.param1]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[list.param2]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+]]></listrepeat>
+<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
+<page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</page>
+<referer></referer>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (1x All.players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
