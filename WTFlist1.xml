@@ -31,7 +31,7 @@
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
+<page>http://ir2.papionvod.ir/Media/Movies/Dubbed/2019/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
