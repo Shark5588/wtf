@@ -11,8 +11,8 @@
 <title>[COLOR lightblue] [makelist0.param1] [/COLOR] </title>
 <link>[makelist0.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>https://server116.andy10gbit.xyz/files/Movies2020/</page>
+<expres>(http://(.*)/.*)</expres>
+<page>http://dl.radioplayer.ir/Movie/Foreign/2019/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -30,7 +30,7 @@
 <link>[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>https://server116.andy10gbit.xyz/files/Movies2019/</page>
+<page>http://dl.radioplayer.ir/Movie/Foreign/2020/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
