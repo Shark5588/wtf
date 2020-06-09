@@ -1231,11 +1231,11 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
- <title>[B][COLORcoral]SERVER [makelist.param1][/COLOR][/B] </title>
+ <title>[B][COLORdodgerblue] [makelist.param1][/COLOR][/B] </title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]IPTV[/COLOR] [makelist.param1]  </link>
 <thumbnail>https://1.bp.blogspot.com/-cyDnzVS9uco/XLeacwAfy9I/AAAAAAAAAic/6AdUhC0bJ5QI3J3_FAeG5g8gW7Cgh6EiACPcBGAYYCw/s1600/9.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
+<expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
