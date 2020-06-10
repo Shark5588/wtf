@@ -951,8 +951,8 @@ item>
 <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</page>
-<referer></referer>
+<page>http://mmorpgwarcraft.com/iptv-m3u-plalist.php</page>
+<referer>https://usalinksiptv.blogspot.com/2020/06/daily-m3u-playlist-9-june-2020-new.html</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
@@ -1222,10 +1222,10 @@ item>
 <listrepeat><![CDATA[
  <title>[COLORdodgerblue]CHANNEL[/COLOR] [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>https://1.bp.blogspot.com/-cyDnzVS9uco/XLeacwAfy9I/AAAAAAAAAic/6AdUhC0bJ5QI3J3_FAeG5g8gW7Cgh6EiACPcBGAYYCw/s1600/9.png</thumbnail>
+<thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>http://mmorpgwarcraft.com/iptv-m3u-plalist.php/search?max-results=40</page>
+<page>http://www.iptv4free.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
