@@ -737,7 +737,7 @@ item>
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
     <link>NA</link>
-    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://www.iptvurls.com/category/iptv-m3u-playlist/</page>
