@@ -737,10 +737,10 @@ item>
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
     <link>NA</link>
-    <externallink>[makelist.param1]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/category/iptv-m3u-playlist/</page>
+<page></page>
 <referer>https://www.iptvurls.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -748,7 +748,7 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](13x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -1243,21 +1243,25 @@ item>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
- <title>[COLOR gold][makelist.param2][/COLOR]</title>
- <link>plugin://program.plexus/?url=[makelist.param1]&amp;mode=2&amp;name=[makelist.param2]</link>
- <thumbnail></thumbnail>
-  ]]></listrepeat>
-<expres><![CDATA[href=[\'"]([^\'"]+)"><img alt=[\'"]([^\'"]+)]]></expres>
-<page>http://91.92.66.82/trash/ttv-list/AceLiveList.php</page>
+    <title>[COLORdodgerblue] CHANNEL [/COLOR]   [makelist.param1]</title>
+	<thumbnail></thumbnail>
+<fanart></fanart>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist.param1][/COLOR]</title></link>
+    <thumbnail>https://1.bp.blogspot.com/-cyDnzVS9uco/XLeacwAfy9I/AAAAAAAAAic/6AdUhC0bJ5QI3J3_FAeG5g8gW7Cgh6EiACPcBGAYYCw/s1600/9.png</thumbnail>
+        <fanart></fanart>
+]]></listrepeat>
+<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<page>[makelist.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 item>
