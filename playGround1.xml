@@ -740,7 +740,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://freeiptvserver.com/adult-m3u-playlist-free-channels-uhd-links-08-06-2020/</page>
+<page>https://www.iptvurls.com/category/iptv-m3u-playlist/</page>
 <referer>https://www.iptvurls.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1222,10 +1222,10 @@ item>
 <listrepeat><![CDATA[
  <title>[COLORdodgerblue]CHANNEL[/COLOR] [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
+<thumbnail>https://1.bp.blogspot.com/-cyDnzVS9uco/XLeacwAfy9I/AAAAAAAAAic/6AdUhC0bJ5QI3J3_FAeG5g8gW7Cgh6EiACPcBGAYYCw/s1600/9.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>http://www.iptv4free.com/search?max-results=40</page>
+<page>http://mmorpgwarcraft.com/iptv-m3u-plalist.php/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
