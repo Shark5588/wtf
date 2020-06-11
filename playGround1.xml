@@ -728,7 +728,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
     <title>[COLOR coral][makelist2.param1][/COLOR]</title>
     <link>NA</link>
-    <externallink>[makelist2.param2][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist2.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
     <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
