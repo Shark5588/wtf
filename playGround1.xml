@@ -727,12 +727,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist2</name>
 <listrepeat><![CDATA[
     <title>[COLOR coral][makelist2.param1][/COLOR]</title>
-    <link>NA</link>
-    <externallink>[makelist2.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param1]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param2]</link>
     <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<expres><![CDATA[#EXTINF:-1,(.*?)<.*?><a href="(.*?)"]]></expres>
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -1289,7 +1288,7 @@ item>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page></page>
+<page>https://pastebin.com/raw/wwPtSVeX</page>
 <referer></referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
