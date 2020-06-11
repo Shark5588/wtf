@@ -728,6 +728,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
     <title>[COLOR coral][makelist2.param1][/COLOR]</title>
     <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param1]</link>
+    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
+        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres>#EXTINF:-1,(.*?)\n(.*)</expres>
 <page>[makelist.param1]</page>
@@ -1274,24 +1276,25 @@ item>
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[list]</link>
+
 <regex>
-<name>makelist</name>
+<name>list</name>
 <listrepeat><![CDATA[
-    <title>[COLORdodgerblue] CHANNEL [/COLOR]   [makelist.param1]</title>
-	<thumbnail></thumbnail>
-<fanart></fanart>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][makelist.param1][/COLOR]</title></link>
-    <thumbnail>https://1.bp.blogspot.com/-cyDnzVS9uco/XLeacwAfy9I/AAAAAAAAAic/6AdUhC0bJ5QI3J3_FAeG5g8gW7Cgh6EiACPcBGAYYCw/s1600/9.png</thumbnail>
-        <fanart></fanart>
+<title>[COLORdodgerblue] CHANNEL [/COLOR]   </title>
+<link>plugin://plugin.video.f4mTester/?url= [list.param1]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][list.param2]</link>
+    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
+        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
-<page>[makelist.param1]</page>
+<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
+<page>https://www.mmorpgwarcraft.com/iptv-m3u-plalist.php</page>
+<referer></referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
+
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 item>
