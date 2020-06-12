@@ -660,7 +660,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-11-june-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-12-june-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -680,7 +680,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-10-06-2020/</page>
+<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-12-06-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -700,7 +700,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-11-06-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-12-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -714,44 +714,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
-<link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
-<page>https://pastebin.com/raw/wwPtSVeX</page>
-<referer>https://usalinksiptv.blogspot.com/</referer>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[COLOR coral][makelist2.param1][/COLOR]</title>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param1]</link>
-    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
-        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page>[makelist.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
-
-item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](11x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://dailyiptvm3u.com/</page>
+<page></page>
 <referer>https://dailyiptvm3u.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -939,36 +908,6 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](21x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
-<link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page>https://pastebin.com/raw/wwPtSVeX</page>
-<referer>https://usalinksiptv.blogspot.com/</referer>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
- 
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[COLOR coral][makelist2.param1][/COLOR]</title>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param1]</link>
-    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
-        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
-]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
-<page>[makelist.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
 
 item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](21x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -1275,24 +1214,35 @@ item>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
+
+
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[list]</link>
-
+<link>$doregex[makelist]</link>
 <regex>
-<name>list</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLORdodgerblue] CHANNEL [/COLOR]   </title>
-<link>plugin://plugin.video.f4mTester/?url= [list.param1]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR royalblue][list.param2]</link>
+<title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(http://(.*)/.*)</expres>
+<page>https://pastebin.com/raw/wwPtSVeX</page>
+<referer>https://usalinksiptv.blogspot.com/</referer>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+ 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[COLOR coral][makelist2.param1][/COLOR]</title>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param1]</link>
     <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page></page>
-<referer></referer>
+<page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
