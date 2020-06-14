@@ -854,7 +854,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>$pyFunction:'[COLOR lime][B]Server [/B][/COLOR][COLOR gold][makelist.param2][makelist2.param3][makelist.param4][makelist.param5][makelist.param6]  [/COLOR]'.replace('Active','[COLOR green][B]Active[/B][COLOR]').replace('Disabled','[COLOR silver]Disabled[COLOR]').replace('Banned ','[COLOR red]Banned [COLOR]')</title>
+<title>[COLOR lime][B]Server [/B][/COLOR][COLOR gold][makelist.param2][makelist.param3][makelist.param4][makelist.param5][makelist.param6]  [/COLOR]'.replace('Active','[COLOR green][B]Active[/B][COLOR]').replace('Disabled','[COLOR silver]Disabled[COLOR]').replace('Banned ','[COLOR red]Banned [COLOR]')</title>
 <link>NA</link>
 <info>[COLOR yellow][makelist.param7] [/COLOR] -[COLOR coral] [makelist.param8][/COLOR]</info>
 <externallink>[makelist.param2]$$TSDOWNLOADER$$</externallink>
