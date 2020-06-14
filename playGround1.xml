@@ -859,7 +859,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>[COLOR yellow][makelist.param7] [/COLOR] -[COLOR coral] [makelist.param8][/COLOR]</info>
 <externallink>[makelist.param2]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<expres>(http:\/\/(.*?)<.*?\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\n]]></expres>
 <page>https://iptvxtreamcodes.com/iptv-m3u-playlists-11-06-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
