@@ -854,7 +854,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime][B]Server [/B][/COLOR][COLOR gold] ( [makelist.param1] ) [/COLOR]</title>
+<title>[COLOR lime][B]Server [/B][/COLOR][COLOR gold] ( [makelist.param2] ) [/COLOR]</title>
 <link>NA</link>
 <info></info>
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
