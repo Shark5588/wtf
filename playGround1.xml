@@ -856,10 +856,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
 <title>[COLOR lime][B]Server [/B][/COLOR][COLOR gold][makelist.param2][makelist.param3][makelist.param4][makelist.param5][makelist.param6]  [/COLOR]</title>
 <link>NA</link>
-<info>[COLOR yellow][makelist.param7] [/COLOR] -[COLOR coral] [makelist.param8][/COLOR]</info>
-<externallink>[makelist.param2]$$TSDOWNLOADER$$</externallink>
+<info></info>
+<externallink>[makelist.param1]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>(http:\/\/(.*?)<.*?\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\n]]></expres>
+<expres><![CDATA[href="(.*?)"><.*?\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\|(.*?)\n]]></expres>
 <page>https://iptvxtreamcodes.com/iptv-m3u-playlists-11-06-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
