@@ -660,7 +660,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-16-june-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-17-june-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -680,7 +680,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-16-06-2020/</page>
+<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-17-06-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -700,7 +700,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-16-06-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-17-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -720,7 +720,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-16-06-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-17-06-2020/</page>
 <referer>https://dailyiptvm3u.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -860,7 +860,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-11-06-2020/</page>
+<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-16-06-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -880,7 +880,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-14-06-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-16-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
