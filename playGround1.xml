@@ -1255,10 +1255,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <listrepeat><![CDATA[
  <title>[COLORdodgerblue]Daily m3u playlist[/COLOR] [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>https://1.bp.blogspot.com/-FLN7GoXWM08/XZ9bNUNudPI/AAAAAAAAAk4/M5xYry5pxQ46LKqETFPPbe4X_Vg6ZKwywCK4BGAsYHg/w200-h200/2.png</thumbnail>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/4/4d/OS_X_Server_Icon.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
-<page>https://usalinksiptv.blogspot.com/search?max-results=40</page>
+<page>https://hdbox.ws/en/news/43-ip-tv-kanaly.html/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
