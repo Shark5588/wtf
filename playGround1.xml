@@ -252,7 +252,7 @@
 <regex>
 <name>makelist1</name>
 <listrepeat><![CDATA[
-<title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR] [COLOR snow]( [/COLOR][COLOR red][makelist1.param1][/COLOR][COLOR snow] )[/COLOR][/B]</title>
+<title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red][makelist1.param1][/COLOR][COLOR snow] )[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
 ]]></listrepeat>
@@ -1258,7 +1258,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/4d/OS_X_Server_Icon.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
-<page>https://hdbox.ws/en/news/43-ip-tv-kanaly.html/search?max-results=40</page>
+<page>https://iptvlinkseuro.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
