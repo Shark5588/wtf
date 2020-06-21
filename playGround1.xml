@@ -252,7 +252,7 @@
 <regex>
 <name>makelist1</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR blue]( [/COLOR][COLOR red][makelist1.param1][/COLOR][COLOR blue] )[/COLOR][/B]</title>
+<title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR] [COLOR snow]( [/COLOR][COLOR red][makelist1.param1][/COLOR][COLOR snow] )[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
 ]]></listrepeat>
