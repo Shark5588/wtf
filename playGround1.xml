@@ -657,7 +657,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-21-june-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-22-june-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -677,7 +677,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-21-06-2020/</page>
+<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-22-06-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -697,8 +697,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://hdbox.ws/en/?wpfb_dl=14456</page>
-<referer></referer>
+<page>https://arslan39.blogspot.com/2020/06/11-iptv-m3u-22062020.html</page>
+<referer>https://arslan39.blogspot.com/</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -717,8 +717,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://arslan39.blogspot.com/2020/06/iptv-m3u-2020-11062020.html?hl=en</page>
-<referer>https://dailyiptvm3u.com/</referer>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-22-06-2020/</page>
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -1246,7 +1246,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page>[makelist.param1]</page>
+<page>[makelist.param2]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -1345,7 +1345,7 @@ item>
 <fanart></fanart>
 </item>
 
-
+https://hdbox.ws/en/?wpfb_dl=14456
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
 #(http://(.*)/.*)
 #EXTINF:-1,(.*?)\n(.*)
