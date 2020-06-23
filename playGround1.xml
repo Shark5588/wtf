@@ -1200,7 +1200,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/06/iptv-daily-playlist-m3u-links-23-06-2020.html</page>
+<page>https://www.leaksat.com/2020/06/iptv-daily-playlist-m3u-links-21-06-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
