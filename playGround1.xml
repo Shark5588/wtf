@@ -1234,7 +1234,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://1.bp.blogspot.com/-FLN7GoXWM08/XZ9bNUNudPI/AAAAAAAAAk4/M5xYry5pxQ46LKqETFPPbe4X_Vg6ZKwywCK4BGAsYHg/w200-h200/2.png</thumbnail>
 <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
+<expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
 <page>https://www.mmorpgwarcraft.com/iptv-m3u-plalist.php</page>
 <referer></referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
