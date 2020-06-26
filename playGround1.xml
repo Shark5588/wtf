@@ -657,7 +657,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-25-june-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-26-june-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -677,7 +677,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-25-06-2020/</page>
+<page>https://en.tousecurity.com/iptv-free-links-m3u-playlist-26-06-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -737,7 +737,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://freeiptvm3u24.blogspot.com/2020/04/free-iptv-premium-m3u-links-hdsd.html</page>
 <referer>https://www.iptvurls.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -757,7 +757,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://m.m3uiptv.com/iptv-links-m3u-url-playlist-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -837,7 +837,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m.m3uiptv.com/iptv-links-m3u-url-playlist-2020/</page>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codes-25-06-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -877,7 +877,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-24-06-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-25-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1200,7 +1200,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/06/iptv-daily-playlist-m3u-links-24-06-2020.html</page>
+<page>https://www.leaksat.com/2020/06/iptv-daily-playlist-m3u-links-25-06-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -1221,9 +1221,39 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres>(http://(.*)/.*)</expres>
+<page>https://freeiptvm3u24.blogspot.com/2020/04/free-iptv-premium-m3u-links-hdsd.html</page>
+<referer>https://usalinksiptv.blogspot.com/</referer>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+ 
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+    <title>[COLOR coral][makelist2.param1][/COLOR]</title>
+    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[makelist2.param1]</link>
+    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
+        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
+<page>[makelist.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 
 <regex>
@@ -1245,7 +1275,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]5[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <link>$doregex[makelist2]</link>
@@ -1258,7 +1288,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/4/4d/OS_X_Server_Icon.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
-<page>https://www.leaksat.com/2020/06/search?max-results=40</page>
+<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
@@ -1280,7 +1310,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+# source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
 #(http://(.*)/.*)
