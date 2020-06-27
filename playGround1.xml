@@ -1262,8 +1262,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
    <link>$doregex[makelist2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page>https://freeiptvm3u24.blogspot.com/</page>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
+<page>https://freeiptvm3u24.blogspot.com/<page>
 </regex>
 <regex>
 <name>makelist2</name>
