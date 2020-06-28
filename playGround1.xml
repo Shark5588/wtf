@@ -1265,7 +1265,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
+<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)&lt;\n]]></expres>
 <page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
 <referer></referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
@@ -1278,7 +1278,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
