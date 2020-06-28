@@ -1278,65 +1278,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<item>
-<title>[COLOR red]● P2P ●[/COLOR] [COLOR orange]● livesport.ws ●[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<thumbnail>https://static.livesport.ws/templates/livesport/images/logo.png</thumbnail>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-    <title>[COLOR cyan]● [makelist.param5][/COLOR] [COLOR red][makelist.param7][/COLOR] [COLOR snow][makelist.param8][/COLOR] [COLOR yellow][makelist.param1][/COLOR]</title>
-    <link>$doregex[makelist2]</link>
-    <thumbnail>https://static.livesport.ws/templates/livesport/images/logo.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[title="(.*?)" href="(.*?)".*\n.*\n.*\n.*src="(.*?)".*\n.*\n.*id="(.*?)" data-datetime="(.*?) (.*?)" data-dtformat=".*?">(.*?)(?<!OFFLINE)<\/i><\/span>.*\n.*\n.*competition'>(.*?)<]]></expres>
-<page>https://livesport.ws/en</page>
-<referer>https://livesport.ws/en</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.3.4000</agent>
-</regex>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-    <title>[COLOR lawngreen]● [makelist2.param2][/COLOR][COLOR cyan][makelist2.param1] [makelist2.param4][/COLOR]</title>
-    <link>plugin://program.plexus/?url=[makelist2.param3]$doregex[get-name1]&$doregex[mode]</link>
-    <thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[(?s)class=.\"dark-btn.\">.*?(?<!Flash)<.*?class=.\"format.\">(.*?)<.*?<a href=.\"(sop|acestream)(.*?)".*?"speed.\">(.*?)<]]></expres>
-<page>https://livesport.ws/engine/modules/sports/sport_refresh.php?from=event&event_id=$doregex[event_id]&tab_id=undefined&post_id=$doregex[post_id]</page>
-<referer>https://livesport.ws[makelist.param2]</referer>
-<agent>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36 Maxthon/5.2.3.4000</agent>
-</regex>
-
-<regex>
-<name>event_id</name>
-<expres>event-(.*)</expres>
-<page>[makelist.param4]</page>
-<referer>https://livesport.ws/en</referer>
-</regex>
-
-<regex>
-<name>post_id</name>
-<expres>([0-9]+)</expres>
-<page>[makelist.param2]</page>
-<referer>https://livesport.ws/en</referer>
-</regex>
-
-<regex>
-<name>get-name1</name>
-<expres>$pyFunction: '[makelist2.param3]'.replace('\/','/')</expres>
-<page></page>
-</regex>
-
-<regex>
-<name>mode</name>
-<expres>$pyFunction: '[makelist2.param2]'.replace("sop","mode=2&name=sopcast").replace("acestream","mode=1&name=acestream")</expres>
-<page></page>
-</regex>
-</item>
-
-
-
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
