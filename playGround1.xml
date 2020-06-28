@@ -1255,13 +1255,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[list]</link>
+<link>$doregex[makelistlist]</link>
 
 <regex>
-<name>list</name>
+<name>makelistlist</name>
 <listrepeat><![CDATA[
-<title>[list.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[list.param1] [COLOR coral]IPTV[/COLOR]&amp;url=[list.param2]</link>
+<title>[makelistlist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelistlist.param1] [COLOR coral]IPTV[/COLOR]&amp;url=[makelistlist.param2]</link>
     <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
