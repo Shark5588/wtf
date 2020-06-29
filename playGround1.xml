@@ -1260,7 +1260,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param3] [COLOR coral]IPTV[/COLOR]&amp;url=[makelist.param2]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param3] [COLOR coral]IPTV[/COLOR]&amp;url=[makelist.param1]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[tvg-name="(.*?)".+?"(.*?)".*\n(.*)]]></expres>
