@@ -657,7 +657,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-28-june-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-29-june-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -717,7 +717,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-28-06-2020/</page>
+<page>https://m3u-iptv.com/free-iptv-links-iptv-m3u-list-29-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -877,7 +877,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-27-06-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-28-06-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1200,7 +1200,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/06/iptv-daily-playlist-m3u-links-28-06-2020.html</page>
+<page>https://www.leaksat.com/2020/06/iptv-daily-playlist-m3u-links-29-06-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -1255,25 +1255,33 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist2.param2][/COLOR][COLOR snow] )[/COLOR][/B]</title>
+ <link>$doregex[makelist]</link>
+<thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
+ ]]></listrepeat>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
+<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
+</regex>
+</regex>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
-<thumbnail>NA</thumbnail>
-]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
+ <title>[B][COLORlime]SERVER [/COLOR][COLORcoral][makelist.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist.param2][/COLOR][/B] </title>
+ <link>NA</link>
+ <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
+<thumbnail></thumbnail>
+ ]]></listrepeat>
+<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
+<page>[makelist2.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 
