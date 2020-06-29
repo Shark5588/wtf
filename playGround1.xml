@@ -1262,11 +1262,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
- <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist2.param2][/COLOR][COLOR snow] )[/COLOR][/B]</title>
+ <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist2.param1][/COLOR][COLOR snow] )[/COLOR][/B]</title>
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>\n(.*?)\n<]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
