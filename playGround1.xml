@@ -1266,7 +1266,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>free iptv premium m3u links (.*?)hdsd]]></expres>
+<expres><expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>free iptv premium m3u links (.*?)2020]]></expres>
 
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
