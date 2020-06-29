@@ -1307,8 +1307,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres></?\w+\s+[\^>]*></expres>
-
+<expres><![CDATA[post-title entry-title[/?\w+\s+[\^>]*]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
@@ -1328,7 +1327,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 
 
 
-
+<![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
