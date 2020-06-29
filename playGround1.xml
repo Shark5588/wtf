@@ -1256,19 +1256,20 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
-
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1] [COLOR coral]IPTV[/COLOR]&amp;url=[makelist.param2]</link>
-    <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
-        <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param3] [COLOR coral]IPTV[/COLOR]&amp;url=[makelist.param2]</link>
+<thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(.*)\n]]></expres>
+<expres><![CDATA[tvg-name="(.*?)".+?"(.*?)".*\n(.*)]]></expres>
 <page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
-<referer></referer>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
 </regex>
 
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
