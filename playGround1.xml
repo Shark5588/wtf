@@ -1260,10 +1260,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param3] [COLOR coral]IPTV[/COLOR]&amp;url=[makelist.param1]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[tvg-name="(.*?)".+?"(.*?)".*\n(.*)]]></expres>
+<expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
 <page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
 </regex>
 <regex>
