@@ -1308,7 +1308,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]></expres>
-<page>https://freeiptvm3u24.blogspot.com/2020/04/free-iptv-premium-m3u-links-hdsd.html</page>
+<page>https://xoiptv.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
@@ -1326,6 +1326,8 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 </item>
 
 
+https://freeiptvm3u24.blogspot.com/
+https://xoiptv.blogspot.com/
 [/?\w+\s+[\^>]*]
 <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
