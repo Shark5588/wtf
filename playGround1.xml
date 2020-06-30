@@ -1305,10 +1305,10 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <listrepeat><![CDATA[
  <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist2.param2][/COLOR][COLOR snow] )[/COLOR][/B]</title>
  <link>$doregex[makelist]</link>
-<thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
+<thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://xoiptv.blogspot.com/search?max-results=40</page>
+<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
