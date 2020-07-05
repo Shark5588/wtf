@@ -858,7 +858,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pt.textbin.net/raw/tU0H9FA9PS</page>
+<page>https://honapost.com/free-iptv-links-m3u-playlist-04-07-2020/</page>
 <referer>https://iptvfalas-shqip.blogspot.com/p/stb-emu-codes.html</referer>
 <cookieJar>https://freem3ulist.com/</cookieJar>
 </regex>
