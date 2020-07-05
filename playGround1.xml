@@ -738,7 +738,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://arslan39.blogspot.com/2020/06/20-iptv-m3u-24062020.html</page>
+<page>https://www.iptvsrc.net/2020/07/daily-iptv-m3u-playlist-04-july-2020.html</page>
 <referer>https://arslan39.blogspot.com/</referer>
 <cookieJar></cookieJar>
 </regex>
