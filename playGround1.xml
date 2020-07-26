@@ -1211,7 +1211,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://www.iptvsrc.net/search?max-results=40</page>
+<page>https://gofile.io/d/bh1oWw/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
