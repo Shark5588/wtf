@@ -698,7 +698,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-26-july-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-27-july-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -898,7 +898,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-xtream-codes-26-07-2020/</page>
+<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-27-07-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -918,7 +918,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-26-07-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-27-07-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1304,7 +1304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/07/iptv-daily-playlist-m3u-links-26-07-2020.html</page>
+<page>https://www.leaksat.com/2020/07/iptv-daily-playlist-m3u-links-27-07-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -1334,7 +1334,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres>(http://(.*)/.*)</expres>
+<expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://www.oneplaylist.space/</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
@@ -1348,7 +1348,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <thumbnail>https://1.bp.blogspot.com/-J2tpvswenvw/W-rEm-9dmkI/AAAAAAAAAXg/ujhWhBVIgbgVWcgGFQ-kAj_o-KJbGEdOACPcBGAYYCw/s200/02.png</thumbnail>
         <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 ]]></listrepeat>
-<expres>#EXTINF:-1,(.*?)\n(.*)</expres>
+<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
 <page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
