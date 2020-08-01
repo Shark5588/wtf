@@ -698,7 +698,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-31-july-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-01-aug-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -918,7 +918,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-30-07-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-01-08-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
