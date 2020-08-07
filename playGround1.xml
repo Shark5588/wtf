@@ -698,7 +698,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-02-aug-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-07-aug-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -718,7 +718,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/free-iptv-links-m3u-playlist-02-08-2020/</page>
+<page>https://en.tousecurity.com/free-iptv-links-m3u-playlist-05-08-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -738,7 +738,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m.m3uiptv.com/xtream-codes-iptv-free-26-07-2020/</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -758,7 +758,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvsrc.net/2020/08/daily-iptv-m3u-playlist-august-02-2020.html</page>
+<page>https://www.iptvsrc.net/2020/08/daily-iptv-m3u-playlist-august-06-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -838,7 +838,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://freeiptv7at.blogspot.com/2019/01/free-iptv-premium-world-links-m3u.html</page>
+<page>https://freem3ulist.com/free-xtream-codes-iptv/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -858,7 +858,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://honapost.com/free-iptv-links-m3u-playlist-02-08-2020/</page>
+<page>https://honapost.com/free-iptv-links-m3u-playlist-06-08-2020/</page>
 <referer>https://iptvfalas-shqip.blogspot.com/p/stb-emu-codes.html</referer>
 <cookieJar>https://freem3ulist.com/</cookieJar>
 </regex>
@@ -898,7 +898,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-m3u-playlists-and-iptv-xtream-codes-30-07-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-m3u-playlistsxtream-codes-07-08-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -918,7 +918,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-02-08-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-06-08-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1304,7 +1304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/08/iptv-daily-playlist-m3u-links-02-08-2020.html</page>
+<page>https://www.leaksat.com/2020/08/iptv-daily-playlist-m3u-links-07-08-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
