@@ -659,7 +659,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
 <page>https://skyclic.blogspot.com/p/publicite.html</page>
-<referer>http://www.filmover.site/</referer>
+<referer></referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -698,7 +698,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-16-aug-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-17-aug-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -918,7 +918,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbenu-portalmac-16-08-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-17-08-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1211,9 +1211,9 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://gofile.io/d/bh1oWw/search?max-results=40</page>
+<page>https://www.vlcm3u.com/search?max-results=40</page>
 </regex>
-</regex>
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -1304,7 +1304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/08/iptv-daily-playlist-m3u-links-16-08-2020.html</page>
+<page>https://www.leaksat.com/2020/08/iptv-daily-playlist-m3u-links-17-08-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
