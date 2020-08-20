@@ -698,7 +698,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-19-aug-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-20-aug-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -758,7 +758,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvsrc.net/2020/08/daily-iptv-m3u-playlist-18-august-2020.html</page>
+<page>https://www.iptvsrc.net/2020/08/daily-iptv-m3u-playlist-20-august-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -898,7 +898,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-iptv-m3u-playlists-16-08-2020/</page>
+<page>https://iptvxtreamcodes.com/free-iptv-m3u-playlistsiptv-xtream-codes-20-08-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -918,7 +918,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-18-08-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-20-08-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1304,7 +1304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/08/iptv-daily-playlist-m3u-links-19-08-2020.html</page>
+<page>https://www.leaksat.com/2020/08/iptv-daily-playlist-m3u-links-20-08-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
