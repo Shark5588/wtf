@@ -738,7 +738,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-06-sep-2020/</page>
+<page>https://www.iptvurls.com/iptv-m3u-playlist-13-sep-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -758,7 +758,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://en.tousecurity.com/free-iptv-links-m3u-playlist-04-09-2020/</page>
+<page>https://en.tousecurity.com/free-iptv-links-m3u-playlist-12-09-2020/</page>
 <referer>https://fr.m3uiptv.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -798,7 +798,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvsrc.net/2020/09/daily-iptv-m3u-playlist-06-september.html</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -898,7 +898,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://honapost.com/free-iptv-links-m3u-playlist-31-08-2020-2/</page>
+<page>https://honapost.com/free-iptv-links-m3u-playlist-13-09-2020-2/</page>
 <referer>https://iptvfalas-shqip.blogspot.com/p/stb-emu-codes.html</referer>
 <cookieJar>https://freem3ulist.com/</cookieJar>
 </regex>
@@ -938,7 +938,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-06-09-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-12-09-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1344,7 +1344,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.leaksat.com/2020/09/iptv-daily-playlist-m3u-links-06-09-2020.html</page>
+<page>https://www.leaksat.com/2020/09/playlist-m3u-13-09-2020.html</page>
 <referer>https://usalinksiptv.blogspot.com/</referer>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
@@ -1365,7 +1365,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]5[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
@@ -1379,7 +1379,7 @@ item>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
-<page>https://freem3ulist.com/daily-m3u/search?max-results=40</page>
+<page>https://www.leaksat.com/search?max-results=10</page>
 </regex>
 </regex>
 <regex>
@@ -1394,6 +1394,44 @@ item>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
+</item>
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] TESTING IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-5 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR snow][makelist.param2][/COLOR]</title>
+  <link>$doregex[lists]</link>
+  <thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import re
+    return re.findall('(?s)<header class="entry-header cf">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
+]]></expres>
+<page>https://www.leaksat.com/search/label/Daily%20Playlist%20M3u?max-results=10</page>
+</regex>
+<regex>
+<name>lists</name>
+<listrepeat><![CDATA[
+  <title>[COLOR snow][lists.param2][/COLOR]</title>
+  <link>ignoreme</link>
+  <externallink>[lists.param1]</externallink>
+  <thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):#cosmix
+    import re
+    s = page_data.split('<pre>', 1)[-1]
+    return re.findall('(?s)<a href="(.*?m3u[^"]*)">Download\s([^<]*)',s)
+]]></expres>
+<page>[makelist.param1]</page>
+<referer></referer>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 
