@@ -1378,8 +1378,8 @@ http://www.iptv4free.com
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily Playlist M3u (.*?)Leaksat]]></expres>
-<page>https://www.leaksat.com/search/label?max-results=10</page>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
+<page>https://www.leaksat.com/search?max-results=10</page>
 </regex>
 </regex>
 <regex>
