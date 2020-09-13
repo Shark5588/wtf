@@ -1251,7 +1251,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>http://www.iptv4free.com/search?max-results=40</page>
+<page>https://www.leaksat.com//search?max-results=40</page>
 </regex>
 
 <regex>
@@ -1268,7 +1268,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-
+http://www.iptv4free.com
 
 
 <item>
@@ -1379,7 +1379,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily Playlist M3u (.*?)Leaksat]]></expres>
-<page>https://www.leaksat.com/search?max-results=40</page>
+<page>https://www.leaksat.com/search/label?max-results=10</page>
 </regex>
 </regex>
 <regex>
@@ -1396,43 +1396,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 </regex>
 </item>
 
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] TESTING IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-5 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR snow][makelist.param2][/COLOR]</title>
-  <link>$doregex[lists]</link>
-  <thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import re
-    return re.findall('(?s)<header class="entry-header cf">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
-]]></expres>
-<page>https://www.leaksat.com/search?max-results=10</page>
-</regex>
-<regex>
-<name>lists</name>
-<listrepeat><![CDATA[
-  <title>[COLOR snow][lists.param2][/COLOR]</title>
-  <link>ignoreme</link>
-  <externallink>[lists.param1]</externallink>
-  <thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):#cosmix
-    import re
-    s = page_data.split('<pre>', 1)[-1]
-    return re.findall('(?s)<a href="(.*?m3u[^"]*)">Download\s([^<]*)',s)
-]]></expres>
-<page>[makelist.param1]</page>
-<referer></referer>
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-</item>
+
 
 
 https://www.vlcm3u.com/us/sports-15/
