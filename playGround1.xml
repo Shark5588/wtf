@@ -1378,8 +1378,8 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
-<page>https://www.leaksat.com/search?max-results=10</page>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily Playlist M3u (.*?)Leaksat]]></expres>
+<page>https://www.leaksat.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
@@ -1411,7 +1411,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     import re
     return re.findall('(?s)<header class="entry-header cf">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
 ]]></expres>
-<page>https://www.leaksat.com/search/label/Daily%20Playlist%20M3u?max-results=10</page>
+<page>https://www.leaksat.com/search?max-results=10</page>
 </regex>
 <regex>
 <name>lists</name>
