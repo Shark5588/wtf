@@ -598,7 +598,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://freem3ulist.com/free-iptv-m3u-playlist-download/</page>
+<page>https://iptv72h.blogspot.com/2019/05/iptv-links-free-and-m3u-playlists.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -618,7 +618,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://freem3ulist.com/free-iptv-m3u-playlist-download/2/</page>
+<page>https://www.hottg.com/piratasvps/24375/en-CA.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -938,7 +938,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-02-10-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-21-10-2020/</page>
 <referer>https://freem3ulist.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -958,7 +958,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-04-09-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-16-10-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
