@@ -577,7 +577,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvclub.ltd/blog-TEST-CODE-4267/mitv-iptv-free-test-11498369.html</page>
+<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -597,7 +597,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvclub.ltd/blog-TEST-CODE-4267/NEO-iptv-free-test-11498464.html</page>
+<page>http://freeiptvgen.ddns.net:25461/get.php?username=6483537&password=freeiptvgen&type=m3u&output=mpegts</page>
 <referer>https://flylinks.net/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -657,7 +657,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-m3u-playlist-23-oct-2020/</page>
+<page>https://www.iptvurls.com/iptv-playlist-m3u-03-nov-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -817,7 +817,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://honapost.com/free-iptv-links-m3u-playlist-23-10-2020-2/</page>
+<page>https://honapost.com/free-iptv-links-m3u-playlist-03-11-2020-2/</page>
 <referer></referer>
 <cookieJar>https://freem3ulist.com/</cookieJar>
 </regex>
@@ -857,7 +857,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-23-10-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-02-11-2020/</page>
 <referer>https://iptvxtreamcodes.com/</referer>
 <cookieJar></cookieJar>
 </regex>
