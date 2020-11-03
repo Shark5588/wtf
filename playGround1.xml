@@ -597,7 +597,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://freeiptvgen.ddns.net:25461/get.php?username=6483537&password=freeiptvgen&type=m3u&output=mpegts</page>
+<page>http://freeiptvgen.ddns.net:25461/get.php?username=8890785&password=freeiptvgen&type=m3u</page>
 <referer>https://flylinks.net/</referer>
 <cookieJar></cookieJar>
 </regex>
