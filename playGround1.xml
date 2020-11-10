@@ -617,8 +617,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://skyclic.blogspot.com/p/publicite.html</page>
-<referer></referer>
+<page>https://www.freshiptv.com/new-52-free-iptv-list-premium-worldsport-hd-sd-fhd-4k-channels-m3u-m3u8-playlist-6-11-2020/</page>
+<referer>https://skyclic.blogspot.com/p/publicite.html</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -657,7 +657,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/iptv-playlist-m3u-08-nov-2020/</page>
+<page>https://www.iptvurls.com/iptv-playlist-m3u-10-nov-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -697,7 +697,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://www.iptvclub.ltd/blog-TEST-CODE-4267/iptvplayer-iptv-freetest-11498570.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -857,7 +857,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>[makelist.param1][DE]$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-07-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-10-11-2020/</page>
 <referer>https://iptvxtreamcodes.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -897,8 +897,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.iptvclub.ltd/blog-MITV-IPTV-TEST-CODE-3217/SANSAT-IPTV-TEST-11498570.html</page>
-<referer></referer>
+<page>https://www.iptvclub.ltd/blog-TEST-CODE-4267/MITV-IPTV-TEST-11583041.html</page>
+<referer>http://www.iptvclub.ltd/blog-MITV-IPTV-TEST-CODE-3217/SANSAT-IPTV-TEST-11498570.html</referer>
 <cookieJar>https://t.me/s/zaltvcode</cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
