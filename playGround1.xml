@@ -1221,12 +1221,12 @@ item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]5[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 
 <regex>
-<name>makelist2</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
- <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist2.param2][/COLOR][COLOR snow] )[/COLOR][/B]</title>
+ <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist.param1][/COLOR][COLOR snow] )[/COLOR][/B]</title>
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
@@ -1235,9 +1235,9 @@ item>
 </regex>
 </regex>
 <regex>
-<name>makelist</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
- <title>[B][COLORlime]SERVER [/COLOR][COLORcoral][makelist.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist.param2][/COLOR][/B] </title>
+ <title>[B][COLORlime]SERVER [/COLOR][COLORcoral][makelist2.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist2.param2][/COLOR][/B] </title>
  <link>NA</link>
  <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
 <thumbnail></thumbnail>
