@@ -143,40 +143,6 @@ item>
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-item>
-  <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daddy Live[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-  <link>$doregex[channels]</link>
-  <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-    <regex>
-      <name>channels</name>
-      <listrepeat><![CDATA[
-        <title>[COLOR red]•[/COLOR][COLOR lime][channels.param3][/COLOR]</title>
-        <link>$doregex[url]|User-Agent=iPad</link>
-        <thumbnail>https://daddylive.live[channels.param2]</thumbnail>
-      ]]></listrepeat>
-      <expres>(?s)class="gallery".+?href="([^"]+).+?src="([^"]+).+?desc".([\w\.\s]*)</expres>
-      <page>https://daddylive.live/24-hours-channels.php</page>
-      <referer>https://daddylive.live/</referer>
-    </regex>
-    <regex>
-      <name>url</name>
-      <expres>source:\s*"([^"]+)</expres>
-      <page>$doregex[unpack]</page>
-    </regex>
-    <regex>
-      <name>unpack</name>
-      <expres>$pyFunction:get_unpacked(page_data,'(?s)(eval\(function\(p,a,c,k,e,d.*?)&lt;/.+')</expres>
-      <page>$doregex[url2]</page>
-      <referer>https://daddylive.live/</referer>
-    </regex>
-    <regex>
-      <name>url2</name>
-      <expres>iframe\s*src="([^"]+)</expres>
-      <page>https://daddylive.live[channels.param1]</page>
-      <referer>https://daddylive.live/</referer>
-    </regex>
-  </item>
 
 <item>
   <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daily IPTV List[/COLOR][COLORlime] ([/COLOR][COLORred] opt-1 [/COLOR][COLORlime]) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -191,7 +157,7 @@ item>
     <thumbnail>[genre.param3]</thumbnail>
     ]]></listrepeat>
     <expres><![CDATA[(?s)<article.+?href="([^"]+)"\s*title="([^"]+)?\s(?:download|daily|free|new|m3u).+?src="([^"]+)]]></expres>
-    <page>http://www.dailyiptvlist.com/</page>
+    <page>https://freeiptvm3u24.blogspot.com/</page>
   </regex>
   <regex>
     <name>lists</name>
@@ -203,7 +169,7 @@ item>
     ]]></listrepeat>
     <expres><![CDATA[<a\s*href="([^"]+m3u)">([^<]+)</a><(?:br|/p)]]></expres>
     <page>[genre.param1]</page>
-    <referer>http://www.dailyiptvlist.com/</referer>
+    <referer>https://freeiptvm3u24.blogspot.com/</referer>
   </regex>
 </item>
 
