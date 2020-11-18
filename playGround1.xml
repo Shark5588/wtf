@@ -157,7 +157,7 @@ item>
     <thumbnail>[genre.param3]</thumbnail>
     ]]></listrepeat>
     <expres><![CDATA[(?s)<article.+?href="([^"]+)"\s*title="([^"]+)?\s(?:download|daily|free|new|m3u).+?src="([^"]+)]]></expres>
-    <page>https://freeiptvm3u24.blogspot.com/</page>
+    <page>http://www.dailyiptvlist.com/</page>
   </regex>
   <regex>
     <name>lists</name>
@@ -169,7 +169,7 @@ item>
     ]]></listrepeat>
     <expres><![CDATA[<a\s*href="([^"]+m3u)">([^<]+)</a><(?:br|/p)]]></expres>
     <page>[genre.param1]</page>
-    <referer>https://freeiptvm3u24.blogspot.com/</referer>
+    <referer>http://www.dailyiptvlist.com/</referer>
   </regex>
 </item>
 
