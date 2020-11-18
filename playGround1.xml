@@ -2,7 +2,7 @@
 <?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
 <layouttype>-=Gith55=-</layouttype>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] Atom m3u [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 	<link>http://ignorame</link>
 	<externallink>http://ccld.io/atom.m3u</externallink>
@@ -10,7 +10,7 @@
 	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] ttv-list [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 	<link>http://ignorame</link>
 	<externallink>http://91.92.66.82/trash/ttv-list/as.direct.m3u</externallink>
@@ -18,7 +18,7 @@
 	<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORdeepskyblue] As.Sport [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 	<link>http://ignorame</link>
 	<externallink>http://91.92.66.82/trash/ttv-list/as.sport.iproxy.m3u</externallink>
@@ -143,7 +143,7 @@
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-  <item>
+item>
   <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Daddy Live[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
   <link>$doregex[channels]</link>
   <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -291,7 +291,7 @@
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
 <page>https://usalinksiptv.blogspot.com/search?max-results=40</page>
 </regex>
-</regex>
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -344,40 +344,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#cosmix
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] Sports.Stream [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]Down[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR lime][makelist.param2] [COLOR dodgerblue][makelist.param1][/COLOR]</title>
-  <link>$doregex[getUrl]</link>
-  <thumbnail>https://i.ibb.co/k5kMwsx/Sport-iptv.png</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  url='http://yoursports.stream/games.js?x='+re.findall('src="(/games.js[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream','accept':'*/*'}).content
-  return re.findall('time:.([^\'"]+)..chan:.([^\'"]+)..url:.([^\'"]+)',source)
-]]></expres>
-<page>http://yoursports.stream</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#Thanks to streamwatcher
-  url='http://yoursports.stream'+re.findall('id=playframe.+?src="([^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://yoursports.stream/live?v=[makelist.param3]'}).content
-  return re.findall('atob.[\'"]([^\'"]+)',source)[0].decode('base64')+'|user-agent=ipad&referer='+url
-]]></expres>
-<page>http://yoursports.stream/live?v=[makelist.param3]</page>
-<referer>http://yoursports.stream</referer>
-</regex>
-</item>
+
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] CRACKSTREAM [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -1297,7 +1264,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=5</page>
 </regex>
 </regex>
@@ -1313,6 +1280,7 @@ item>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
+
 </item>
 
 
