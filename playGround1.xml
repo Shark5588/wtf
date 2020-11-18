@@ -730,7 +730,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://leaksat.com/2020/11/iptv-m3u-playlist-19-11-2020.html/2</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1103,7 +1103,7 @@ item>
 <thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://www.leaksat.com//search?max-results=40</page>
+<page>https://www.leaksat.com/search?max-results=40</page>
 </regex>
 
 <regex>
@@ -1230,8 +1230,8 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres>^(?:[A-Z]+[|:]|\|\|[A-Z]+\|\|) (\S.*?)</expres>
-<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist (.*?)2020]]></expres>
+<page>https://leaksat.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
