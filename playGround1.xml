@@ -737,7 +737,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-17-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-19-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>https://pt.textbin.net/raw/tU0H9FA9PS
 </regex>
@@ -756,8 +756,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-17-november-2020.html</page>
+<expres>('source:\s*[\'"]([^\'"]+)</expres>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-19-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1331,6 +1331,7 @@ https://hdbox.ws/en/?wpfb_dl=14456
 #(http://(.*)/.*)
 #EXTINF:-1,(.*?)\n(.*)
 #(r'#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')
+('source:\s*[\'"]([^\'"]+)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
