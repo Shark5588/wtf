@@ -1250,7 +1250,20 @@ item>
 </item>
 
 
-
+<item>
+<title>get m3u</title>
+<link>$doregex[getm3u]</link>
+<regex>
+<name>getm3u</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#
+  uname,pword=re.findall('adc.net:25461/get.php.+?e=([^&]+).+?d=([^&]+)',page_data)[0]
+  return 'http://adc.net:25461/get.php?username=%s&password=%s&type=m3u'%(uname,pword)
+]]></expres>
+<page>https://leaksat.com/2020/11/iptv-m3u-playlist-19-11-2020.html/2</page>
+</regex>
+</item>
 
 https://www.vlcm3u.com/us/sports-15/
 m3u_plus&output=mpegts
