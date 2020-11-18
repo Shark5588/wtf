@@ -1298,7 +1298,7 @@ item>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://m3u.freeiptv.life/search?max-results=10</page>
+<page>https://freeiptvm3u24.blogspot.com/search?max-results=5</page>
 </regex>
 </regex>
 <regex>
