@@ -1298,7 +1298,7 @@ item>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-19-november-2020.html/search?max-results=10</page>
+<page>https://m3u.freeiptv.life/search?max-results=10</page>
 </regex>
 </regex>
 <regex>
