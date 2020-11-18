@@ -1264,8 +1264,8 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
-<page>https://freeiptvm3u24.blogspot.com/search?max-results=5</page>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>free-iptv-m3u-playlist-links (.*?)2020]]></expres>
+<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 </regex>
 <regex>
