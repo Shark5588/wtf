@@ -450,7 +450,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://telemetr.io/en/channels/1348355360-nalistaiptv/posts</page>
+<page>https://www.iptvclub.ltd/blog-TEST-CODE-4267/iptvplayer-iptv-freetest-11498570.html</page>
 <referer>https://www.hottg.com/piratasvps/24375/en-CA.html</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -690,7 +690,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/iptv-xtream-codesiptv-m3u-playlists-21-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-23-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -729,8 +729,8 @@ item>
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://leaksat.com/2020/11/iptv-m3u-playlist-21-11-2020.html/2</page>
+<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
+<page>https://leaksat.com/2020/11/iptv-m3u-playlist-23-11-2020.html/2</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -750,7 +750,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-22-november-2020.html</page>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-23-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -838,7 +838,7 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (1x All.players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -858,238 +858,6 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <info>acestream,acelive</info>
 </item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (2x Sport players) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres><![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]></expres>
-<page>http://91.92.66.82/trash/ttv-list/as.sport.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (3x Entertaining) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.entertaining.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (4x Movies) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.movies.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (5x Music) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.music.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (6x Regional) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.regional.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (7x Webcam) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.webcam.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (8x Kids) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.kids.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (9x Series) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.series.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (10x Teleshop) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.teleshop.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (11x Tv) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.tv.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow] •[/COLOR][COLORgreen] ACE TV[/COLOR][COLORred] (12x None) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR red][B]  Acestreams [/B][/COLOR] [COLOR gold]( [makelist.param1] ) [/COLOR] </title>
-<link>http://127.0.0.1:6878/ace/getstream?id=[makelist.param2]&.mp4</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-]]></listrepeat>
-<expres>EXTINF.*?,(.*?)\nacestream://(.*)</expres>
-<page>http://91.92.66.82/trash/ttv-list/as.none.player.m3u</page>
-<referer></referer>
- 
-</regex>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<info>acestream,acelive</info>
-</item>
-
 
 
 item>
@@ -1219,33 +987,35 @@ item>
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]5[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 <link>$doregex[makelist]</link>
-
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
- <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR]  [COLOR snow]( [/COLOR][COLOR red][makelist.param1][/COLOR][COLOR snow] )[/COLOR][/B]</title>
- <link>$doregex[makelist]</link>
-<thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
- ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist (.*?)2020]]></expres>
-<page>https://leaksat.com/search?max-results=40</page>
-</regex>
+   <title>[COLOR skyblue] [makelist.param2][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
+<page>https://www.oneplaylist.space/</page>
 </regex>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
- <title>[B][COLORlime]SERVER [/COLOR][COLORcoral][makelist2.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist2.param2][/COLOR][/B] </title>
- <link>NA</link>
- <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
-<thumbnail></thumbnail>
- ]]></listrepeat>
-<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
-<page>[makelist2.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
+   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
+<page>[makelist.param1]?get=download_m3u8</page>
 </regex>
+<regex>
+<name>getUrl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
 
