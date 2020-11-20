@@ -470,7 +470,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -630,7 +630,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://honapost.com/free-iptv-links-m3u-playlist-08-11-2020-2/</page>
+<page>https://honapost.com/free-iptv-links-m3u-playlist-22-11-2020-2/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -730,7 +730,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://leaksat.com/2020/11/iptv-m3u-playlist-19-11-2020.html#</page>
+<page>https://leaksat.com/2020/11/iptv-m3u-playlist-21-11-2020.html/2</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -744,13 +744,13 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-     <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param1][/COLOR] </title>
-       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
-    <link>NA</link>https://m.m3uiptv.com/iptv-links-m3u-url-playlist-2020/
+     <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+       <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>     
+    <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-21-november-2020.html</page>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-22-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
