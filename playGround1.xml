@@ -473,9 +473,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     if '"Online"' in page_data:
     return re.findall('(?s)</div>" title.+?>([^<]+).+?data-clipboard-text="([^"]+)',page_data)
     if '.ts' in stream:
-       return 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&name=IPTV&url=%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'%stream
+       return 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&name=IPTV&url=%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'
     else:
-       return '%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'%stream
+       return '%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'
   else:
     txt1="IPTVCat - streamwatcher2013"
     txt2="[COLOR lime]\n\n[B]  Live stream is currently not available![/B][/COLOR]"
