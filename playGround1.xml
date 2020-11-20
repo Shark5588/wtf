@@ -689,7 +689,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<expres><![CDATA[,([^']+)\n([^']+)]]></expres>
 <page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-21-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -750,7 +750,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/search/label/iptv-playlist</page>
+<page></page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1246,8 +1246,26 @@ item>
 <page>[makelist2.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
-
 </item>
+
+
+
+item>
+<title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
+<link>$doregex[makelist]|User-Agent=Android</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR lime][B][makelist.param1][/B][/COLOR]</title>
+<link>[makelist.param2]</link>
+]]></listrepeat>
+<expres><![CDATA[,([^']+)\n([^']+)]]></expres>
+<page>https://XML_Streaming_Data/</page>
+<cookieJar></cookieJar>
+</regex>
+</item>
+
+
 
 https://www.vlcm3u.com/us/sports-15/
 m3u_plus&output=mpegts
