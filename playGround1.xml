@@ -1001,12 +1001,11 @@ item>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-   <title>[COLOR deepskyblue] [makelist2.param2][/COLOR]</title>
+   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
-<page>[makelist.param1]?get=download_m3u8</page>
 </regex>
 <regex>
 <name>getUrl</name>
