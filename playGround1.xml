@@ -689,7 +689,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres><![CDATA[,([^']+)\n([^']+)]]></expres>
+<expres>(http:\/\/[,([^']+)\n([^']+)]])</expres>
 <page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-21-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
