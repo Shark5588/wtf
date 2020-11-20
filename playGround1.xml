@@ -1022,7 +1022,7 @@ item>
 
 <item>
 <title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
-<link>$doregex[makelist]2|User-Agent=Android</link>
+<link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
