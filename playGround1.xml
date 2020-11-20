@@ -463,23 +463,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>makelist2</name>
 <listrepeat><![CDATA[
   <title>[B][COLOR snow] • [makelist2.param1] [/COLOR][/B]</title>
-  <link>[makelist2.param2]|user-agent=VLC&amp;referer=https://iptvcat.com/united_states_of_america_/</link>
+  <link>[makelist2.param2]|user-agent=ipad&referer='+link</link>
   <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
   <fanart>https://www.ef.com/sitecore/__/~/media/universal/pg/8x5/destination/US_00_00_1.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction 
 import re
 def GetLSProData(page_data,Cookie_Jar,m):
-    if '"Online"' in page_data:
-    return re.findall('(?s)</div>" title.+?>([^<]+).+?data-clipboard-text="([^"]+)',page_data)
-    if '.ts' in stream:
-       return 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&name=IPTV&url=%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'
-    else:
-       return '%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'
-  else:
-    txt1="IPTVCat - streamwatcher2013"
-    txt2="[COLOR lime]\n\n[B]  Live stream is currently not available![/B][/COLOR]"
-    return xbmcgui.Dialog().ok(txt1,txt2)
+  return re.findall('(?s)</div>" title.+?>([^<]+).+?data-clipboard-text="([^"]+)',page_data)
 ]]></expres>
 <page>https://iptvcat.com/united_states_of_america_/[makelist.param1]</page>
 </regex>
