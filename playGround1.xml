@@ -1022,11 +1022,11 @@ item>
 
 <item>
 <title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
-<link>$doregex[makelist]|User-Agent=Android</link>
+<link>$doregex[makelist]2|User-Agent=Android</link>
 <regex>
-<name>makelist</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR lime][B][makelist.param1][/B][/COLOR]</title>
+<title>[COLOR lime][B][makelist2.param1][/B][/COLOR]</title>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
@@ -1034,20 +1034,15 @@ item>
 <cookieJar></cookieJar>
 </regex>
 <regex>
-<name>makelist2</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
-   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
-   <thumbnail></thumbnail>
-]]></listrepeat>
+ <title>[B][COLORdodgerblue] [makelist.param1][/COLOR][/B] [makelist.param2]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param3]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[COLOR lightblue]IPTV[/COLOR] [makelist.param1]  </link>
+<thumbnail>https://1.bp.blogspot.com/-cyDnzVS9uco/XLeacwAfy9I/AAAAAAAAAic/6AdUhC0bJ5QI3J3_FAeG5g8gW7Cgh6EiACPcBGAYYCw/s1600/9.png</thumbnail>
+ ]]></listrepeat>
 <expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
-<page>[makelist.param1]?get=download_m3u8</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
-<page></page>
-<cookieJar></cookieJar>
+<page>[makelist2.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
