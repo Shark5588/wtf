@@ -450,8 +450,8 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.hottg.com/piratasvps/24375/en-CA.html</page>
-<referer></referer>
+<page>https://telemetr.io/en/channels/1348355360-nalistaiptv/posts</page>
+<referer>https://www.hottg.com/piratasvps/24375/en-CA.html</referer>
 <cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -470,7 +470,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://telemetr.io/en/channels/1348355360-nalistaiptv/posts</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
