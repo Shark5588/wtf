@@ -446,7 +446,7 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-  <title>[B][COLOR snow]Page [makelist.param1][/COLOR][/B]</title>
+  <title>[B][COLOR snow]Page - [makelist.param1][/COLOR][/B]</title>
   <link>$doregex[makelist2]</link>
   <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
   <fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart>
@@ -471,7 +471,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 import re
 def GetLSProData(page_data,Cookie_Jar,m):
     if '"Online"' in page_data:
-    stream=re.findall('data-clipboard-text="([^"]+)',page_data)[0].replace(':8080','')
+    return re.findall('(?s)</div>" title.+?>([^<]+).+?data-clipboard-text="([^"]+)',page_data)
     if '.ts' in stream:
        return 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&name=IPTV&url=%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'%stream
     else:
