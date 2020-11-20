@@ -421,7 +421,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
  
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] Fluxus USA[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -437,6 +437,48 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page>https://pastebin.com/raw/ZzGTySZE</page>
 </regex>
 </item>
+
+
+
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold]IPTVCAT USA[/COLOR][COLORred] (R)test [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>Page [makelist.param1]</title>
+  <link>$doregex[makelist2]</link>
+  <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
+  <fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  lastpg=re.findall('data-ci-pagination-page="(\d+)"><i\s*class',page_data)[0]
+  return [(str(pages),) for pages in range(1,int(lastpg)+1)]
+]]></expres>
+<page>https://iptvcat.com/united_states_of_america_/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[makelist2.param1]</title>
+  <link>[makelist2.param2]|user-agent=VLC&amp;referer=https://iptvcat.com/united_states_of_america_/</link>
+  <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
+  <fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?s)</div>" title.+?>([^<]+).+?data-clipboard-text="([^"]+)',page_data)
+]]></expres>
+<page>https://iptvcat.com/united_states_of_america_/[makelist.param1]</page>
+</regex>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+  <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+</item>
+
+
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](1x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
@@ -670,7 +712,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-20-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-21-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>https://pt.textbin.net/raw/tU0H9FA9PS
 </regex>
@@ -689,8 +731,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>(http:\/\/[,([^']+)\n([^']+)]])</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-21-november-2020.html</page>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>https://iptvxtreamcodes.com/iptv-xtream-codesiptv-m3u-playlists-21-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -750,7 +792,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-21-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
