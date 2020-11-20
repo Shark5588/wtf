@@ -727,7 +727,7 @@ item>
      <title>[COLOR lime][B]Server [/B][/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
        <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
     <link>NA</link>
-    <externallink>[makelist.param2][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
+    <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
 <page>https://leaksat.com/2020/11/iptv-m3u-playlist-23-11-2020.html/2</page>
@@ -1005,7 +1005,7 @@ item>
    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
+<expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
 <page>[makelist.param1]?get=download_m3u8</page>
 </regex>
 <regex>
@@ -1029,7 +1029,7 @@ item>
 <title>[COLOR lime][B][makelist.param1][/B][/COLOR]</title>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres><![CDATA[,([^']+)\n([^']+)]]></expres>
+<expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
 <page>https://treshi.github.io/daily-iptv.al/</page>
 <cookieJar></cookieJar>
 </regex>
