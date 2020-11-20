@@ -467,15 +467,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
   <fanart>https://www.ef.com/sitecore/__/~/media/universal/pg/8x5/destination/US_00_00_1.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[#$pyFunction
+<expres><![CDATA[#$pyFunction 
 import re
 def GetLSProData(page_data,Cookie_Jar,m):
     if '"Online"' in page_data:
     stream=re.findall('data-clipboard-text="([^"]+)',page_data)[0].replace(':8080','')
     if '.ts' in stream:
-       return 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&name=Fox News&url=%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/s/fox_news'%stream
+       return 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&name=IPTV&url=%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'%stream
     else:
-       return '%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/s/fox_news'%stream
+       return '%s|user-agent=VLC&origin=https://iptvcat.com&https://iptvcat.com/united_states_of_america_/'%stream
   else:
     txt1="IPTVCat - streamwatcher2013"
     txt2="[COLOR lime]\n\n[B]  Live stream is currently not available![/B][/COLOR]"
