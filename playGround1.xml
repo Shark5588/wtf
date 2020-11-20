@@ -729,7 +729,7 @@ item>
     <link>NA</link>
     <externallink>[makelist.param2][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
 <page>https://leaksat.com/2020/11/iptv-m3u-playlist-23-11-2020.html/2</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -1020,7 +1020,7 @@ item>
 
 
 
-item>
+<item>
 <title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
 <link>$doregex[makelist]|User-Agent=Android</link>
 <regex>
@@ -1030,7 +1030,7 @@ item>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
 <expres><![CDATA[,([^']+)\n([^']+)]]></expres>
-<page>https://XML_Streaming_Data/</page>
+<page>https://treshi.github.io/daily-iptv.al/</page>
 <cookieJar></cookieJar>
 </regex>
 </item>
