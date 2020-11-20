@@ -462,7 +462,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-  <title>[B}[COLOR snow][makelist2.param1][/COLOR][/B]</title>
+  <title>[B][COLOR snow] • [makelist2.param1] [/COLOR][/B]</title>
   <link>[makelist2.param2]|user-agent=VLC&amp;referer=https://iptvcat.com/united_states_of_america_/</link>
   <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
   <fanart>https://www.ef.com/sitecore/__/~/media/universal/pg/8x5/destination/US_00_00_1.jpg</fanart>
@@ -484,7 +484,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-  <title>[B}[COLOR gold]Page [makelist.param1][/COLOR][/B]</title>
+  <title>[B][COLOR gold]Page - [makelist.param1][/COLOR][/B]</title>
   <link>$doregex[makelist2]</link>
   <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
   <fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart>
@@ -500,7 +500,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-  <title>[B}[COLOR gold][makelist2.param1][/COLOR][/B]</title>
+  <title>[B][COLOR gold][makelist2.param1][/COLOR][/B]</title>
   <link>[makelist2.param2]|user-agent=ipad&amp;referer=https://iptvcat.com/canada_-/</link>
   <thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail>
   <fanart>http://thecrcl.ca/wp-content/uploads/2020/04/canadian-hockey-flag.jpg</fanart>
