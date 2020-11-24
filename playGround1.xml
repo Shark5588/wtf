@@ -1106,7 +1106,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLOR skyblue] [makelist.param2][/COLOR]</title>
+   <title>[COLOR lime] [makelist.param2][/COLOR]</title>
    <link>$doregex[makelist2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
@@ -1117,7 +1117,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <name>makelist2</name>
 <listrepeat><![CDATA[
    <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
-   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param2]&amp;maxbitrate=0&amp;Buffer=20971520</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
