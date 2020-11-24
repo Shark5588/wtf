@@ -871,7 +871,7 @@ item>
 <thumbnail>http://www.iptv4free.com[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://iptvlinkseuro.blogspot.com/search?max-results=40</page>
+<page>https://treshi.github.io/daily-iptv.al/search?max-results=40</page>
 </regex>
 
 <regex>
@@ -1134,7 +1134,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 
 
 
-
+https://iptvlinkseuro.blogspot.com
 https://www.vlcm3u.com/us/sports-15/
 m3u_plus&output=mpegts
 https://freeiptvm3u24.blogspot.com/
