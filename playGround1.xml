@@ -1106,8 +1106,8 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLOR lime] [makelist.param2][/COLOR]</title>
-   <link>$doregex[makelist2]</link>
+   <title>[COLOR lime] [makelist.param1][/COLOR]</title>
+   <link>$doregex[makelist.param2]</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>#<![CDATA[href="([^"]+)">(.*?)</a]]>
