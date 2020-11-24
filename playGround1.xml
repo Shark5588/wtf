@@ -999,7 +999,7 @@ item>
 <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres>(http://(.*)/.*)</expres>
-<page>https://www.oneplaylist.space/database/exportvlc</page>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-24-november-2020.html</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
  
@@ -1034,7 +1034,7 @@ item>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page>https://www.oneplaylist.space/database/exportvlc</page>
+<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -1070,7 +1070,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:.*,(.*?)\n.*(http.*m3u8)]]></expres>
-<page>https://www.oneplaylist.space/database/exportvlc</page>
+<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
 <referer>https://iptvlinkseuro.blogspot.com/</referer>
 <connection>keep-alive</connection>
 <x-forward></x-forward>
