@@ -1034,7 +1034,7 @@ item>
    <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
-<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
+<page>https://www.oneplaylist.space/database/exportvlc</page>
 </regex>
 <regex>
 <name>makelist2</name>
