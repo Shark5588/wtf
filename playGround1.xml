@@ -987,28 +987,103 @@ item>
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]5[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red][B]Test[/B][/COLOR][COLOR green][B]1[/B][/COLOR] LISTS [makelist2.param2] </title>
+ <link>$doregex[makelist]</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+ ]]></listrepeat>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2017]]></expres>
+<page>https://iptvlinkseuro.blogspot.com/search?max-results=40</page>
+</regex>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>SERVER [I][COLOR skyblue][makelist.param1][/COLOR][/I]   -  USER [I][COLOR deepskyblue][makelist.param2][/I][/COLOR] </title>
+ <link>NA</link>
+ <thumbnail></thumbnail>
+<fanart></fanart>
+ <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
+ 
+ ]]></listrepeat>
+<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
+<page>[makelist2.param1]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>Shark IPTV</title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]Shark TV [/COLOR][COLOR orange ][makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR blue]TEST[COLOR orange][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] Shark TV[/COLOR] [makelist.param1]</link>
+ <thumbnail></thumbnail>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>????????????????</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param3] [COLOR coral]IPTV[/COLOR]&amp;url=[makelist.param2]</link>
-<thumbnail>NA</thumbnail>
+   <title>[COLOR skyblue] [makelist.param2][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[tvg-name="(.*?)".+?"(.*?)".*\n(.*)]]></expres>
+<expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
 <page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
 </regex>
 <regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page>https://iptvlinkseuro.blogspot.com/</page>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
+   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
+<page>[makelist.param1]?get=download_m3u8</page>
 </regex>
-
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
+<regex>
+<name>getUrl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
 </item>
 
-
+https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html
 
 <item>
 <title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
@@ -1019,13 +1094,45 @@ item>
 <title>[COLOR lime][B][makelist.param1][/B][/COLOR]</title>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres>#EXTINF.*.*name="(.*)".*tvg-logo=(.*),(.*).*\n.*?(?=http|m3u8|rtmp|rtsp|mms)></expres>
+<expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
 <page>https://treshi.github.io/daily-iptv.al/</page>
 <cookieJar></cookieJar>
 </regex>
 </item>
 
-<![CDATA[#EXTINF:-1,(.*?)\n(.*)]]
+<item>
+<title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+   <title>[COLOR skyblue] [makelist.param2][/COLOR]</title>
+   <link>$doregex[makelist2]</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="([^"]+)">(.*?)</a]]></expres>
+<page>https://treshi.github.io/daily-iptv.al/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
+   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
+   <thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
+<page>[makelist.param1]?get=download_m3u8</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
 
 
 https://www.vlcm3u.com/us/sports-15/
@@ -1042,6 +1149,7 @@ https://hdbox.ws/en/?wpfb_dl=14456
 #EXTINF:-1,(.*?)\n(.*)
 #(r'#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')
 ('source:\s*[\'"]([^\'"]+)
+EXTINF.*.*name="(.*)".*tvg-logo=(.*),(.*).*\n.*?(?=http|m3u8|rtmp|rtsp|mms)
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX REGEX <<<<<<<<<<<<<<<<<<<<<<<<
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>
