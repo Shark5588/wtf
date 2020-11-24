@@ -1068,7 +1068,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
 <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.*),(.*)\s(http.*://(.*?)\n(.*)]]></expres>
+<expres>#EXTINF:(.*),(.*)\s(http.*://(.*?)\n(.*)</expres>
 <page>https://m.m3uiptv.com/wp-content/plugins/download-attachments/includes/download.php?id=qGPyVOtBXzn5kcUemrTMYIGwwCbnMv0V1G-HDUW83_M,</page>
 <referer>https://iptvlinkseuro.blogspot.com/</referer>
 <connection>keep-alive</connection>
