@@ -993,7 +993,7 @@ item>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-<title>[COLOR cyan]Server:[/COLOR] [makelist.param2]</title>
+<title>[COLOR cyan]Server:[/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>$doregex[makelist2]</link>
