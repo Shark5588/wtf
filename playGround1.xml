@@ -1085,28 +1085,7 @@ item>
 
 https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html
 
-<item>
-<title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
-<link>$doregex[makelist]|User-Agent=Android</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR lime][B][makelist.param1][/B][/COLOR]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param2]&amp;url=$doregex[encodedurl]</link>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:.*,(.*?)\n.*(http.*m3u8)]]></expres>
-<page>https://treshi.github.io/daily-iptv.al/</page>
-<referer>https://treshi.github.io/daily-iptv.al/</referer>
-<connection>keep-alive</connection>
-<x-forward></x-forward>
-</regex>
-<regex>
-<name>encodedurl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
-<page></page>
-</regex>
-</item>
+
 
 <item>
 <title>[COLOR lime][B]XML CODE[/B][/COLOR]</title>
@@ -1119,8 +1098,8 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:.*,(.*?)\n.*(http.*m3u8)]]></expres>
-<page>https://treshi.github.io/daily-iptv.al/</page>
-<referer>https://treshi.github.io/daily-iptv.al/</referer>
+<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
+<referer>https://iptvlinkseuro.blogspot.com/</referer>
 <connection>keep-alive</connection>
 <x-forward></x-forward>
 <agent>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36</agent>
