@@ -1071,7 +1071,7 @@ item>
    <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist2.param1]&amp;maxbitrate=0&amp;Buffer=20971520</link>
    <thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
+<expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
 <page>[makelist.param1]?get=download_m3u8</page>
 </regex>
 <regex>
@@ -1101,36 +1101,22 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 </item>
 
 <item>
-<title>[COLOR lime][B]M3U DATA[/B][/COLOR]</title>
+<title>[COLOR lime][B]XML CODE[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-   <title>[COLOR lime] [makelist.param1][/COLOR]</title>
-   <link>$doregex[makelist.param2]</link>
-   <thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>#<![CDATA[href="([^"]+)">(.*?)</a]]>
-<page>https://treshi.github.io/daily-iptv.al/</page>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-   <title>[COLOR deepskyblue] [makelist2.param1][/COLOR]</title>
-   <link>plugin://plugin.video.f4mTester/?url=$doregex[getUrl]&amp;streamtype=TSDOWNLOADER&amp;name=[makelist.param2]&amp;maxbitrate=0&amp;Buffer=20971520</link>
-   <thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page>[makelist.param2]?get=download_m3u8</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>$pyFunction:urllib.quote_plus('[makelist2.param2]|User-Agent=VLC/2.2.1 LibVLC/2.2.17&amp;Icy-MetaData=1')</expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
+<title>[makelist.param1]</title>
+<link>[makelist.param2]</link>
 <thumbnail></thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:-1.*,(.*?)\n(.*)</expres>
+<page>https://treshi.github.io/daily-iptv.al/</page>
+<referer></referer>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
 </item>
+
 
 
 
