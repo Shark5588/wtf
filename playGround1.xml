@@ -1070,7 +1070,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[#EXTINF:.*,(.*?)\n.*(http.*m3u8)]]></expres>
-<page>https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels.html</page>
+<page>https://www.oneplaylist.space/database/exportvlc</page>
 <referer>https://iptvlinkseuro.blogspot.com/</referer>
 <connection>keep-alive</connection>
 <x-forward></x-forward>
