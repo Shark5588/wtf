@@ -1098,6 +1098,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <expres><![CDATA[#EXTINF:.*,(.*?)\n.*(http.*m3u8)]]></expres>
 <page>https://treshi.github.io/daily-iptv.al/</page>
 <referer>https://treshi.github.io/daily-iptv.al/</referer>
+<connection>keep-alive</connection>
 <x-forward></x-forward>
 </regex>
 <regex>
@@ -1120,8 +1121,9 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 <expres><![CDATA[#EXTINF:.*,(.*?)\n.*(http.*m3u8)]]></expres>
 <page>https://treshi.github.io/daily-iptv.al/</page>
 <referer>https://treshi.github.io/daily-iptv.al/</referer>
+<connection>keep-alive</connection>
 <x-forward></x-forward>
-<agent>Kodi/18.0</agent>
+<agent>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36</agent>
 </regex>
 <regex>
 <name>encodedurl</name>
