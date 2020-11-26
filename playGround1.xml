@@ -958,7 +958,7 @@ http://www.iptv4free.com
         <title>[list.param2]</title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres><![CDATA[<a[^>]+href=["'](.*?)["']]]></expres>
+        <expres><![CDATA[(?:href=['"])([:/.A-z?<_&\s=>0-9;-]+)]]></expres>
         <page>http[leg.param1]</page>
     </regex>
     <regex>
@@ -1122,6 +1122,7 @@ https://xoiptv.blogspot.com/
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 <![CDATA[<a href="(.*?)">#(.*?)</a>]]>
 <![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]> - capture all URLs
+<![CDATA[<a[^>]+href=["'](.*?)["']]]>
 <[a|img]+\\s+(?:[^>]*?\\s+)?[src|href]+=[\"']([^\"']*)['\"]
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
