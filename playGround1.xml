@@ -942,24 +942,24 @@ http://www.iptv4free.com
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
-    <link>$doregex[leg]</link>
+    <link>$doregex[makelist]</link>
     <regex>
-        <name>leg</name><title>
+        <name>makelist</name><title>
         <listrepeat><![CDATA[
         <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red] [leg.param2] [/COLOR][COLOR snow] )[/COLOR]</title>
-        <link>$doregex[list]</link>
+        <link>$doregex[makelist]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
         <page>https://leaksat.com/category/daily-playlist-m3u</page>
     </regex>
     <regex>
-        <name>list</name>
+        <name>makelist</name>
         <listrepeat><![CDATA[
-        <title>[list.param2]</title>
+        <title>[COLOR cyan]Server:[/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres><![CDATA[(http://(.*)/.*]]></expres>
-        <page>http[leg.param1]</page>
+        <expres>(http://(.*)/.*</expres>
+        <page>http[makelist.param1]</page>
     </regex>
     <regex>
         <name>m3ulist</name>
@@ -1120,6 +1120,7 @@ https://xoiptv.blogspot.com/
 [/?\w+\s+[\^>]*]
 <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
+<![CDATA[<a href="(.*?)">#(.*?)</a>]]>
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
