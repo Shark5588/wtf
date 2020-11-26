@@ -927,7 +927,6 @@ http://www.iptv4free.com
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<title>•</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
     <link>$doregex[makelist]</link>
@@ -963,7 +962,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
        <title>[COLOR lightskyblue][list.param2][/COLOR]</title>
        <link>$doregex[makelist2]</link>
     ]]></listrepeat>
-        <expres><![CDATA[<a href="(.*?)">Download (.*?)</a>]]></expres>
+        <expres><![CDATA[<a href="(.*?)">Download 2020(.*?)</a>]]></expres>
         <page>http[leg.param1]</page>
     </regex>
      <regex>
@@ -983,7 +982,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<title>•</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
     <link>$doregex[makelist]</link>
@@ -1019,7 +1017,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
        <title>[COLOR lightskyblue][list.param2][/COLOR]</title>
        <link>$doregex[makelist2]</link>
     ]]></listrepeat>
-        <expres><![CDATA[<a href="(.*?)">Download (.*?)</a>]]></expres>
+        <expres><![CDATA[<a href="(.*?)">Download 2020(.*?)</a>]]></expres>
         <page>http[leg.param1]</page>
     </regex>
      <regex>
