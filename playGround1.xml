@@ -903,7 +903,7 @@ http://www.iptv4free.com
         <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
-        <page>https://freeiptvm3u24.blogspot.com/</page>
+        <page>https://freeiptvm3u24.blogspot.com/2020</page>
     </regex>
     <regex>
         <name>list</name>
@@ -911,7 +911,7 @@ http://www.iptv4free.com
         <title>[list.param2]</title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres><![CDATA[<a href="(.*?)"> free iptv m3u playlist updates 2020(.*?)</a>]]></expres>
+        <expres><![CDATA[<a href="(.*?)"> free iptv m3u playlist(.*?)</a>]]></expres>
         <page>http[leg.param1]</page>
     </regex>
     <regex>
