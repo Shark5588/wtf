@@ -120,20 +120,10 @@
 <title>[B][COLORorangered] [makelist.param1] [/COLOR][/B] </title>
 <link>[makelist.param1]</link>
 ]]></listrepeat>
-<expres>^((http[s]?|ftp):\/)?\/?([^:\/\s]+)((\/\w+)*\/)([\w\-\.]+[^#?\s]+)(.*)?(#[\w\-]+)?$</expres>
+<expres><![CDATA[<a[^>]+href=["'](.*?)["']]]></expres>
 <page>http://195-154-255-220.rev.poneytelecom.eu/preuzeto/Filmovi/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
-</item>
-
-<item>
-<title>tt</title>
-<link>$doregex[get-url]</link>
-<regex>
-<name>get-url</name>
-<expres>file: "([^"]*)</expres>
-<page>http://195-154-255-220.rev.poneytelecom.eu/preuzeto/Filmovi/</page>
-</regex>
 </item>
