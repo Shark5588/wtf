@@ -120,7 +120,7 @@
 <title>[B][COLORorangered] [makelist.param1] [/COLOR][/B] </title>
 <link>[makelist.param1]</link>
 ]]></listrepeat>
-<expres>(?=http|avi|mp4|mkv)</expres>
+<expres>^((http[s]?|ftp):\/)?\/?([^:\/\s]+)((\/\w+)*\/)([\w\-\.]+[^#?\s]+)(.*)?(#[\w\-]+)?$</expres>
 <page>http://195-154-255-220.rev.poneytelecom.eu/preuzeto/Filmovi/</page>
  
 </regex>
