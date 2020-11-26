@@ -958,7 +958,7 @@ http://www.iptv4free.com
         <title>[COLOR cyan]Server:[/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres>(http://(.*)/.*</expres>
+        <expres>(http://(.*)/.*)</expres>
         <page>http[leg.param1]</page>
     </regex>
     <regex>
