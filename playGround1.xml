@@ -350,7 +350,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 import re,requests
 def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('player[\w\W]*?(?:source|src|file):\s*[\'"]([^\'"]+)',page_data)[0]+'|user-agent=ipad&origin=http://crackstreams.net&referer=http://crackstreams.net/embed/ch1.php'
+  link=re.findall('<iframe.+?src=[\'"]([^\'"]+)',page_data)[0]
+  source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist2.param1]','accept':'*/*'}.content
+  return re.findall('id=.vid[\w\W]*?(?:source|src|file):\s*[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
 ]]></expres>
 <page>[makelist2.param1]</page>
 <referer>http://crackstreams.com/[makelist.param1]</referer>
@@ -688,7 +690,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-27-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-29-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -728,7 +730,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page>https://leaksat.com/2020/11/iptv-m3u-playlist-27-11-2020.html/2</page>
+<page>https://leaksat.com/2020/11/iptv-m3u-playlist-29-11-2020.html/2</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -748,7 +750,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-26-november-2020.html</page>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-29-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -956,7 +958,7 @@ http://www.iptv4free.com
         <title>[list.param2]</title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres><![CDATA[<a\s[^>]*href=(\"??)([^\" >]*?)\\1[^>]*>(.*)<\/a>]]></expres>
+        <expres>DownloadUrl":"([^"]+)</expres>
         <page>http[leg.param1]</page>
     </regex>
     <regex>
