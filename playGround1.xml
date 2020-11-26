@@ -958,7 +958,7 @@ http://www.iptv4free.com
         <title>[list.param2]</title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres><![CDATA[(?:href=['"])([:/.A-z?<_&\s=>0-9;-]+)]]></expres>
+        <expres>("/<a\s[^>]*href\s*=\s*([\"\']??)([^\"\' >]*?)\\1[^>]*>(.*)<\/a>/siU"</expres>
         <page>http[leg.param1]</page>
     </regex>
     <regex>
