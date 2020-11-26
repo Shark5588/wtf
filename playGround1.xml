@@ -946,7 +946,7 @@ http://www.iptv4free.com
     <regex>
         <name>makelist</name><title>
         <listrepeat><![CDATA[
-        <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red] [leg.param2] [/COLOR][COLOR snow] )[/COLOR]</title>
+        <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red] [makelist.param2] [/COLOR][COLOR snow] )[/COLOR]</title>
         <link>$doregex[makelist]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
