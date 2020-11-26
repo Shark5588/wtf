@@ -903,8 +903,7 @@ http://www.iptv4free.com
 <thumbnail></thumbnail>
 <fanart></fanart>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2018]]></expres>
-        <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)-2020]]>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)-2020]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=100</page>
 </regex>
 </regex>
@@ -916,9 +915,6 @@ http://www.iptv4free.com
 <thumbnail></thumbnail>
 <fanart></fanart>
  <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
-
- 
-
  ]]></listrepeat>
 <expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
 <page>[makelist2.param1]</page>
