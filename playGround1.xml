@@ -958,7 +958,7 @@ http://www.iptv4free.com
         <title>[list.param2]</title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
-        <expres><![CDATA[<[a|img]+\\s+(?:[^>]*?\\s+)?[src|href]+=[\"']([^\"']*)['\"]</a>]]></expres>
+        <expres><![CDATA["href\\s*=\\s*(?:\"(?<1>[^\"]*)\"|(?<1>\\S+))"]]></expres>
         <page>http[leg.param1]</page>
     </regex>
     <regex>
@@ -1121,6 +1121,7 @@ https://xoiptv.blogspot.com/
 <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 <![CDATA[<a href="(.*?)">#(.*?)</a>]]>
+<[a|img]+\\s+(?:[^>]*?\\s+)?[src|href]+=[\"']([^\"']*)['\"]
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
