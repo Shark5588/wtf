@@ -870,7 +870,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><a\s+(?:[^>]*?\s+)?href="([^"]+\?[^"]+)"</expres>
+<expres><![CDATA[post-title entry-title[href\\s*=\\s*(?:\"(?<1>[^\"]*)\"|(?<1>\\S+))\n<]]></expres>
 <page>https://m.m3uiptv.com/search?max-results=40</page>
 </regex>
 
@@ -902,7 +902,7 @@ http://www.iptv4free.com
         <title>[leg.param2]</title>
         <link>$doregex[list]</link>
         ]]></listrepeat>
-        <expres><a\s+(?:[^>]*?\s+)?href="([^"]+\?[^"]+)"</expres>
+        <expres>href\\s*=\\s*(?:\"(?<1>[^\"]*)\"|(?<1>\\S+))</expres>
         <page>https://m.m3uiptv.com/</page>
     </regex>
     <regex>
