@@ -903,7 +903,7 @@ http://www.iptv4free.com
         <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
-        <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
+        <page>https://freeiptvm3u24.blogspot.com/2020/11/</page>
     </regex>
     <regex>
         <name>list</name>
@@ -967,7 +967,7 @@ http://www.iptv4free.com
         <title>[m3ulist.param1]</title>
         <link>$doregex[file]</link>
         ]]></listrepeat>
-        <expres><![CDATA[-1,(.*?)\n(.+)]]></expres>
+        <expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
         <page>[list.param1]</page>
         <Referer>[list.param1]</Referer>
     </regex>
@@ -1125,6 +1125,7 @@ https://hdbox.ws/en/?wpfb_dl=14456
 #(http:\/\/(.*?)\/.*?get.php.*?)&lt;
 #(http://(.*)/.*)
 EXTINF.*.*,(.*?)\n(.*)
+
 #EXTINF:-1,(.*?)\n(.*)
 #(r'#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)')
 ('source:\s*[\'"]([^\'"]+)
