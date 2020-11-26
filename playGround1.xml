@@ -953,31 +953,35 @@ http://www.iptv4free.com
         <page>https://leaksat.com/category/daily-playlist-m3u</page>
     </regex>
     <regex>
-        <name>leg</name>
-        <listrepeat><![CDATA[
-       <title>[COLOR lightskyblue][leg.param2][/COLOR]</title>
-       <link>$doregex[list]</link>
-       ]]></listrepeat>
-        <expres><![CDATA[(?s)<h2 class="post-title".+?href="http(.+?)">.+?\s(\d+[^\'"]+)</a>]]></expres>
-        <page>[list.param1]</page>
-    </regex>
-    <regex>
         <name>list</name>
         <listrepeat><![CDATA[
-       <title>[COLOR lightskyblue][list.param2][/COLOR]</title>
-       <link>$doregex[list2]</link>
-    ]]></listrepeat>
-        <expres><![CDATA[<a href="(.*?)">Download (.*?)</a>]]></expres>
+        <title>[list.param2]</title>
+        <link>$doregex[m3ulist]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[<a href="(.*?)">#(.*?)</a>]]></expres>
         <page>http[leg.param1]</page>
     </regex>
-     <regex>
-    <name>list2</name>
-    <listrepeat><![CDATA[
-    <title>[COLOR white]Channel: [COLOR lightskyblue][list2.param1] [/COLOR][/COLOR]</title>
-    <link>plugin://plugin.video.f4mTester/?url=[makelist2.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;name=[COLOR lightskyblue][B][COLOR white]#EXTINF:[/COLOR][/B] [list2.param1]</link>
-    ]]></listrepeat>
-    <expres>#EXTINF:.*?,(.*?)\n(.*)</expres>
-    <page>[list.param1]</page>
+    <regex>
+        <name>m3ulist</name>
+        <listrepeat><![CDATA[
+        <title>[m3ulist.param1]</title>
+        <link>$doregex[file]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[#EXTINF:-1,(.*?)\n(.*)]]></expres>
+        <page>[list.param1]</page>
+        <Referer>[list.param1]</Referer>
+    </regex>
+    <regex>
+        <name>file</name>
+        <expres><![CDATA[#$pyFunction
+        def GetLSProData(page_data,Cookie_Jar,m,url='[m3ulist.param2]'):
+        import urllib
+        u = url
+        if '.ts' in url:
+	    u = 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=' + urllib.quote_plus(url)
+        return u
+        ]]></expres>
+        <page></page>
     </regex>
 </item>
 
