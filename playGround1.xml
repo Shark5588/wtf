@@ -955,7 +955,7 @@ http://www.iptv4free.com
     <regex>
         <name>list</name>
         <listrepeat><![CDATA[
-        <title>[COLOR cyan]Server:[/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
+        <title>[COLOR cyan]Server:[/COLOR] [COLOR gold][list.param2][/COLOR] ( [list.param1] ) </title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
         <expres>(http://(.*)/.*)</expres>
