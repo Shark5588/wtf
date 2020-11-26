@@ -30,8 +30,8 @@
 <urlsolve>[makelist.param2]</urlsolve>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://ir2.papionvod.ir/Media/Movies/Dubbed/2019/</page>
+<expres><![CDATA[<a[^>]+href=["'](.*?)["']]]></expres>
+<page>https://klearning.ict.kis.ac.th/scivdos/VDOs/?C=M;O=A</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
