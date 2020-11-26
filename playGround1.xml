@@ -942,24 +942,24 @@ http://www.iptv4free.com
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
-    <link>$doregex[makelist]</link>
+    <link>$doregex[leg]</link>
     <regex>
-        <name>makelist</name><title>
+        <name>leg</name><title>
         <listrepeat><![CDATA[
-        <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red] [makelist.param2] [/COLOR][COLOR snow] )[/COLOR]</title>
-        <link>$doregex[makelist]</link>
+        <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red] [leg.param2] [/COLOR][COLOR snow] )[/COLOR]</title>
+        <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
         <page>https://leaksat.com/category/daily-playlist-m3u</page>
     </regex>
     <regex>
-        <name>makelist</name>
+        <name>list</name>
         <listrepeat><![CDATA[
         <title>[COLOR cyan]Server:[/COLOR] [COLOR gold][makelist.param2][/COLOR] ( [makelist.param1] ) </title>
         <link>$doregex[m3ulist]</link>
         ]]></listrepeat>
         <expres>(http://(.*)/.*</expres>
-        <page>http[makelist.param1]</page>
+        <page>http[leg.param1]</page>
     </regex>
     <regex>
         <name>m3ulist</name>
