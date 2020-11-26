@@ -870,7 +870,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
+<expres>(?:[A-Z]+[|:]|\|\|[A-Z]+\|\|) (\S.*?)</expres>
 <page>https://m.m3uiptv.com/search?max-results=40</page>
 </regex>
 
