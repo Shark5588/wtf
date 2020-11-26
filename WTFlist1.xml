@@ -120,7 +120,7 @@
 <title>[B][COLORorangered] [makelist.param1] [/COLOR][/B] </title>
 <link>[makelist.param2]</link>
 ]]></listrepeat>
-<expres><![CDATA[*name="(.*)".*tvg-logo=(.*),(.*).*\n.*?(?=http|avi|mp4|mkv)]]></expres>
+<expres>*name="(.*)".*tvg-logo=(.*),(.*).*\n.*?(?=http|avi|mp4|mkv)</expres>
 <page>http://195-154-255-220.rev.poneytelecom.eu/preuzeto/Filmovi/</page>
  
 </regex>
