@@ -893,36 +893,49 @@ http://www.iptv4free.com
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist2]</link>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[B][COLOR lime]Daily[COLOR cyan] Dose -[COLOR yellow][I] Date Uploaded: [makelist2.param2] [/COLOR][/B][/I]</title>
- <link>$doregex[makelist]</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
- ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]></expres>
-<page>https://leaksat.com/search?max-results=40</page>
-</regex>
-</regex>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <title>[B][COLOR lime]Test[COLOR cyan] - [I][COLOR lime][makelist.param1][makelist.param2][/B][/I][/COLOR] </title>
- <link>NA</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
- <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
- ]]></listrepeat>
-<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
-<page>[makelist2.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<info></info>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+    <link>$doregex[leg]</link>
+    <regex>
+        <name>leg</name>
+        <listrepeat><![CDATA[
+        <title>[leg.param2]</title>
+        <link>$doregex[list]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
+        <page>https://freeiptvm3u24.blogspot.com/</page>
+    </regex>
+    <regex>
+        <name>list</name>
+        <listrepeat><![CDATA[
+        <title>[list.param2]</title>
+        <link>$doregex[m3ulist]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[<a href="(.*?)">iptv-m3u-playlist(.*?)</a>]]></expres>
+        <page>http[leg.param1]</page>
+    </regex>
+    <regex>
+        <name>m3ulist</name>
+        <listrepeat><![CDATA[
+        <title>[m3ulist.param1]</title>
+        <link>$doregex[file]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[-1,(.*?)\n(.+)]]></expres>
+        <page>[list.param1]</page>
+        <Referer>[list.param1]</Referer>
+    </regex>
+    <regex>
+        <name>file</name>
+        <expres><![CDATA[#$pyFunction
+        def GetLSProData(page_data,Cookie_Jar,m,url='[m3ulist.param2]'):
+        import urllib
+        u = url
+        if '.ts' in url:
+	    u = 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=' + urllib.quote_plus(url)
+        return u
+        ]]></expres>
+        <page></page>
+    </regex>
 </item>
 
 <item>
@@ -931,9 +944,9 @@ http://www.iptv4free.com
     <fanart></fanart>
     <link>$doregex[leg]</link>
     <regex>
-        <name>leg</name>
+        <name>leg</name><title>
         <listrepeat><![CDATA[
-        <title>[leg.param2]</title>
+        <title>[B][COLORdodgerblue]Daily m3u playlist[/COLOR][/B] [COLOR snow]( [/COLOR][COLOR red] [leg.param2] [/COLOR][COLOR snow] )[/COLOR]</title>
         <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
