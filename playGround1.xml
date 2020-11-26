@@ -630,7 +630,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://honapost.com/free-iptv-links-m3u-playlist-22-11-2020-2/</page>
+<page>https://honapost.com/free-iptv-links-m3u-playlist-26-11-2020-2/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -690,7 +690,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-23-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-26-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -730,7 +730,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page>https://leaksat.com/2020/11/iptv-m3u-playlist-23-11-2020.html/2</page>
+<page>https://leaksat.com/2020/11/iptv-m3u-playlist-26-11-2020.html/2</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -750,7 +750,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-24-november-2020.html</page>
+<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-26-november-2020.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
