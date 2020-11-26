@@ -927,54 +927,49 @@ http://www.iptv4free.com
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>$doregex[makelist2]</link>
-
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[COLORdodgerblue]Servers[/COLOR] [makelist2.param2] </title>
- <link>$doregex[makelist]</link>
-<thumbnail></thumbnail>
- ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2017]]></expres>
-<page>https://leaksat.com/search?max-results=40</page>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <title>[B]SERVER [COLORdodgerblue][makelist.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist.param2][/COLOR][/B] </title>
- <link>NA</link>
- <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
-<thumbnail></thumbnail>
- ]]></listrepeat>
-<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
-<page>[makelist2.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
-
-<name>makelist2</name>
-<listrepeat><![CDATA[
- <title>[COLORdodgerblue] [makelist2.param2][/COLOR]</title>
- <link>$doregex[makelist]</link>
- <thumbnail></thumbnail>
- ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>(.*?)<]]></expres>
-<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
-</regex>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
- <title>[COLORdodgerblue][makelist.param1][/COLOR]</title>
- <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=-1&amp;proxy=None&amp;name=[makelist.param1]</link>
- <thumbnail></thumbnail>
- ]]></listrepeat>
-<expres><![CDATA[EXTINF[\w\W\s]{0,3},(.*?)<[\w\W\s]{0,55}>(http.*?ts)<]]></expres>
-<page>[makelist2.param1]</page>
-<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
-</regex>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+    <link>$doregex[leg]</link>
+    <regex>
+        <name>leg</name>
+        <listrepeat><![CDATA[
+        <title>[leg.param2]</title>
+        <link>$doregex[list]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
+        <page>https://leaksat.com/category/daily-playlist-m3u</page>
+    </regex>
+    <regex>
+        <name>list</name>
+        <listrepeat><![CDATA[
+        <title>[list.param2]</title>
+        <link>$doregex[m3ulist]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[<a href="(.*?)">iptv-m3u-playlist(.*?)</a>]]></expres>
+        <page>http[leg.param1]</page>
+    </regex>
+    <regex>
+        <name>m3ulist</name>
+        <listrepeat><![CDATA[
+        <title>[m3ulist.param1]</title>
+        <link>$doregex[file]</link>
+        ]]></listrepeat>
+        <expres><![CDATA[-1,(.*?)\n(.+)]]></expres>
+        <page>[list.param1]</page>
+        <Referer>[list.param1]</Referer>
+    </regex>
+    <regex>
+        <name>file</name>
+        <expres><![CDATA[#$pyFunction
+        def GetLSProData(page_data,Cookie_Jar,m,url='[m3ulist.param2]'):
+        import urllib
+        u = url
+        if '.ts' in url:
+	    u = 'plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&url=' + urllib.quote_plus(url)
+        return u
+        ]]></expres>
+        <page></page>
+    </regex>
 </item>
 
 
