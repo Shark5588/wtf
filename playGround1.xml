@@ -903,7 +903,7 @@ http://www.iptv4free.com
 <thumbnail></thumbnail>
 <fanart></fanart>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)-2020]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=100</page>
 </regex>
 </regex>
