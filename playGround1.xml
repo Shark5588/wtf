@@ -689,7 +689,7 @@ item>
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<h4 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
+<expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
 <page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-29-11-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
