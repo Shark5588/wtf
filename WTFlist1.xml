@@ -118,10 +118,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[B][COLORorangered] [makelist.param1] [/COLOR][/B] </title>
-<link>[makelist1.param2]</link>
+<link>[makelist.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page></page>
+<expres><![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]></expres>
+<page>http://195-154-255-220.rev.poneytelecom.eu/preuzeto/Filmovi/</page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
