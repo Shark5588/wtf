@@ -610,7 +610,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://yamcode.com/raw/wZQ8gzJ3uU</page>
+<page>https://yamcode.com/wZQ8gzJ3uU</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -630,7 +630,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://777hustle777.info/Immortal-Linee.html?__cf_chl_jschl_tk__=d30920e0a6523cef863e2e4d9b49b84f45ff499b-1606789637-0-ARCY2QGqSuR3oJd2AcbJ4r4VuKK_0FKGO_KLSxnuht7tXjO1y-qLlHgLIM13KUsDbF9Hba_WZL1TkPOh3Z5owfbgNxdUrIWetAHgbGTNGENiiIaIxx0z19hx6NFcPcILlwYKwnxxxVewI7k_qYeAXh_kpzVSZ22x6B07I2OAxDSqzc3WGCq5yRfaAZOqbdbkDVFPMOx9n8KAOTi8iX31fMfKZw2_o4XOf34Sa6Mdoxp5sCjy8w-e6vZi87W1dv4lXsHkYQiLbhKJ17HCrVnbBji0hrsAqoqMLvMVqfTmdm4b_zx6KCvdvA3OGV3zpTq6VDdPQsEVwQ0NxjwwrgJYD78</page>
+<page>http://777hustle777.info/Immortal-Linee.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
