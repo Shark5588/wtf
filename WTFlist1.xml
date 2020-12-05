@@ -85,7 +85,7 @@
 <link>http://173.249.51.120/[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://173.249.51.120/</page>
+<page></page>
  
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>

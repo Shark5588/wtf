@@ -312,52 +312,6 @@ def GetLSProData(page_data,Cookie_Jar,m):#cosmix
 
 
 
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] CRACKSTREAM [/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold][makelist.param2][/COLOR]</title>
-  <link>$doregex[makelist2]</link>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('href="/(.*?)">([^\s]+)',re.findall('"nav navbar-nav">(?s)(.*?)</ul',page_data)[0])
-]]></expres>
-<page>http://crackstreams.com/</page>
-</regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
-  <title>[COLOR gold][makelist2.param3][/COLOR]</title>
-  <link>$doregex[getUrl]</link>
-  <thumbnail>http://crackstreams.com/[makelist2.param2]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('(?s)href=[\'"]([^\'"]+).+?(imag[^\'"]+).+?media-heading.>([^<]+)',re.findall('Schedule</h1>(?s)(.*?)(?:"text-center|<h2)',page_data)[0])
-]]></expres>
-<page>http://crackstreams.com/[makelist.param1]</page>
-<referer>http://crackstreams.com/</referer>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  link=re.findall('<iframe.+?src=[\'"]([^\'"]+)',page_data)[0]
-  source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist2.param1]','accept':'*/*'}.content
-  return re.findall('id=.vid[\w\W]*?(?:source|src|file):\s*[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
-]]></expres>
-<page>[makelist2.param1]</page>
-<referer>http://crackstreams.com/[makelist.param1]</referer>
-</regex>
-</item>
 
 
 
@@ -550,7 +504,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-30-11-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-05-12-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -570,7 +524,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/11/iptv-servers-iptv-lists-m3u-playlists-30-november-2020.html</page>
+<page>https://m3u.freeiptv.life/2020/12/iptv-servers-iptv-lists-m3u-playlists-06-december-2020.html</page>
 <referer>https://iptvfreelinks.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -860,7 +814,7 @@ item>
 </item>
 
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]1[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
 <regex>
@@ -891,7 +845,7 @@ item>
 http://www.iptv4free.com
 
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
@@ -938,7 +892,7 @@ http://www.iptv4free.com
     </regex>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]3[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
@@ -986,7 +940,7 @@ http://www.iptv4free.com
 </item>
 
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]4[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -1076,7 +1030,7 @@ item>
 <fanart></fanart>
 </item>
 
-<item>
+item>
 <title>[COLOR red]Test MASTER[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 
