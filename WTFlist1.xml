@@ -12,7 +12,7 @@
   <link>$doregex[makelist2]</link>
 ]]></listrepeat>
 <expres><![CDATA[href.+?>(\w[^/<]+)]]></expres>
-<page>http://anilist1.ir/Movie/2020/</page>
+<page>http://anilist1.ir/Movie/</page>
 </regex>
 <regex>
 <name>makelist2</name>
@@ -23,7 +23,7 @@
 <expres><![CDATA[#$pyFunction
 import re,requests
 def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
-  hUrl='http://anilist1.ir/Movie/2020/[makelist.param1]/'+re.findall('href="(720[^">]+)',page_data)[0]
+  hUrl='http://anilist1.ir/Movie/[makelist.param1]/'+re.findall('href="(720[^">]+)',page_data)[0]
   source=requests.get(hUrl).content
   list=re.findall('</h1>(?s)(.*)',source)[0]
   stream=re.findall('href="(\w[^">]+)',list)
@@ -32,7 +32,7 @@ def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
      list=list.replace(s,fstream)
   return re.findall('href="(h.+?\.(s[^\.]+)[^"]+)',list)
 ]]></expres>
-<page>http://anilist1.ir/Movie/2020/[makelist.param1]/</page>
+<page>http://anilist1.ir/Movie/[makelist.param1]/</page>
 </regex>
 </item>
 
