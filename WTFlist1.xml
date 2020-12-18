@@ -3,9 +3,9 @@
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 1x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
-<link>$doregex[url]</link>
+<link>$doregex[makelist]</link>
 <regex>
-<name>url</name>
+<name>makelist</name>
 <expres>sourceURL":\s.+?"(.*?)"</expres>
 <page>http://anilist1.ir/Movie/2020/</page>
 </regex>
@@ -19,15 +19,14 @@
 <link>$doregex[makelist]</link>
  
 <regex>
-<name>makelist</name>
+<name>makelist0</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR lightblue] [makelist.param1] [/COLOR][/B] </title>
-<urlsolve>[makelist.param2]</urlsolve>
-<link>[makelist.param2]</link>
+<title>[B][COLORmagenta] [makelist0.param1] [/COLOR][/B] </title>
+<link>http://dominicannetworkvideos.com/files/cinemas/[makelist0.param1]</link>
 ]]></listrepeat>
-<expres><![CDATA[href.+?>(\w[^/<]+)]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>https://klearning.ict.kis.ac.th/scivdos/VDOs/?C=M;O=A</page>
- 
+
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
