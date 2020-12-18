@@ -11,7 +11,7 @@
   <title>[COLOR gold][makelist.param1][/COLOR]</title>
   <link>$doregex[makelist2]</link>
 ]]></listrepeat>
-<expres><![CDATA[href.+?>(\w[^/<]+)]]></expres>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>        
 <page>http://anilist1.ir/Movie/</page>
 </regex>
 <regex>
@@ -68,7 +68,7 @@ def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
 <link>http://dominicannetworkvideos.com/files/cinemas/[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://dominicannetworkvideos.com/files/cinemas/</page>
+<page></page>
 
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -86,7 +86,7 @@ def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
 <link>[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>http://mysxteam.com/GudangMovie/English/</page>
+<page></page>
 
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
