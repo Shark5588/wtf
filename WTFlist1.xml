@@ -3,13 +3,18 @@
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 1x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
+<link>$doregex[makelist0]</link>
+ 
 <regex>
-<name>makelist</name>
-<expres>sourceURL":\s.+?"(.*?)"</expres>
+<name>makelist0</name>
+<listrepeat><![CDATA[
+<title>[B][COLORmagenta] [makelist0.param1] [/COLOR][/B] </title>
+<link>[makelist0.param1]</link>
+]]></listrepeat>
+<expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page>http://anilist1.ir/Movie/2020/</page>
-</regex>
 
+</regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
   <fanart>https://images.all-free-download.com/images/graphicthumb/black_curtain_vector_287355.jpg</fanart>
 </item>
@@ -22,10 +27,10 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[B][COLORmagenta] [makelist.param1] [/COLOR][/B] </title>
-<link>http://dominicannetworkvideos.com/files/cinemas/[makelist0.param1]</link>
+<link>[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
-<page>https://klearning.ict.kis.ac.th/scivdos/VDOs/?C=M;O=A</page>
+<page>http://www.getinmy.space/complete/</page>
 
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
@@ -40,7 +45,7 @@
 <name>makelist0</name>
 <listrepeat><![CDATA[
 <title>[B][COLORmagenta] [makelist0.param1] [/COLOR][/B] </title>
-<link>http://dominicannetworkvideos.com/files/cinemas/[makelist0.param1]</link>
+<link>[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page></page>
@@ -76,7 +81,7 @@
 <name>makelist0</name>
 <listrepeat><![CDATA[
 <title>[B][COLORorangered] [makelist0.param1] [/COLOR][/B] </title>
-<link>http://173.249.51.120/[makelist0.param1]</link>
+<link>[makelist0.param1]</link>
 ]]></listrepeat>
 <expres><![CDATA[href="(.*?)">(.*?)-]]></expres>
 <page></page>
