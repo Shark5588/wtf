@@ -678,7 +678,7 @@ item>
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<expres><![CDATA[<a href="(.*?)">#(.*?)</a>]]></expres>
 <page>https://ukrsat.blogspot.com/p/iptv.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
@@ -819,7 +819,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]></expres>
+<expres>/(http|https|ftp|ftps)\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(\/\S*)?/g</expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 
