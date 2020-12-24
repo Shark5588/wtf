@@ -644,7 +644,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/?__cf_chl_jschl_tk__=8ebd6d20b86905ce1507eee6f0625dcc71006a16-1608816639-0-AbxDcr46fT7r1YukoI2xMkvWDT3Eo0t7Cotja7Xq_ejMMyPekYs7aIYBF233CKHLreUxR9qA3IXZbJLi1_RITzl7-XdPpn_kG7g2STteV9bxR9GGcVngfJov1Dc2WDRkO2oCyWEfqxkit1YhdVF52ReMSYarHAW7vyw8FH6l446kfj3MQynGw4IZ3Gib-uUc2uGhAV_v-lfcvBf4tLNtIv6tNZZYUnbjOhpIuZ8vXixRo95cyKKfcglZxfoOimhstqfV_paxPnM84QZrjWycnM2XVl2hrdnC8Y2TLvC0K8VAIrkBcfkx8ENUYtzqhraO4K1SMZamZ8hyEhZeqSUPLdl29vACpjVQOkmNCgZGnplIfAL_j7Ef_SCV7bEVw47OXw</page>
+<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -824,7 +824,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
 <page>https://alliptvurl.blogspot.com/search?max-results=40</page>
 </regex>
 
