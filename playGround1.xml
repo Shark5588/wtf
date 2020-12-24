@@ -310,11 +310,18 @@ def GetLSProData(page_data,Cookie_Jar,m):#cosmix
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-
-
-
-
-
+<item>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] UKRSAT IPTV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
+<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
+<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
+<link>ignore-me</link>
+<externallink>$doregex[iptvLink]</externallink>
+<regex>
+<name>iptvLink</name>
+<expres>id="myInput1".+?value="([^"]+)</expres>
+<page>https://ukrsat.blogspot.com/p/iptv.html</page>
+</regex>
+</item>
 
 
 
@@ -1068,7 +1075,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 
 
 https://iptvlinkseuro.blogspot.com
-https://www.vlcm3u.com/us/sports-15/
+
 m3u_plus&output=mpegts
 https://freeiptvm3u24.blogspot.com/
 https://xoiptv.blogspot.com/
