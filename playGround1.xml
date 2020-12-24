@@ -832,7 +832,7 @@ item>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://www.simturax.com/search?max-results=40</page>
+<page>https://iptv4eg.blogspot.com/search?max-results=40</page>
 </regex>
 
 <regex>
@@ -853,7 +853,7 @@ item>
 
 http://www.iptv4free.com
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
@@ -865,7 +865,7 @@ item>
         <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
-        <page>https://m.m3uiptv.com/</page>
+        <page>https://iptv4eg.blogspot.com/</page>
     </regex>
     <regex>
         <name>list</name>
