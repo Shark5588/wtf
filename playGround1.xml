@@ -652,7 +652,7 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](14x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -664,7 +664,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvfalas-shqip.blogspot.com/p/stb-emu-codes.html</page>
+<page>https://www.simturax.com/2020/12/free-m3u-list.html</page>
 <referer>https://iptvfalas-shqip.blogspot.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -846,7 +846,7 @@ item>
 
 http://www.iptv4free.com
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
@@ -858,7 +858,7 @@ item>
         <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
-        <page>https://m.m3uiptv.com/</page>
+        <page>https://www.simturax.com/2020/12/free-m3u-list.html</page>
     </regex>
     <regex>
         <name>list</name>
