@@ -819,7 +819,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[(https?:\/\/)?(www\.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)|(https?:\/\/)?(www\.)?(?!ww)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)]]></expres>
+<expres><![CDATA[/?\w+\s+[\^>]*]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 
@@ -852,7 +852,7 @@ http://www.iptv4free.com
         <title>[leg.param2]</title>
         <link>$doregex[list]</link>
         ]]></listrepeat>
-        <expres><![CDATA[(https?:\/\/)?(www\.)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)|(https?:\/\/)?(www\.)?(?!ww)[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)]]></expres>
+        <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
         <page>https://freeiptvm3u24.blogspot.com/</page>
     </regex>
     <regex>
@@ -1068,12 +1068,17 @@ m3u_plus&output=mpegts
 https://freeiptvm3u24.blogspot.com/
 https://xoiptv.blogspot.com/
 [/?\w+\s+[\^>]*]
+<![CDATA[http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+]]> - regular expression for links
 <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 <![CDATA[<a href="(.*?)">#(.*?)</a>]]>
 <![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]>
 <![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]> - capture all URLs
-
+/(.*?)/    - regex any character
+-----------------------------------------------------------------
+# To match the entire line which contains one of foo, man, choo:-
+^.*(foo|man|choo).*$                                            -
+-----------------------------------------------------------------
 <[a|img]+\\s+(?:[^>]*?\\s+)?[src|href]+=[\"']([^\"']*)['\"]
 # source.+?"(.*?)\n.referer
 https://hdbox.ws/en/?wpfb_dl=14456
