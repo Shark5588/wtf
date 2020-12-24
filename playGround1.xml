@@ -524,7 +524,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/12/iptv-servers-iptv-lists-m3u-playlists-21-december-2020.html</page>
+<page>https://m3u.freeiptv.life/2020/12/iptv-servers-iptv-lists-m3u-playlists-24-december-2020.html</page>
 <referer>https://iptvfreelinks.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -584,7 +584,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page></page>
+<page>http://www.iptv4free.com/2020/11/iptv-playlist-channels.html?m=1</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -814,7 +814,7 @@ item>
 </item>
 
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]1[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist2]</link>
 <regex>
@@ -825,7 +825,7 @@ item>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://m.m3uiptv.com/search?max-results=40</page>
+<page>http://www.iptv4free.com/search?max-results=40</page>
 </regex>
 
 <regex>
@@ -842,7 +842,7 @@ item>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
-http://www.iptv4free.com
+
 
 
 item>
