@@ -825,7 +825,7 @@ item>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://iptvforall1.blogspot.com//search?max-results=40</page>
+<page>https://iptvforall1.blogspot.com/search?max-results=40</page>
 </regex>
 
 <regex>
