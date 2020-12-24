@@ -846,7 +846,7 @@ item>
 
 http://www.iptv4free.com
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
@@ -858,7 +858,7 @@ http://www.iptv4free.com
         <link>$doregex[list]</link>
         ]]></listrepeat>
         <expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
-        <page>https://www.simturax.com/2020/12/free-m3u-list.html</page>
+        <page>https://m.m3uiptv.com/</page>
     </regex>
     <regex>
         <name>list</name>
