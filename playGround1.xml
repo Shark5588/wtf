@@ -318,7 +318,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#cosmix
 <externallink>$doregex[iptvLink]</externallink>
 <regex>
 <name>iptvLink</name>
-<expres>id="myInput1".+?value="([^"]+)</expres>
+<expres><![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]></expres>
 <page>https://ukrsat.blogspot.com/p/iptv.html</page>
 </regex>
 </item>
