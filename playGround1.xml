@@ -644,7 +644,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/</page>
+<page>https://www.simturax.com/2020/12/free-m3u-list.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -824,7 +824,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
+<expres><![CDATA[<[a|img]+\\s+(?:[^>]*?\\s+)?[src|href]+=[\"']([^\"']*)['\"]]></expres>
 <page>https://m3u.freeiptv.life/search?max-results=40</page>
 </regex>
 
