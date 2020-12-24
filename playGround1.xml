@@ -310,19 +310,6 @@ def GetLSProData(page_data,Cookie_Jar,m):#cosmix
 <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
-<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR gold] UKRSAT IPTV[/COLOR][COLORred] (R) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
-<fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart> 
-<link>ignore-me</link>
-<externallink>$doregex[iptvLink]</externallink>
-<regex>
-<name>iptvLink</name>
-<expres><![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]></expres>
-<page>https://ukrsat.blogspot.com/p/iptv.html</page>
-</regex>
-</item>
-
 
 
 
@@ -680,7 +667,7 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-item>
+<item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](15x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -691,8 +678,8 @@ item>
     <link>NA</link>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
-<expres><![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]></expres>
-<page></page>
+<expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
+<page>https://ukrsat.blogspot.com/p/iptv.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -832,7 +819,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]></expres>
+<expres><![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 
@@ -1076,7 +1063,7 @@ https://iptvlinkseuro.blogspot.com/2020/06/iptv-uk-us-ca-italy-mix-m3u8-channels
 
 
 https://iptvlinkseuro.blogspot.com
-
+https://ukrsat.blogspot.com/p/iptv.html
 m3u_plus&output=mpegts
 https://freeiptvm3u24.blogspot.com/
 https://xoiptv.blogspot.com/
@@ -1084,6 +1071,7 @@ https://xoiptv.blogspot.com/
 <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
 <![CDATA[<a href="(.*?)">#(.*?)</a>]]>
+<![CDATA["\d+.{3}(.*?)\s\[.+?\](http.*?)"]]>
 <![CDATA[<a\s+(?:[^>]*?\s+)?href="([^"]*)"]]> - capture all URLs
 
 <[a|img]+\\s+(?:[^>]*?\\s+)?[src|href]+=[\"']([^\"']*)['\"]
