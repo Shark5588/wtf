@@ -499,7 +499,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-24-12-2020/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-27-12-2020/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -519,7 +519,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2020/12/iptv-servers-iptv-lists-m3u-playlists-21-december-2020.html</page>
+<page>https://m3u.freeiptv.life/2020/12/iptv-servers-iptv-lists-m3u-playlists-27-december-2020.html</page>
 <referer>https://iptvfreelinks.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -841,7 +841,7 @@ item>
 
 http://www.iptv4free.com
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered] TESTING [/COLOR][COLOR yellow]2[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
     <thumbnail></thumbnail>
     <fanart></fanart>
