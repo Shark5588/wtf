@@ -699,7 +699,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://pastebin.pl/view/raw/cbc88873</page>
+<page>https://pastebin.pl/view/cbc88873</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
