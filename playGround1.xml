@@ -811,11 +811,11 @@ item>
 
 <item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORorangered]TESTING [/COLOR][COLOR yellow]1[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
-<link>$doregex[makelist2]</link>
+<link>$doregex[makelist]</link>
 <regex>
-<name>makelist2</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
- <title>[COLORdodgerblue]CHANNEL[/COLOR] [makelist2.param2] </title>
+ <title>[COLORdodgerblue]CHANNEL[/COLOR] [makelist.param2] </title>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
@@ -824,15 +824,15 @@ item>
 </regex>
 
 <regex>
-<name>makelist</name>
+<name>makelist2</name>
 <listrepeat><![CDATA[
- <title>[B][COLORcyan]SERVER [/COLOR][COLORcoral][makelist.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist.param2][/COLOR][/B] </title>
+ <title>[B][COLORcyan]SERVER [/COLOR][COLORcoral][makelist2.param1][/COLOR][/B]   - [B] USER [COLORdodgerblue][makelist2.param2][/COLOR][/B] </title>
  <link>NA</link>
- <externallink>http://[makelist.param1]/get.php?username=[makelist.param2]&amp;password=[makelist.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
+ <externallink>http://[makelist2.param1]/get.php?username=[makelist2.param2]&amp;password=[makelist2.param3]&amp;type=m3u$$TSDOWNLOADER$$</externallink>
 <thumbnail></thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[http:\/\/(.*?)\/g[\w\W\s]{0,12}name=(.*?)\&a[\w\W\s]{0,7}word=(.*?)\&amp]]></expres>
-<page>[makelist2.param1]</page>
+<page>[makelist.param1]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>https://i.ibb.co/TmGdM3s/wtf.png</thumbnail>
