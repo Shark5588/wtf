@@ -819,8 +819,8 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href='(.*?)'>free-iptv-m3u-playlist (.*?)2020]]></expres>
-<page>https://freeiptvm3u24.blogspot.com</page>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href="(.+?)">(.+?)<]]></expres>
+<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
 </regex>
 
 <regex>
