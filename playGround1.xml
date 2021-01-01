@@ -819,7 +819,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param1]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,10}href="(.+?)">(.+?)<]]></expres>
+<expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/</page>
 </regex>
 
