@@ -819,7 +819,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param5]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[(div)\s+(class="dp-thumbnail">)(\n|\r)([^<]*)(?:.*?src=")([^"]*">)]]></expres>
+<expres><![CDATA[(?s)<h2 class="post-title entry-title".+?href="(.+?)">(.+?)<]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/</page>
 </regex>
 
