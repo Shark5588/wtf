@@ -822,7 +822,7 @@ item>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
     import re
-    return re.findall('(?s)<header class="entry-header dp">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
+    return re.findall('(?s)<header class="post-body entry-content dp">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
 ]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/</page>
 </regex>
