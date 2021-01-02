@@ -817,7 +817,7 @@ item>
 <listrepeat><![CDATA[
  <title>[COLORdodgerblue]CHANNEL[/COLOR] [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>[makelist.param3]</thumbnail>
+<thumbnail>[makelist.param5]</thumbnail>
  ]]></listrepeat>
 <expres><![CDATA[(div)\s+(class="dp-thumbnail">)(\n|\r)([^<]*)(?:.*?src=")([^"]*">)]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/</page>
