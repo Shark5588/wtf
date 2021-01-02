@@ -819,11 +819,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>[makelist.param3]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import re
-    return re.findall('(?s)<header class="post-body entry-content dp">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
-]]></expres>
+<expres><![CDATA[(div)\s+(class="dp-thumbnail">)(\n|\r)([^<]*)(?:.*?src=")([^"]*">)]]></expres>
 <page>https://freeiptvm3u24.blogspot.com/</page>
 </regex>
 
