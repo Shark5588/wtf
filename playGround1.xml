@@ -639,7 +639,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/</page>
+<page>https://m3u-list.com/m3u-m3u8-list-daily-update/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -679,7 +679,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres><![CDATA[<a href="(.*?)">#(.*?)</a>]]></expres>
-<page>https://ukrsat.blogspot.com/p/iptv.html</page>
+<page>https://m3u-list.com/iptv-links-m3u-url-playlist-08-09-2020daily-update/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
