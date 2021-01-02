@@ -254,7 +254,7 @@ item>
  <link>$doregex[makelist]</link>
 <thumbnail>https://i.ibb.co/n1dDc0L/iptv.png</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2020]]></expres>
+<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>Daily m3u playlist (.*?)2021]]></expres>
 <page>https://usalinksiptv.blogspot.com/search?max-results=40</page>
 </regex>
 
@@ -817,10 +817,14 @@ item>
 <listrepeat><![CDATA[
  <title>[COLORdodgerblue]CHANNEL[/COLOR] [makelist2.param2] </title>
  <link>$doregex[makelist]</link>
-<thumbnail>[makelist.param1]</thumbnail>
+<thumbnail>[makelist.param3]</thumbnail>
  ]]></listrepeat>
-<expres><![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>\n(.*?)\n<]]></expres>
-<page>https://freeiptvm3u24.blogspot.com/search?max-results=40</page>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import re
+    return re.findall('(?s)<header class="entry-header cf">(?:.*?href=)"([^"]*)">([^<]*)(?:.*?src=")([^"]*)',page_data)
+]]></expres>
+<page>https://freeiptvm3u24.blogspot.com/</page>
 </regex>
 
 <regex>
