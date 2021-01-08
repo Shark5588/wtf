@@ -419,7 +419,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m.m3uiptv.com/iptv-links-m3u-url-playlist-2020/</page>
+<page>https://m.m3uiptv.com/iptv-links-m3u-url-playlist-2021/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -499,7 +499,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtreamiptv-m3u-playlists-04-01-2021/</page>
+<page>https://iptvxtreamcodes.com/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-10-01-2021/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -519,7 +519,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://m3u.freeiptv.life/2021/01/iptv-servers-iptv-lists-m3u-playlists-04-january-2021.html</page>
+<page>https://m3u.freeiptv.life/2021/01/iptv-servers-iptv-lists-m3u-playlists-10-january-2021.html</page>
 <referer>https://iptvfreelinks.com/</referer>
 <cookieJar></cookieJar>
 </regex>
@@ -579,7 +579,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>http://www.iptv4free.com/2020/11/iptv-playlist-channels.html?m=1</page>
+<page>http://www.iptv4free.com/2021/01/iptv-playlist-channels.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -1068,6 +1068,7 @@ m3u_plus&output=mpegts
 https://freeiptvm3u24.blogspot.com/
 https://xoiptv.blogspot.com/
 [/?\w+\s+[\^>]*]
+<![CDATA[(?s)<h2 class="post-title".+?href="http(.+?)">(.+?)\s(\d+[^\'"]+)</a>]]>
 <![CDATA[http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+]]> - regular expression for links
 <![CDATA[post-title entry-title[\w\W\s]{0,23}href='(.*?)'>iptv m3u playlist free links channels (.*?)2020]]>
 <![CDATA[EXTINF:-1,(.*?)\n(http.*?)\n]]>
