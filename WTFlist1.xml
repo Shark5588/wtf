@@ -47,7 +47,7 @@
 <title>[B][COLORmagenta] [makelist.param1] [/COLOR][/B] </title>
 <link>$doregex[makelist]</link>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<h2 class="post-title".+?href="http(.+?)">(.+?)\s(\d+[^\'"]+)</a>]]></expres>
+<expres><![CDATA[http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+]]></expres>
 <page>https://www.mediaplex.net/cdn/cdn1/english-movies/</page>
 
 </regex>
