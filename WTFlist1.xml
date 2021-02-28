@@ -39,13 +39,13 @@
 
 <item>
 <title>[B][COLORsnow]•[/COLOR][COLORorangered]•[/COLOR][COLORmagenta] Index[/COLOR][COLORsnow] •[/COLOR][COLORmagenta]Play[/COLOR][COLORsnow]•[/COLOR][COLORmagenta]LiSt [/COLOR][COLORlime]([/COLOR][COLORred] 3x [COLORlime])[/COLOR][COLORorangered]•[/COLOR][COLORsnow]•[/COLOR][/B]</title>
-<link>$doregex[leg]</link>
+<link>$doregex[makelist]</link>
  
 <regex>
-<name>leg</name>
+<name>makelist</name>
 <listrepeat><![CDATA[
-<title>[B][COLORmagenta] [leg.param1] [/COLOR][/B] </title>
-<link>$doregex[leg]</link>
+<title>[B][COLORmagenta] [makelist.param1] [/COLOR][/B] </title>
+<link>$doregex[makelist]</link>
 ]]></listrepeat>
 <expres><![CDATA[(?s)<h2 class="post-title".+?href="http(.+?)">(.+?)\s(\d+[^\'"]+)</a>]]></expres>
 <page>https://www.mediaplex.net/cdn/cdn1/english-movies/</page>
