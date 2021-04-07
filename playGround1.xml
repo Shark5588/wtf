@@ -439,7 +439,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.mmorpgwarcraft.com/daily-iptv-playlist.php</page>
+<page>https://www.iptvurls.com/category/iptv-m3u-playlist/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -479,7 +479,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://iptvxtreamcodes.com/latestiptvlinks/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-26-03-2021/</page>
+<page>https://iptvxtreamcodes.com/freeiptvportal/free-stbemu-portalmac-and-iptv-xtream-codesiptv-m3u-playlists-06-04-2021/</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -499,7 +499,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://links.freeiptv.life/2021/03/best-m3u-playlists-free-iptv-links-26.html</page>
+<page>https://links.freeiptv.life/2021/03/best-m3u-playlists-free-iptv-links-01.html</page>
 <referer></referer>
 <cookieJar></cookieJar>
 </regex>
@@ -507,7 +507,7 @@ item>
   <fanart>https://webstuff.co.il/uploads/images/articles/pic-100.jpg</fanart>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORblue] M3u[/COLOR][COLORsnow] •[/COLOR][COLORblue]IpTv[/COLOR][COLORsnow]•[/COLOR][COLORblue]LiSt [/COLOR][COLORred](7x) [/COLOR][COLOR yellow]•[/COLOR][COLOR aqua]•[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -519,7 +519,7 @@ item>
     <externallink>[makelist.param1][DE]&amp;output=mpegts$$TSDOWNLOADER$$</externallink>
 ]]></listrepeat>
 <expres>>(http:\/\/(.*?)\/.*?get.php.*?)&lt;</expres>
-<page>https://www.iptvurls.com/category/iptv-m3u-playlist/</page>
+<page></page>
 <referer>https://iptvfreelinks.com/</referer>
 <cookieJar></cookieJar>
 </regex>
