@@ -38,7 +38,7 @@
 </item>
 
 <item> 
-<name>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR fuchsia]Pornburst.xxx - Latest[/COLOR][/B]</name>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR fuchsia]Pornburst.xxx - Latest[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex> 
   <name>makelist</name>
