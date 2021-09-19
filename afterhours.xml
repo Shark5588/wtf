@@ -3,7 +3,7 @@
 <layouttype>-=Gith55=-</layouttype>
 
 <item>
-<title>[B][COLOR snow]•[/COLOR][COLOR lightyellow]•[/COLOR][COLOR fuchsia]XVIDEOS[/COLOR][/B]</title>
+<title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR fuchsia]XVIDEOS[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -37,7 +37,27 @@
 <fanart>https://ilikecomix.com/comics/2017/06/The-Dossier-012-15.jpg</fanart>
 </item>
 
-<item>
+<item> 
+<name>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLOR fuchsia]Pornburst.xxx - Latest[/COLOR][/B]</name>
+<link>$doregex[makelist]</link>
+<regex> 
+  <name>makelist</name>
+  <listrepeat><![CDATA[                           
+        <title>[makelist.param2]</title>
+        <link>http:$doregex[playurl]</link>
+        <thumbnail>http:[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction def GetLSProData(page_data,Cookie_Jar,m,url = ''):import re      html = ''     html += client.request('http://www.pornburst.xxx/  ')     html = re.sub('&#[0-9]+;', '\'', html)     html = html.replace('&quot'+';', '"')     html = html.replace('&amp;', '&')     html = html.replace('&amp;#039;', '&')     express = '\s+href="(.+?)"\n.+?\n.+?\n.+?name="(.+?)"\n.+?\n.+?\n\n.+?\n.+?\n.+?\n.+?img src="(.+?)"\sd'      links = re.compile(express, re.MULTILINE|re.DOTALL).findall(html)      return links ]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>playurl</name>
+<expres><![CDATA[#$pyFunction def GetLSProData(page_data,Cookie_Jar,m,url = ''):     from resources.lib.modules import client     import re      main = 'http://www.pornburst.xxx  ' + '[makelist.param1]'     html = client.request(main)     html = html.replace('\\', '')     express1 = '<source src="(.+?)" type="video\/mp4"'     links = re.compile(express1, re.MULTILINE|re.DOTALL).findall(html)[0]     return links ]]></expres>
+<page></page> 
+</regex> 
+</item>
+
+item>
 <title>[B][COLOR snow]•[/COLOR][COLOR lightyellow]•[/COLOR][COLOR fuchsia]Acestreams 18+[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -58,7 +78,7 @@
 <info>acestream,acelive</info>
 </item>
 
-<item>
+item>
 <title>[B][COLOR aqua]•[/COLOR][COLOR yellow]•[/COLOR][COLORmagenta] Fluxus Lust[/COLOR][/B]</title>
 <link>ignore-me</link>
 <externallink>$doregex[iptvLink]</externallink>
